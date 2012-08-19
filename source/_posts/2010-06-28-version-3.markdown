@@ -1,0 +1,20 @@
+---
+comments: true
+date: 2010-06-28 05:24:52
+layout: post
+slug: version-3
+title: Version 3.0
+wordpress_id: 467
+tags:
+- site
+---
+
+For the second time this year, I'm launching a redesign of this site. Shortly after putting the last redesign live, I started wishing I'd have allowed for a little more flexibility in the types of content I produced. While I still enjoy writing full, detailed posts at times, there are a lot of times I just want to share a quick thought, or pass along a quote from an article I found particularly good.
+
+I gave Tumblr a try for a little bit, and I loved the freedom it gave me to post content I found important, regardless of how much detail I felt it warranted at the moment. Really, the only thing I didn't like was the fact that I was now blogging in two different places - this site and my Tumblr blog. Since Tumblr had no easy way to import all my old posts from Wordpress, I decided to make use of the custom post type capabilities in Wordpress to build my own version of a tumblelog.
+
+Since the frequency of posts will undoubtedly be picking up with the additions of these shorter post types, let me know if any of you would prefer to have a feed for just the "feature-length" posts. Right now, the main feed pulls everything.
+
+The underlying structure didn't change a ton - it's still HTML5 based. As of the time of this post, there's only one image being used in the site (other than anything called by the Google Analytics script). The rest of the graphical elements are a combination of CSS gradients and data URIs to help reduce the number of HTTP requests.
+
+So have a look around. The plan is for this version of the site to stick around awhile.

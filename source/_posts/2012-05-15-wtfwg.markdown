@@ -1,0 +1,161 @@
+---
+comments: true
+date: 2012-05-15 11:48:23
+layout: post
+slug: wtfwg
+title: WTFWG
+wordpress_id: 1401
+tags:
+- images
+- responsive
+- standards
+- whatwg
+sharing: false
+arrange: "georgia"
+
+---
+
+This morning, Ian Hickson [emailed the WHATWG mailing list](http://lists.w3.org/Archives/Public/public-whatwg-archive/2012May/0247.html) mentioning that a attribute that was currently being discussed on the list (srcset) is now added to the [draft of the spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-srcset). To understand why this sucks, a little background is needed.
+
+Responsive images are a difficult beast to tame: there really isn't a good solution for them today. As a result, some discussion started on the WHATWG mailing list months ago about what to do. The WHATWG pointed out that the list was for standardizing and suggested it would be better if the discussion were moved into a community group.
+
+
+
+
+So, obediently, [a community group chaired by Mat Marquis](http://www.w3.org/community/respimg/) was started (in February). A lot of discussion took place about the appropriate way to handle responsive images and one solution, [the new picture element](http://www.w3.org/community/respimg/2012/03/07/14/), garnered the majority of support.
+
+
+
+
+On May 10th, the previously mentioned [srcset attribute was presented](http://lists.w3.org/Archives/Public/public-whatwg-archive/2012May/0138.html) on the WHATWG mailing list by someone from Apple.
+
+
+
+
+That same day it was recommended to the list that they take a look at all the discussion that had taken place in the community group. A debate about the two solutions ensued.
+
+
+
+
+The feedback from developers was not particularly glowing. To [quote Matt Wilcox](http://lists.w3.org/Archives/Public/public-whatwg-archive/2012May/0252.html):
+
+
+
+
+> 
+
+> 
+> I do not see much potential for srcset. The result of asking the author community was overwhelmingly negative, indirection or no indirection.
+> 
+> 
+
+
+
+
+
+It was [argued by Simon Pieters of Opera](http://lists.w3.org/Archives/Public/public-whatwg-archive/2012May/0176.html) that the srcset attribute would be easier to implement and that as a result, that would help developers:
+
+
+
+
+> 
+
+> 
+> I think an attribute is simpler to implement and thus likely to result in fewer bugs in browsers, which in turn benefits Web developers.
+> 
+> 
+
+
+
+
+
+This morning, the attribute was added to the spec.
+
+
+
+
+I've got my own opinion about the correct solution, but that's not really what's I think is most troubling here. Note what happened:
+
+
+
+
+
+
+  1. Developers got involved in trying to standardize a solution to a common and important problem.
+
+
+  2. The WHATWG told them to move the discussion to a community group.
+
+
+  3. The discussion was moved (back in February), a general consenus (not unanimous, but a majority) was reached about the picture element.
+
+
+  4. Another (partial) solution was proposed directly on the WHATWG list by an Apple employee.
+
+
+  5. A discussion ensued regarding the two methods, where they overlapped, and how the general opinions of each. The majority of developers favored the picture element and the majority of implementors favored the srcset attribute.
+
+
+  6. While the discussion was still taking place, and only 5 days after it was originally proposed, the srcset attribute (but not the picture element) was added to the draft.
+
+
+
+
+What. The. Hell.
+
+
+
+
+The developer community did everything asked of them. They followed procedure, they thoroughly discussed the options available. They were careful enough to consider what to do for browsers that wouldn't support the element—[a working polyfill](https://github.com/scottjehl/picturefill) is readily available. Their solution even emulates the existing standardized audio and video elements.
+
+
+
+
+Meanwhile an Apple representative writes one email about a new attribute that only partially solves the problem and the 5 days later it's in the spec. In case there is any doubt, I'm not blaming him at all for how this all played out. That blame falls on the WHATWG. Whatever their rationale was for putting this in the draft, the method in which it was added reeks of valuing the opinion of implementors over developers.
+
+
+
+
+In the draft of the [W3C HTML design principles](http://www.w3.org/TR/html-design-principles/), they clearly state the priority that should be given when determining standards:
+
+
+
+
+> 
+
+> 
+> In case of conflict, consider users over authors over implementors over specifiers over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone.
+> 
+> 
+
+
+
+
+
+Those levels of priority make a lot of sense to me and it's discouraging (to say the least!) to see them dismissed in this case. This kind of thing simply cannot happen. It's tough to get people to voice their opinions to begin with. To find that their opinion holds no weight won't make it any easier going forward.
+
+
+
+
+What message does it send when developers try to contribute their time, energy and effort to help solve a problem only to have it so casually dismissed?
+
+
+
+
+As Scott Jehl responded [on Twitter](https://twitter.com/#!/scottjehl/status/202378107502600192):
+
+
+
+
+> 
+
+> 
+> insulting. Not to mention, that it can't work today. What was the purpose of our @w3c community group?
+> 
+> 
+
+
+
+
+
+Insulting indeed. Not too surprising though. After all, we've seen [this sort of thing before.](http://adactio.com/journal/4982/)

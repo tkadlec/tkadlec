@@ -1,0 +1,117 @@
+---
+comments: true
+date: 2011-01-01 19:35:27
+layout: post
+slug: what-i-read-in-2010
+title: What I Read in 2010
+wordpress_id: 843
+tags:
+- books
+---
+
+Continuing what I [started last year](http://timkadlec.com/2010/02/what-i-read-in-2009/), here's the list of books I managed to read this year. I read slightly fewer books this year than last (33 compared to 38). I didn't exactly aim high (in last year's post I said I wanted to read at a "similar pace") so I guess I didn't fail that miserably. I'm slowly reducing the amount of movies and TV I watch, so hopefully that will provide a little more room to read a bit more in 2011.
+
+As I stated last year, I don't finish books that I am not enjoying, so each book in the list below I'd recommend to varying degrees. If I'm picking favorites, I'd have to go with [Ender's Game](http://www.amazon.com/gp/product/0812550706?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0812550706), [The Gun Seller](http://www.amazon.com/gp/product/B001OW5N00?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001OW5N00) and [Daemon](http://www.amazon.com/gp/product/0451228731?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0451228731) for my favorite fiction reads. My top three non-fiction books this year (excluding the web-related ones) would be [Amusing Ourselves to Death](http://www.amazon.com/gp/product/014303653X?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=014303653X), [Flow](http://www.amazon.com/gp/product/0061339202?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0061339202) and [Better Off](http://www.amazon.com/gp/product/0060570059?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0060570059).
+
+
+
+	
+  1. [Brave New World](http://www.amazon.com/gp/product/0060850523?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0060850523) by Aldous Huxley
+
+	
+  2. [Amusing Ourselves to Death](http://www.amazon.com/gp/product/014303653X?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=014303653X) by Neil Postman
+
+	
+  3. [What the Dog Saw](http://www.amazon.com/gp/product/0316076201?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0316076201) by Malcolm Gladwell
+
+	
+  4. [I, Robot](http://www.amazon.com/gp/product/055338256X?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=055338256X) by Isaac Asimov
+
+	
+  5. [Flow](http://www.amazon.com/gp/product/0061339202?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0061339202) by Mihaly Csikszentmihalyi
+
+	
+  6. [Dirk Gently’s Holistic Detective Agency](http://www.amazon.com/gp/product/0671746723?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0671746723) by Douglas Adams
+
+	
+  7. [The Long Dark Tea Time of the Soul](http://www.amazon.com/gp/product/0671742515?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0671742515) by Douglas Adams
+
+	
+  8. [Essential PHP Security](http://www.amazon.com/gp/product/059600656X?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059600656X) by Chris Shiflett
+
+	
+  9. [Infoquake](http://www.amazon.com/gp/product/1591024420?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591024420) by David Louis Edelman
+
+	
+  10. [Good to Great](http://www.amazon.com/gp/product/0066620996?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0066620996) by Jim Collins
+
+	
+  11. [Blindness](http://www.amazon.com/gp/product/0156035588?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0156035588) by Jose Saramago
+
+	
+  12. [The Search](http://www.amazon.com/gp/product/1591841410?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591841410) by John Battelle
+
+	
+  13. [Ender’s Game](http://www.amazon.com/gp/product/0812550706?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0812550706) by Orson Scott Card
+
+	
+  14. [Speaker for the Dead](http://www.amazon.com/gp/product/0812550757?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0812550757) by Orson Scott Card
+
+	
+  15. [Natural-Born Cyborgs](http://www.amazon.com/gp/product/0195177517?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0195177517) by Andy Clark
+
+	
+  16. [The Forest and the Trees](http://www.amazon.com/gp/product/1592138764?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1592138764) by Allan G. Johnson
+
+	
+  17. [Better Off](http://www.amazon.com/gp/product/0060570059?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0060570059) by Eric Brende
+
+	
+  18. [Xenocide](http://www.amazon.com/gp/product/0312861877?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0312861877) by Orson Scott Card
+
+	
+  19. [Alice In Wonderland/Through the Looking Glass](http://www.amazon.com/gp/product/0141192461?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0141192461) by Lewis Carrol
+
+	
+  20. [The Shallows](http://www.amazon.com/gp/product/0393072223?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0393072223) by Nicholas Carr
+
+	
+  21. [97 Things Every Programmer Should Know](http://www.amazon.com/gp/product/0596809484?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596809484) by Kevlin Henney
+
+	
+  22. [The Time Machine](http://www.amazon.com/gp/product/1936594110?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1936594110) by HG Wells
+
+	
+  23. [Glasshouse](http://www.amazon.com/gp/product/0441015085?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0441015085) by Charles Stross
+
+	
+  24. [Rapt](http://www.amazon.com/gp/product/B003WUYRRM?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003WUYRRM) by Winifred Gallagher
+
+	
+  25. [The Gun Seller](http://www.amazon.com/gp/product/B001OW5N00?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001OW5N00) by Hugh Laurie
+
+	
+  26. [Man’s Search for Meaning](http://www.amazon.com/gp/product/0807014273?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0807014273) by Viktor Emil Frankl
+
+	
+  27. [Daemon](http://www.amazon.com/gp/product/0451228731?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0451228731) by Daniel Suarez
+
+	
+  28. [Frankenstein](http://www.amazon.com/gp/product/0141439475?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0141439475) by Mary Shelley
+
+	
+  29. [Marooned in Realtime](http://www.amazon.com/gp/product/0765308843?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0765308843) by Vernor Vigne
+
+	
+  30. [Rework](http://www.amazon.com/gp/product/0307463745?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0307463745) by Jason Fried
+
+	
+  31. [Forever War](http://www.amazon.com/gp/product/0312536631?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0312536631) by Joe Haldeman
+
+	
+  32. [HTML5 Up and Running](http://www.amazon.com/gp/product/0596806027?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596806027) by Mark Pilgram
+
+	
+  33. [Flashforward](http://www.amazon.com/gp/product/0812580346?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0812580346) by Robert Sawyer
+
+

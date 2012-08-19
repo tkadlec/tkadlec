@@ -1,10 +1,315 @@
-@import "compass";
-@include global-reset;
-@include reset-html5;
-
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
 @import "base";
-@import "partials";
-@import "custom/styles";
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+	color: $font;
+	font: 100%/#{em($font-base-line-height)} Helvetica, Arial, sans-serif;
+
+}
+a{
+	color: $accent;
+}
+a:hover{
+	color: lighten($accent, 20);
+}
+#wrap, .inner{
+	margin: 0 auto;
+	max-width: $max-width;
+	padding: 1em 0 0 0;
+}
+#wrap{
+	padding-top: 4em;
+	clear: both;
+}
+h1{
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom: #{em(10px)};
+	letter-spacing: -2px;
+	line-height: 1.1em;
+	a {
+		text-decoration: none;
+	}
+}
+p{
+	margin-bottom: 1em;
+}
+article{
+	position: relative;
+}
+
+article {
+	width: 90%;
+	margin: 0 auto;
+
+}
+h2{
+	font-size: 1.75em;
+	font-weight: bold;
+	margin: #{em(16px)} 0 #{em(10px)} 0;
+	letter-spacing: #{em(-1px)};
+	line-height: 1.1em;
+}
+article h3, .recent h3{
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: #{em(16px)} 0 #{em(10px)} 0;
+	letter-spacing: #{em(-1px)};
+}
+blockquote{
+	margin-left: 5%;
+	border-left: 3px solid $accent;
+	font-style: italic;
+	padding-left: #{em(20px)};
+}
+
+time{
+	font-size: .85em;
+}
+.additional{
+	font-size: .65em;
+	text-transform: uppercase;
+}
+article header{
+	border-bottom: 1px dotted lighten($font, 80);
+	margin-bottom: #{em(30px)};
+
+}
+.comments{
+	border-top: 1px dotted lighten($font, 80);
+	margin-top: #{em(30px)};
+}
+
+figure{
+	text-align: center;
+	font-size: .85em;
+	line-height: 1.3em;
+}
+figure img{
+	margin: auto;
+	display: block;
+}
+figure.banner{
+	max-width: 100%;
+	margin-bottom: 1em;
+
+	figcaption{
+		color: lighten($font, 50);
+		padding: .25em;
+		font-style: italic;
+	}
+}
+header[role=banner] {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAADFBMVEUuNDwxN0ArMTksMjq6/n97AAAALklEQVRIiWOMYsABGPlxyizFKfMBp8yoPaP2jNozas+oPaP2jNozas+oPUPKHgBf9jIzDxNyDwAAAABJRU5ErkJggg==") top left #2F353E;
+	color: #fff;
+	letter-spacing: 0 -1px 1px #000;
+	width: 100%;
+	float: left;
+	padding: 0 1em;
+	border-bottom: 5px solid $accent;
+}
+header[role=banner] h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 0;
+		text-align: center;
+
+}
+header[role=banner] a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+header[role=banner] nav li{
+	display: block;
+	border-bottom: 1px dotted rgba(255,255,255,.2);
+	a{
+		padding: .5em;
+		display: block;
+	}
+}
+.testResults{
+	width: 80%;
+}
+.testResults td{
+    padding: .2em;
+    border-bottom: 1px solid #fff;
+}
+.testResults th{
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+.testResults .fail{
+    background: #CB000F;
+    color: #fff;
+    text-align: center;
+}
+.testResults .pass{
+    background: #00882D;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.vevent{
+	margin-bottom: 1em;
+}
+
+footer{
+	border-top: 1px dotted lighten($font, 80);
+	margin-top: #{em(30px)};
+	padding-top: #{em(15px)};
+	font-size: .65em;
+	color: lighten($font, 20);
+	padding-left: 1em;
+	text-transform: uppercase;
+}
+.blog-index {
+	width: 100%;
+	overflow: auto;
+}
+.blog-index .plright{
+	float: left;
+}
+.home {
+	padding-left: 300px;
+
+	section{
+		width: 100%;
+		overflow: auto;
+
+	}
+	.extras{
+		padding-top: 3em;
+	
+		img{
+			float: left;
+			margin-right: 1em;
+			height: 200px;
+			border: 1px solid lighten($font, 40);
+		}
+		.noborder{
+			border: 0px;
+			padding: 0 1em;
+		}
+	}
+
+}
+.recent p{
+	margin-top: 1.4em;
+}
+/* Custom layouts */
+
+#lightbulb{
+	background: #FFF3A2;
+}
+#lightbulb header[role=banner]{
+	background: #000;
+	border-bottom-color: lighten($font, 30);
+}
+#lightbulb #wrap{
+	padding-top: 2em;
+}
+article.palatino{
+	font-family: Palatino, Georgia, serif;
+}
+article.georgia{
+	font-family: Georgia, serif;
+	font-size: 1.125em;
+	line-height: 1.545454545em; 
+	width: 88%;
+
+	h1{
+		font-weight: normal;
+		font-size: 5.375em;
+	}
+}
+#lightbulb article header{
+	text-align: center;
+	border-bottom: 0px;
+	padding-top: 230px;
+	background: url(/images/lightbulb.png) top center no-repeat;
+}
+
+@import "prism";
+
+@media screen and (min-width: 43.75em) {
+	#wrap, .inner{
+		padding-bottom: 1em;
+	}
+	article{
+		width: 70%;
+
+	}
+	.pull{
+		width: 100%;
+		
+		section{
+			width: 61.8%;
+		}
+
+	}
+	.plleft{
+		position: absolute;
+		left: 66.8%;
+
+	}
+	figure.plleft{
+		width: 38.2%;
+	}
+	header[role=banner] h1{
+		float: left;
+	}
+	header[role=banner] nav{
+		float: right;
+		margin-bottom: 1em;
+	}
+	header[role=banner] nav li{
+		margin-left: 1em;
+		display: inline;
+		border: 0px;
+
+		a{
+			display:inline;
+			padding: 0;
+		}
+	}
+	.pullquote{
+		position: absolute;
+		right: 0;
+		width: 38.2%;
+		padding-left: 5%;
+		font-style: italic;
+		color: lighten($font, 35);
+		font-size: 1.2em;
+		font-family: Palatino, Georgia, serif;
+	}
+	.pullquote:before{
+		content: "\201C";
+	}
+	.pullquote:after{
+		content: "\201D";
+	}
+	.pullquote-left:after {
+		position: absolute;
+		right: 0;
+		width: 33.2%;
+		font-style: italic;
+		color: lighten($font, 35);
+		font-size: 1.2em;
+		font-family: Palatino, Georgia, serif;
+
+		
+		/* Content */
+		content: "\201C" attr(data-pullquote) "\201D";
+
+
+	}
+}

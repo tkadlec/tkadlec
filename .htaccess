@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^me$ /blog/archives [L]

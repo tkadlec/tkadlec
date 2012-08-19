@@ -1,0 +1,109 @@
+---
+comments: true
+date: 2012-01-03 11:55:42
+layout: post
+slug: what-i-read-in-2011
+title: What I Read in 2011
+wordpress_id: 1157
+tags:
+- books
+---
+
+A new year has begun. That means that it’s once again time to take a look back at what books I read over the past year. Unfortunately, it appears I’m trending entirely in the wrong direction. While I managed to read [38 books in 2009](http://timkadlec.com/2010/02/what-i-read-in-2009/) and [33 in 2010](http://timkadlec.com/2011/01/what-i-read-in-2010/), I only made it through 29 this past year. Hopefully I can reverse that trend in 2012.
+
+One interesting trend—at least to me—is that I returned to reading a lot more web related books (10!) this year. This is in no small part related to the A Book Apart series. If they keep churning out quality books like this, that count is likely to stay very high.
+
+As always, if the book made this list, then I enjoyed it on some level. There are far too many good books out there to suffer through one that doesn't interest me. If I'm not enjoying it I set it aside.
+
+If you’re looking for specific recommendations, "The Invisible Man" (which I had read before and will read again) and "The Demolished Man" top my (short) list of fiction. "Obliquity", "Marshall McLuhan: You Know Nothing of My Work!" and "The Death and Life of the Great American School System" are at the top for non-fiction (excluding the web-related ones).
+
+
+
+	
+  1. [Hardboiled Web Design](http://www.fivesimplesteps.com/products/hardboiled-web-design) by Andy Clarke
+
+	
+  2. [2001: A Space Odyssey](http://www.amazon.com/gp/product/0451457994/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0451457994) by Arthur C. Clarke
+
+	
+  3. [Linchpin](http://www.amazon.com/gp/product/1591844096/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591844096) by Seth Godin
+
+	
+  4. [Pull](http://www.amazon.com/gp/product/B00403NG2C/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00403NG2C) by David Siegel
+
+	
+  5. [The Death and Life of the Great American School System](http://www.amazon.com/gp/product/0465025579/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0465025579) by Diane Ravitch
+
+	
+  6. [Confessions of a Public Speaker](http://www.amazon.com/gp/product/1449301959/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449301959) by Scott Berkun
+
+	
+  7. [Rainbows End](http://www.amazon.com/gp/product/0812536363/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0812536363) by Vernor Vinge
+
+	
+  8. [The Demolished Man](http://www.amazon.com/gp/product/1857988221/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1857988221) by Alfred Bester
+
+	
+  9. [Where Good Ideas Come From](http://www.amazon.com/gp/product/1594485380/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1594485380) by Steven Johnson
+
+	
+  10. [HTML5 for Web Designers](http://www.abookapart.com/products/html5-for-web-designers) by Jeremy Keith
+
+	
+  11. [Obliquity](http://www.amazon.com/gp/product/1594202788/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1594202788) by John Kay
+
+	
+  12. [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) by Ethan Marcotte ([See my review](http://timkadlec.com/2011/06/book-review-responsive-web-design/))
+
+	
+  13. [Adaptive Web Design](http://easy-readers.net/books/adaptive-web-design/) by Aaron Gustafson
+
+	
+  14. [CSS3 for Web Designers](http://www.abookapart.com/products/css3-for-web-designers) by Dan Cederholm
+
+	
+  15. [The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy) by Erin Kissane
+
+	
+  16. [Presentation Zen](http://www.amazon.com/gp/product/0321525655/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321525655) by Garr Reynolds
+
+	
+  17. [The Invisible Man](http://www.amazon.com/gp/product/1580493424/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1580493424) by HG Wells
+
+	
+  18. [The Filter Bubble](http://www.amazon.com/gp/product/1594203008/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1594203008) by Eli Parson
+
+	
+  19. [Big Deal](http://www.amazon.com/Big-Deal-Famous-Almost-ebook/dp/B005HJPUNQ) by Robert Hoekman Jr.
+
+	
+  20. [Delivering Happiness](http://www.amazon.com/gp/product/0446576220/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0446576220) by Tony Hsieh
+
+	
+  21. [The Information](http://www.amazon.com/gp/product/0375423729/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0375423729) by James Gleick
+
+	
+  22. [Mobile First](http://www.abookapart.com/products/mobile-first) by Luke Wroblewski ([See my review](http://timkadlec.com/2011/10/book-review-mobile-first/))
+
+	
+  23. [Designing for Emotion](http://www.abookapart.com/products/designing-for-emotion) by Aaron Walter
+
+	
+  24. [Content Strategy for the Web](http://www.amazon.com/gp/product/0321620062/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321620062) by Kristina Halverson
+
+	
+  25. [Bird by Bird](http://www.amazon.com/gp/product/0385480016/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0385480016) by Anne Lamott
+
+	
+  26. [Marshall McLuhan: You Know Nothing of My Work!](http://www.amazon.com/gp/product/1935633163/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1935633163) by Douglas Coupland
+
+	
+  27. [Mindfire](http://www.amazon.com/gp/product/0983873100/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0983873100) by Scott Berkun
+
+	
+  28. [Simple and Usable](http://www.amazon.com/gp/product/0321703545/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545) by Giles Colborne
+
+	
+  29. [Loose](http://www.amazon.com/gp/product/0755361555/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0755361555) by Martin Thomas
+
+
