@@ -1,2 +1,3 @@
 RewriteEngine on
 RewriteRule ^me$ /blog/archives [L]
+RewriteRule ^feed$ /atom.xml [L]
