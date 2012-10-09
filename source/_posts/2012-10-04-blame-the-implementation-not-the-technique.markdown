@@ -4,7 +4,7 @@ title: "Blame the implementation, not the technique"
 date: 2012-10-04 08:45
 comments: true
 categories: 
-tags: mobile responsive detection
+tags: mobile responsive detection performance
 ---
 
 Stop me if you’ve heard this one before.
