@@ -4,7 +4,7 @@ title: "About"
 footer: false
 sharing: false
 sidebar: false
-arrange: "pull"
+arrange: "full"
 ---
 
 {% img plleft http://timkadlec.com/images/me.jpg Tim Kadlec %}
@@ -15,4 +15,4 @@ Tim is the co-founder of [Breaking Development](http://bdconf.com), one of the f
 
 He is the author of [Implementing Responsive Design: Building sites for an anywhere, everywhere web](http://implementingresponsivedesign.com) (New Riders, 2012) and a contributing author for the Web Performance Daybook Volume 2. He can  be found sharing his thoughts in a briefer format on Twitter at [@tkadlec](http://twitter.com/tkadlec).
 
-Tim lives in the small town of Three Lakes, Wisconsin, with his wife and their three daughters.
+Tim lives in northern Wisconsin with his wife and their three daughters.

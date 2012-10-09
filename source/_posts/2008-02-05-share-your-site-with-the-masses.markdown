@@ -8,7 +8,7 @@ wordpress_id: 78
 categories:
 - CSS
 tags:
-- css
+- css "media queries"
 ---
 
 Originally, it was never going to get this complex. The internet was never meant to be this popular. However, as time has gone by and this wonderful beast of resource has evolved, it is becoming important to be able to provide our content to a wide variety of devices. In addition to simply viewing a site on a computer screen, or printing it, our information may be accessed by Braille feedback devices, speech synthesizers, handheld devices, etc. More often than not, one set of styles will not be adequate to provide our content optimally to each of these devices. That is where media types come into play.
@@ -55,78 +55,40 @@ If no media type is declared, the default is "all". Using these media types, we 
 
 ## Using Inline Syles
 
-
-`
-`
-
-`
-
-
-
-	
-  1. <style type="text/css">
-
-	
-  2. @media print{
-
-	
-  3. body{ background-color:#FFFFFF; }
-
-	
-  4. #heading{ font-size:28px; }
-
-	
-  5. }
-
-	
-  6. </style>
-
-
-`
+<pre>
+<code class="language-markup">
+&lt;style type="text/css"&gt;
+	@media print{
+		body{ background-color:#FFFFFF; }
+		#heading{ font-size:28px; }
+	}
+&lt;/style&gt;
+</code>
+</pre>
 
 Inline style sheets are not a very good solution, as they do not separate content and presentation.
 
 
 ## Imported Stylesheets
 
-
-`
-`
-
-`
-
-
-
-	
-  1. <style type="text/css" media="print"/>
-
-	
-  2. @import "print.css";
-
-	
-  3. </style>
-
-
-`
+<pre>
+<code class="language-markup">
+&lt;style type="text/css" media="print"/&gt;
+	@import "print.css";
+&lt;/style&gt;
+</code>
+</pre>
 
 Imported style sheets are a much better solution, and are fairly widely used. A distinct advantage of imported style sheets is that a styles sheet is only downloaded if that specific media type is being used. For example, if I defined the above styles to be associated with the handheld media type and someone using a regular computer came to my site, they wouldn't have to download the styles.
 
 
 ## Linked Stylesheets
 
-
-`
-`
-
-`
-
-
-
-	
-  * <link rel="stylesheet" type="text/css" media="print" rel="print.css" />
-
-
-`
+<pre>
+<code class="language-markup">	
+&lt;link rel="stylesheet" type="text/css" media="print" rel="print.css" /&gt;
+</code>
+</pre>
 
 This is the most widely supported. As you may have guessed, a user will download each stylesheet regardless of the media type, and then use the appropriate ones. A bit unfortunate, as it wastes a little bit of time downloading styles we're not really going to use.
 
@@ -140,18 +102,11 @@ Unfortunately, the support for most media types is quite minimal. You can pretty
 
 Media types will eventually become even more useful. CSS3 will implement media queries, which will allow us to check for certain criteria. For example, with media queries we can do something like the following:
 
-`
-`
-
-`
-
-
-
-	
-  * <link rel="stylesheet" type="text/css" media="screen and (color)" rel="print.css" />
-
-
-`
+<pre>
+<code class="language-markup">	
+&lt;link rel="stylesheet" type="text/css" media="screen and (color)" rel="print.css" /&gt;
+</code>
+</pre>
 
 What we are telling the user agent is to only use those styles if the device uses a screen media type AND the device is a color device, not monochromatic. The parentheses are required around the text expression to indicate that it is a query. Media queries will allow us to check for items like, width, height, max-width, max-height, min-width, min-height, color, resolution, etc.
 

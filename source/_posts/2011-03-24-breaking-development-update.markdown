@@ -6,7 +6,7 @@ slug: breaking-development-update
 title: Breaking Development Update
 wordpress_id: 956
 tags:
-- breakingdevelopment
+- bdconf
 - conferences
 - mobile
 ---

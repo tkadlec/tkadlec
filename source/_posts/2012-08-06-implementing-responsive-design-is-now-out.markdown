@@ -13,7 +13,7 @@ arrange: "pull"
 ---
 
 {% fig Implementing Responsive Design: Building sites for an anywhere, everywhere web plleft %}
-	{% img /images/book.png Book %}
+	{% img /images/book_cover.png Book %}
 {% endfig %}
 
 As of today, I no longer have to say "I'm working on a book…". [_Implementing Responsive Design: Building sites for an anywhere, everywhere web_](http://implementingresponsivedesign.com) is officially in-stock on [Amazon](http://www.amazon.com/Implementing-Responsive-Design-Building-everywhere/dp/0321821688/) as well as at [Peachpit](http://www.peachpit.com/store/product.aspx?isbn=0321821688) (Barnes & Noble is a hair behind, [it would seem](http://www.barnesandnoble.com/w/implementing-responsive-design-tim-kadlec/1110854574?ean=9780321821683)).
@@ -31,9 +31,7 @@ I hope you guys enjoy the book!
 
 ## Acknowledgements
 
-{% pullquote align:left %}
-It is frequently said that writing a book is a lonely, solitary act. Perhaps that is true in some cases, but it certainly wasn’t the case with this book. {"If this book is any good, it’s because of all the hard work, patience and feedback provided by everyone who helped along the way."}
-{% endpullquote %}
+It is frequently said that writing a book is a lonely, solitary act. Perhaps that is true in some cases, but it certainly wasn’t the case with this book. If this book is any good, it’s because of all the hard work, patience and feedback provided by everyone who helped along the way.
 
 I owe a huge thank you to...
 

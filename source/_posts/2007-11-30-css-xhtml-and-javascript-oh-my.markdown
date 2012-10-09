@@ -7,6 +7,7 @@ title: CSS, XHTML and Javascript...Oh My!!
 wordpress_id: 94
 categories:
 - This Site
+tags: site
 ---
 
 Congratulations! You have managed to stumble across my first attempt at having a personal site. While the site is admittedly a bit short on content right now, my goal is for this to eventually turn into a fairly interesting place to visit on a regular basis. Be patient, Rome as they say, was not built in a day.

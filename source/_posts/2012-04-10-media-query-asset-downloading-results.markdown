@@ -24,22 +24,25 @@ On to the results!
 
 ## Test One: Image Tag
 
-
-
-
 [Run the test](http://timkadlec.com/mq/test1.php)
 
 
 This page tried to hide an image contained within a div by using display: none. The HTML and CSS are below:
 
 <pre>
+<code class="language-markup">
 &lt;div id="test1"&gt;
     &lt;img src="images/test1.png" alt="" /&gt;
 &lt;/div>
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 @media all and (max-width: 600px) {
     #test1 { display:none; }
 }
+</code>
 </pre>
 
 ### The results
@@ -134,8 +137,13 @@ Simple: don’t do this.
 In this test, a div was given a background image. If the screen was under 600px wide, the div was set to display:none. The HTML and CSS are below:
 
 <pre>
+<code class="language-markup">
 &lt;div id="test2"&gt;&lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 #test2 {
     background-image:url('images/test2.png');
     width:200px;
@@ -144,8 +152,8 @@ In this test, a div was given a background image. If the screen was under 600px 
 @media all and (max-width: 600px) {
     #test2 {display:none;}
 }
+</code>
 </pre>
-
 
 ### The results
 
@@ -240,10 +248,15 @@ Once again: don’t do this. Thankfully, as some of the other tests show, there 
 In this test, a div was given a background image. The parent of the div (another div) was set to display:none when the screen was under 600px wide. The HTML and CSS are below:
 
 <pre>
+<code class="language-markup">
 &lt;div id="test3"&gt;
     &lt;div&gt;&lt;/div&gt;
 &lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 #test3 div {
     background-image:url('images/test3.png');
     width:200px;
@@ -254,6 +267,7 @@ In this test, a div was given a background image. The parent of the div (another
         display:none;
     }
 }
+</code>
 </pre>
 
 ### The results
@@ -337,9 +351,14 @@ This method works well. With the exception of the over-eager Fennec, every teste
 
 In this test, a div is given a background image. If the screen is under 600px, then the div is given a different background image. This tested to see if both images were requested, or only the one needed. The HTML and CSS are below:
 
-<pre> 
+<pre>
+<code class="language-markup">
 &lt;div id="test4"&gt;&lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 #test4 {
     background-image:url('images/test4-desktop.png');
     width:200px;
@@ -350,6 +369,7 @@ In this test, a div is given a background image. If the screen is under 600px, t
         background-image:url('images/test4-mobile.png');
     }
 }
+</code>
 </pre>
 
 ### The results
@@ -445,9 +465,14 @@ I’d avoid it. While the situation is improving, Android 2.x, which dominates t
 
 In this test, a div is given one background image if the (min-width: 601px) media query matches, and a different one if (max-width: 600px) matches. The HTML and CSS is below:
 
-<pre>   
+<pre>
+<code class="language-markup">  
 &lt;div id="test5"&gt;&lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 @media all and (min-width: 601px) {
     #test5 {
         background-image:url('images/test5-desktop.png');
@@ -462,6 +487,7 @@ In this test, a div is given one background image if the (min-width: 601px) medi
         height:75px;
     }
 }
+</code>
 </pre>
 
 ### The results
@@ -546,9 +572,14 @@ It’s also worth nothing that if you use this method, you’ll need to consider
 
 This test was the same as test two, but it used max-device-width for the media query instead of max-width. The HTML and CSS is below:
 
-<pre>  
+<pre>
+<code class="language-markup">
 &lt;div id="test6"&gt;&lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 #test6 {
     background-image:url('images/test6.png');
     width:200px;
@@ -559,6 +590,7 @@ This test was the same as test two, but it used max-device-width for the media q
         display:none;
     } 
 }
+</code>
 </pre>
 
 
@@ -579,9 +611,14 @@ In this test, a div is given a background image. Then, by using the min-device-p
 
 The HTML and CSS are below:
 
-<pre>  
+<pre>
+<code class="language-markup">  
 &lt;div id="test7"&gt;&lt;/div&gt;
+</code>
+</pre>
 
+<pre>
+<code class="language-css">
 #test7 {
     background-image:url('images/test7-lowres.png');
     width:200px;
@@ -597,8 +634,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
         height:75px;
     }
 }
+</code>
 </pre>
-
 
 ### The results
 
@@ -695,8 +732,6 @@ If you want to hide a background image, your best bet is to hide the parent elem
 
 For swapping background images, define them both inside of media queries.
 
-
 ## Going Forward
-
 
 If you run any of [the tests](http://timkadlec.com/mq/) and think something above is incorrect, either [drop me a line](mailto:tim@timkadlec.com) or say report it on [GitHub](https://github.com/tkadlec/Media-Query-test) so I can dig into it. The same goes for adding any additional tests.

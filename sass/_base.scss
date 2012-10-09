@@ -2,13 +2,14 @@
 
 
 /* Colors */
-$font : #262626;
-$accent: #005D8C;
+$font : rgb(31,31,31);
+$accent: rgb(211,52,5);
 
 /* Type */
 $font-base: 16px;
 $font-base-line-height: 22px;
-
+$stack: Helvetica, Arial, sans-serif;
+$stack: Palatino, Georgia, "Times New Roman", serif;
 @mixin transition($property: all, $duration: 1s, $type: linear) {
     -webkit-transition: $property $duration $type;
     -moz-transition: $property $duration $type;
@@ -30,7 +31,7 @@ $font-base-line-height: 22px;
 
 /* Grid */
 $columns: 12;
-$column-width: em(70px);
+$column-width: em(80px);
 $gutter-width: em(15px);
 $max-width: $columns * ($column-width + $gutter-width);
 
@@ -41,3 +42,6 @@ $max-width: $columns * ($column-width + $gutter-width);
 @function lh($amount: 1, $context: $font-base) {
     @return em($font-base-line-height * $amount, $context);
 }  
+em{
+    font-style: italic;
+}

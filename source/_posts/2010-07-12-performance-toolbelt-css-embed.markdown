@@ -17,10 +17,18 @@ Data URIs can be tricky to implement efficiently however. Since they are a Base6
 
 CSSEmbed is a very straightforward tool that parses a stylesheet and converts all references of images to their data URI equivalents. Installation is as simple as [downloading the .jar file](http://wiki.github.com/nzakas/cssembed/) and placing it where you'd like. Then you use a simple command specifying any options, the file to output to, and the file to parse, like so:
 
-`java -jar cssembed.jar -o styles_uri.css styles.css`
+<pre>
+<code>
+java -jar cssembed.jar -o styles_uri.css styles.css
+</code>
+</pre>
 
 Since versions of Internet Explorer prior to IE8 don't support data URIs, you have to use MHTML as a workaround (again, Stoyan has an [excellent post](http://www.phpied.com/mhtml-when-you-need-data-uris-in-ie7-and-under/) with more info). The command for that is very similar — you just need to make sure to declare a "root" (for example, I'd use http://timkadlec.com as my root for this site) which CSSEmbed will use in the MHTML.
 
-`java -jar cssembed.jar -o styles_mhtml.css styles.css --mhtml --mhtmlroot http://timkadlec.com`
+<pre>
+<code>
+java -jar cssembed.jar -o styles_mhtml.css styles.css --mhtml --mhtmlroot http://timkadlec.com
+</code>
+</pre>
 
 Right now, to my knowledge, you can't parse an entire directory of CSS files, but that's about the only thing I can think of that I'd like to see added. It's a great tool to use during an automated build to really simplify the process of using data URIs and I definitely encourage you to go download it and give it a try.

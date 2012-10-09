@@ -14,8 +14,8 @@ sidebar: false
   {% assign year = this_year %}
   <h2>{{ year }}</h2>
 {% endunless %}
-<div class="post">
+<article>
   {% include archive_post.html %}
-</div>
+</article>
 {% endfor %}
 </div>

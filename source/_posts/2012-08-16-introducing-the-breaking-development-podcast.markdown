@@ -4,8 +4,8 @@ title: "The Breaking Development Podcast"
 date: 2012-08-16 14:34
 comments: true
 categories: 
-tags: podcast, responsive, bdconf, ress
-arrange: "georgia"
+tags: podcast responsive bdconf ress
+arrange:
 ---
 
 Yesterday we released the very first episode of the [Breaking Development Podcast](http://fsm.bdconf.com/podcast). I’m super excited about this! Much like the [conference](http://bdconf.com), the podcast will focus on web design and development for mobile and beyond. It's primarily going to be interview based, but we'll probably also shake it up every once and awhile and do something a little different.

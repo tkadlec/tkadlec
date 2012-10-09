@@ -5,29 +5,10 @@ footer: false
 sidebar: false
 ---
 
-<div class="blog-index">
   {% assign index = true %}
-  {% img plright http://timkadlec.com/images/me.jpg Tim Kadlec %}
-
-  <div class="home">
-    <section class="recent">
-    <h2>Recent posts</h2>
-    {% include asides/recent_posts.html %}
-    <div class="pagination">
-      <p><a href="/remembers">View complete Archives &raquo;</a></p>
-    </div>
-    
-  </section>
-    <section>
-    <h2>Upcoming talks</h2>
-    {% include upcoming.html %}
-  </section>
-  <section class="extras">
-    <a href="http://bdconf.com">{% img plright /images/bd_logo.jpeg  Breaking Development %}</a>
-    <a href="http://fsm.bdconf.com/podcast">{% img plright /images/podcast_logo200.jpeg The Breaking Development Podcast %}</a>
-    <a href="http://implementingresponsivedesign.com">{% img noborder /images/book.png Implementing Responsive Design %}</a>
-  </section>
-
-  </div>
-  
-</div>
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}

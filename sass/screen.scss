@@ -5,10 +5,9 @@
 	box-sizing: border-box;
 }
 body{
-	background: #fff;
+	background: url(/images/grid.png) top left #FFF;
 	color: $font;
-	font: 100%/#{em($font-base-line-height)} Helvetica, Arial, sans-serif;
-
+	font: 100%/#{em($font-base-line-height)} $stack;
 }
 a{
 	color: $accent;
@@ -24,6 +23,8 @@ a:hover{
 #wrap{
 	padding-top: 4em;
 	clear: both;
+	font-size: 1.1em;
+	line-height: 1.4em;
 }
 h1{
 	font-size: 2.5em;
@@ -40,9 +41,6 @@ p{
 }
 article{
 	position: relative;
-}
-
-article {
 	width: 90%;
 	margin: 0 auto;
 
@@ -66,7 +64,13 @@ blockquote{
 	font-style: italic;
 	padding-left: #{em(20px)};
 }
-
+header time{
+	text-transform: uppercase;
+	color: lighten($font, 50);
+	letter-spacing: .2em;
+	display: block;
+	padding-bottom: 1em;
+}
 time{
 	font-size: .85em;
 }
@@ -75,8 +79,9 @@ time{
 	text-transform: uppercase;
 }
 article header{
-	border-bottom: 1px dotted lighten($font, 80);
+		border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
 	margin-bottom: #{em(30px)};
+	text-align: center;
 
 }
 .comments{
@@ -103,20 +108,44 @@ figure.banner{
 		font-style: italic;
 	}
 }
+#toggle{
+	float: right;
+	padding-top: .2em;
+	font-size: .9em;
+	text-transform: uppercase;
+	z-index: 2001;
+	
+	span{
+		font-size: 1.5em;
+		position: relative;
+		top: .1em;
+	}	
+	
+}
+
 header[role=banner] {
-	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAADFBMVEUuNDwxN0ArMTksMjq6/n97AAAALklEQVRIiWOMYsABGPlxyizFKfMBp8yoPaP2jNozas+oPaP2jNozas+oPUPKHgBf9jIzDxNyDwAAAABJRU5ErkJggg==") top left #2F353E;
+	background: url(/images/bgdark.png) top left $font;
 	color: #fff;
 	letter-spacing: 0 -1px 1px #000;
 	width: 100%;
 	float: left;
+	position: relative;
 	padding: 0 1em;
-	border-bottom: 5px solid $accent;
+	border-bottom: 3px double lighten($font, 30);
+	nav{
+		text-transform: uppercase;
+		font-size: .9em;
+		margin-bottom: 2em;
+		z-index: 1000;
+		
+	}
 }
 header[role=banner] h1{
 	font-size: 1.5em;
-	font-weight: bold;
+	font-weight: normal;
 	letter-spacing: 0;
-		text-align: center;
+	float: left;
+	text-align: center;
 
 }
 header[role=banner] a{
@@ -174,23 +203,23 @@ footer{
 .blog-index {
 	width: 100%;
 	overflow: auto;
+
+	img{
+		margin-left: 1em;
+	}
 }
-.blog-index .plright{
-	float: left;
-}
+
 .home {
-	padding-left: 300px;
 
 	section{
-		width: 100%;
 		overflow: auto;
-
+		padding: 1em;
+		width: 100%;
 	}
 	.extras{
 		padding-top: 3em;
 	
 		img{
-			float: left;
 			margin-right: 1em;
 			height: 200px;
 			border: 1px solid lighten($font, 40);
@@ -209,10 +238,6 @@ footer{
 
 #lightbulb{
 	background: #FFF3A2;
-}
-#lightbulb header[role=banner]{
-	background: #000;
-	border-bottom-color: lighten($font, 30);
 }
 #lightbulb #wrap{
 	padding-top: 2em;
@@ -237,33 +262,77 @@ article.georgia{
 	padding-top: 230px;
 	background: url(/images/lightbulb.png) top center no-repeat;
 }
-
+#disqus_thread{
+	margin-top: 2em;
+	border-top: 1px dotted rgba(0, 0, 0, 0.2);
+	padding-top: 2em;
+}
 @import "prism";
 
-@media screen and (min-width: 43.75em) {
+.full .plleft{
+	border: 1px solid lighten($font, 50);
+	margin: auto;
+	display: block;
+
+}
+@media screen and (min-width: 19em) and (max-width: 46em) {
+
+	nav{
+		margin-top: -280px;
+		position: absolute;
+		width: 100%;
+
+		&:target{
+			margin-top: 0;
+			left: 0px;
+			position: static;
+			z-index: 1001;
+
+			#jump{
+				position: relative;
+
+				a{
+					text-indent: -9999px;
+					position: absolute;
+					z-index:0;
+					left: 0;
+					right: 0;
+					top: 0;
+					height: 5em;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 46.75em) {
+	.home{
+		padding-left: 300px;
+
+		.extras .img{
+			float: left;
+		}
+
+	}
+	.blog-index .plright{
+	float: left;
+}
+	#jump, #toggle{
+		display:none;
+	}
 	#wrap, .inner{
 		padding-bottom: 1em;
 	}
-	article{
-		width: 70%;
 
-	}
 	.pull{
 		width: 100%;
 		
 		section{
-			width: 61.8%;
+			width: 65.8%;
 		}
 
 	}
-	.plleft{
-		position: absolute;
-		left: 66.8%;
 
-	}
-	figure.plleft{
-		width: 38.2%;
-	}
 	header[role=banner] h1{
 		float: left;
 	}
@@ -272,7 +341,7 @@ article.georgia{
 		margin-bottom: 1em;
 	}
 	header[role=banner] nav li{
-		margin-left: 1em;
+		margin-left: 1.5em;
 		display: inline;
 		border: 0px;
 
@@ -281,15 +350,18 @@ article.georgia{
 			padding: 0;
 		}
 	}
+	nav{
+		padding-top: .3em;
+	}
 	.pullquote{
 		position: absolute;
-		right: 0;
-		width: 38.2%;
-		padding-left: 5%;
+		right: 34.2%;
+		width: 34.2%;
+		padding-right: 5%;
 		font-style: italic;
 		color: lighten($font, 35);
 		font-size: 1.2em;
-		font-family: Palatino, Georgia, serif;
+		font-family: "Palatino Linotype", Palatino, Georgia, serif;
 	}
 	.pullquote:before{
 		content: "\201C";
@@ -297,18 +369,83 @@ article.georgia{
 	.pullquote:after{
 		content: "\201D";
 	}
-	.pullquote-left:after {
+	.pullquote-left:after{
 		position: absolute;
-		right: 0;
-		width: 33.2%;
+		right: 105%;
+		width: 23.2%;
 		font-style: italic;
 		color: lighten($font, 35);
-		font-size: 1.2em;
+		font-size: 1em;
 		font-family: Palatino, Georgia, serif;
 
 		
 		/* Content */
 		content: "\201C" attr(data-pullquote) "\201D";
+
+
+	}
+	.pull .pullquote-left:after{
+		left: 110%;
+		width: 34.2%;
+	}
+	.pullquote-right:after {
+		position: absolute;
+		left: 105%;
+		width: 23.2%;
+		font-style: italic;
+		color: lighten($font, 35);
+		font-size: 1em;
+		font-family: Palatino, Georgia, serif;
+
+		
+		/* Content */
+		content: "\201C" attr(data-pullquote) "\201D";
+
+
+	}
+	
+	.pull .pullquote-right:after{
+		left: 110%;
+	}
+	.pull .plleft{
+		width: 34.2%;
+		left: 110%;
+		text-align: center;
+		img{
+			width: 100%;
+		}
+	}
+	.full {
+	.plleft{
+			position: static;
+			float: right;
+			margin-left: 1em;
+			margin-bottom: 1em;
+		}
+	}
+	footer{
+		padding-left: 0;
+	}
+}
+@media screen and (min-width: 63em) {
+	article section{
+		width: 70%;
+		margin: auto;
+		position: relative;
+	}
+	.full {
+		section{
+		width: 100%;
+		}
+		
+	}
+	.pull{
+		width: 100%;
+		
+		section{
+			width: 65.8%;
+			margin: 0;
+		}
 
 
 	}

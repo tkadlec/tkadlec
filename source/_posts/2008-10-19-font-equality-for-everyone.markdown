@@ -24,105 +24,61 @@ Thankfully, we are close to being able to make use of a CSS rule that makes font
 
 The beauty of the @font-face rule is both how simple it is, and yet how powerful it is. The @font-face rule includes the rule and the font description like so:
 
-
-
-	
-  1. @font-face {
-
-	
-  2. }
-
+<pre>
+<code class="language-css">
+@font-face {
+}
+</code>
+</pre>
 
 The font description is made up of the what are called font descriptors. Simply put, they follow the same format of typical CSS style declarations. The most basic font description is composed of a font-family declaration and a src declaration that points to the font we will be using, like so:
 
-	
-  1. @font-face {
-
-	
-  2. font-family: "Benjamin Franklin";
-
-	
-  3. src: url(BenjaminFranklin.ttf);
-
-	
-  4. }
-
+<pre>
+<code class="language-css">
+@font-face {
+  font-family: "Benjamin Franklin";
+  src: url(BenjaminFranklin.ttf);
+}
+</code>
+</pre>
 
 The url can be either remote or on your own site. However, for maximum browser compatibility, your font should reside in the same place as the page using it. Firefox, for instance, does not allow using fonts that don't have the same origin of the page. Instead of using a url, we can also use a local path ( local(font-path) ) that would point to a font located on the user's computer. We've now set the way for us to make use of the Benjamin Franklin font in our site.
 
-	
-  1. h1 {
-
-	
-  2. font-family: "Benjamin Franklin", serif;
-
-	
-  3. }
-
-
-
+<pre>
+<code class="language-css">
+h1 {
+  font-family: "Benjamin Franklin", serif;
+}
+</code>
+</pre>
 
 ## More Than Meets the Eye
 
 
 Simple and easy. Here's where the fun stuff comes in though. Remember how those declarations, like the font-family declaration above, are called font descriptors? That's because they describe the declaration that can be used to trigger that font use. Admittedly, that might not be very clear, so let's extend our example:
 
-
-
-	
-  1. @font-face {
-
-	
-  2. font-family: "Benjamin Franklin";
-
-	
-  3. src: url(BenjaminFranklin.ttf);
-
-	
-  4. font-weight: all;
-
-	
-  5. }
-
-	
-  6. @font-face {
-
-	
-  7. font-family: "Benjamin Franklin";
-
-	
-  8. src: url(Hansa.ttf);
-
-	
-  9. font-weight: bold;
-
-	
-  10. }
-
-	
-  11. h1 {
-
-	
-  12. font-family: "Benjamin Franklin", serif;
-
-	
-  13. font-weight: bold;
-
-	
-  14. }
-
-	
-  15. h2 {
-
-	
-  16. font-family: "Benjamin Franklin", serif;
-
-	
-  17. font-weight: normal;
-
-	
-  18. }
-
+<pre>
+<code class="language-css">
+@font-face {
+  font-family: "Benjamin Franklin";
+  src: url(BenjaminFranklin.ttf);
+  font-weight: all;
+}
+@font-face {
+  font-family: "Benjamin Franklin";
+  src: url(Hansa.ttf);
+  font-weight: bold;
+}
+h1 {
+  font-family: "Benjamin Franklin", serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Benjamin Franklin", serif;
+  font-weight: normal;
+}
+</code>
+</pre>
 
 In the example above, we changed the call to the font being used if the font-weight is bold. If the font-weight is anything but bold, then the Benjamin Franklin font is used. If the font-weight is set to bold, then the Hansa font is used. If you have Safari or the Firefox 3.1 beta you can [take a look at the code in action](font-facetest.asp). (NOTE: The only reason I was using two different fonts here is to make it obvious that the font is changed based on the font-weight. A more subtle example would be to use a variation of the base font, like a bold version.)
 

@@ -9,14 +9,14 @@ tags:
 - books
 - mobile
 - responsiveness
-arrange: "pull"
 ---
 
-[{% img /images/cover.jpg Responsive Web Design %}](ttp://www.flickr.com/photos/adactio/5818096043/)
+{% fig Responsive Web Design by Ethan Marcotte banner http://www.flickr.com/photos/adactio/5818096043/ (Photo by Jeremy Keith) %}
+	{% img /images/cover.jpg Three old phones %}
+{% endfig %}
 
-{% pullquote left %}
-Ethan Marcotte’s [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) is an example of what can happen when an incredibly intelligent person is allowed to write in their own voice about a technique that they not only firmly believe in--but that they are using every day. {"It’s a compact book but Ethan manages to fill it full of plenty of information and he does so in a conversational, often humorous tone that will make you laugh at one sentence and then force you to thoughtfully ponder the implications of the next."}
-{% endpullquote %}
+
+Ethan Marcotte’s [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) is an example of what can happen when an incredibly intelligent person is allowed to write in their own voice about a technique that they not only firmly believe in--but that they are using every day. It’s a compact book but Ethan manages to fill it full of plenty of information and he does so in a conversational, often humorous tone that will make you laugh at one sentence and then force you to thoughtfully ponder the implications of the next.
 
 Ethan doesn’t present RWD as an end-all-be-all approach. He simply presents it as a potential solution (a good one). In his own words:
 

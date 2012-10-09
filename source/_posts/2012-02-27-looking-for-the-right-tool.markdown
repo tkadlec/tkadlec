@@ -9,7 +9,6 @@ tags:
 - design
 - responsive
 - tools
-arrange: "pull"
 ---
 
 Whether or not to design in the browser is an often debated subject. The latest discussion seems to be prompted, in part, because of the recent Responsive Summit (by the way, if you haven’t done so already, be sure to check out a [few](http://www.markboulton.co.uk/journal/comments/responsive-summit-workflow) [recaps](http://www.markboulton.co.uk/journal/comments/responsive-summit-workflow) [of](http://www.markboulton.co.uk/journal/comments/responsive-summit-workflow) [the](http://mistermorris.tumblr.com/post/18273059852/a-better-responsive-image-format) [day](http://joshemerson.co.uk/blog/responsive-process/#more-100)).
@@ -19,7 +18,7 @@ Mark Boulton just put his thoughts to screen with a post entitled [“Responsive
 
 > Since 1997, I’ve been working almost exclusively on the web. Throughout all of that time, the realisation of what the projects would look like are done in Photoshop. That means, yes, I’ve been using Photoshop in a production environment for fifteen years. Malcolm Gladwell said it takes 10,000 hours, or 10 years of repetitive use, to become an expert in something. I guess that means I’m an expert in creating pictures of websites. Photoshop is like an extension of my mind. To use Photoshop for me is as effortless and almost as fast as a pencil. I get stuff done; quickly.
 
-{% pullquote left %}
+{% pullquote right %}
 That point, that the familiarity you have with a tool matters, is an important one to keep in mind. {"Designing is a creative endeavour. You can’t do it well with tools you aren’t entirely comfortable with."}
 {% endpullquote %}
 
@@ -44,7 +43,7 @@ During the presentation he discusses the need for immediate feedback from our to
 Specifically, he tackles coding. He demonstrates a tool that lets him instantly see how the changes in his Javascript affect the canvas for which he is creating. This instantaneous feedback provides fertile ground for experimentation, and he demonstrates that over and over in the video. Because of the direct connection between the code and the result, you're able to start using advanced controls (start around 3:45 into the video, and again around 10:45) to help the process of discovery and experimentation.
 
 {% pullquote left %}
-{"This, I think, is where we need to head. We need to be able to create on the web, but we need tools that make it easier for us to experiment. Tools that let us be creative without decoupling us from the very medium we are creating for."}
+This, I think, is where we need to head. {"We need to be able to create on the web, but we need tools that make it easier for us to experiment. Tools that let us be creative without decoupling us from the very medium we are creating for."}
 {% endpullquote %}
 
 We’re not likely to ever remove a graphic editor completely from our workflow, nor should that be our goal. There is nothing wrong with graphic editors. We simply need to be aware of what they are good at, and where they fall short. Instead, our goal should be to move towards tools and processes that let us capitalize on the interactive nature of the web.

@@ -26,54 +26,39 @@ Then, to receive the message in the other window, you need to watch for the wind
 Take a look at the source code and you'll see that I'm simply using one window (window A) to open the other (window B) so that I have a reference to it. Window B contains two buttons that when clicked, use the postMessage method to post a message back to window A, like so:
 
 
-
-	
-  * window.opener.postMessage('John Smith', 'http://www.timkadlec.com');
-
+<pre>
+<code class="language-javascript">
+window.opener.postMessage('John Smith', 'http://www.timkadlec.com');
+</code>
+</pre>
 
 We use window.opener to get our reference to window a, and then call the postMessage function and send the message 'John Smith' back to it. We specify that the origin is timkadlec.com in the targetOrigin argument.
 
 Now back in window A, we need to prepare to receive the message. To do so, we look for the message event.
 
-	
-  * window.addEventListener('message', receiver, false);
-
+<pre>
+<code class="language-javascript">
+window.addEventListener('message', receiver, false);
+</code>
+</pre>
 
 As you can see above, I'm using addEventListener to listen for the message event, and once the event occurs, we call the receiver function.
 
-	
-  1. function receiver(e){
-
-	
-  2. if (e.origin == 'http://www.timkadlec.com') {
-
-	
-  3. if (e.data == 'John Smith') {
-
-	
-  4. alert(e.data);
-
-	
-  5. e.source.postMessage('Valid User', e.origin);
-
-	
-  6. } else {
-
-	
-  7. alert(e.data);
-
-	
-  8. e.source.postMessage('FAIL', e.origin);
-
-	
-  9. }
-
-	
-  10. }
-
-	
-  11. }
-
+<pre>
+<code class="language-javascript">
+function receiver(e){
+	if (e.origin == 'http://www.timkadlec.com'){
+		if (e.data == 'John Smith') {
+			alert(e.data);
+			e.source.postMessage('Valid User', e.origin);
+		} else {
+			alert(e.data);
+			e.source.postMessage('FAIL', e.origin);
+		}
+	}
+}
+</code>
+</pre>
 
 In the receiver function, we verify that the origin of the event is timkadlec.com (line 2). This is highly encouraged, as it ensures that we only receive messages from domains we are expecting to hear from. If you skipped this step, any domain could freely affect your page, and that could get a bit messy.
 
@@ -81,9 +66,7 @@ Then, we use the event's data property to retrieve the message that was sent. Ba
 
 This is a pretty straightforward example, and is really just meant to demonstrate how easy it is to post messages back and forth between documents. There's another good example up that [makes use of iframes](http://austinchau.blogspot.com/2008/11/html5-cross-document-messaging.html) if you want to see another example of cross document messaging.
 
-
 ## Some Security Considerations
-
 
 Hopefully you can see that cross document messaging is both simple, and potentially quite useful for things like widgets, or authentication. However, there are some security risks if you don't take the time to double check a few things. First, like mentioned before, you should always double check the origin of the sent message. You don't want to be just accepting messages from anyone...that's kind of the reason cross-site scripting isn't allowed in the first place.
 

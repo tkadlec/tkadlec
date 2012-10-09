@@ -6,7 +6,7 @@ slug: announcing-breaking-development-2011
 title: Announcing Breaking Development 2011
 wordpress_id: 806
 tags:
-- breakingdevelopment
+- bdconf
 - conferences
 - mobile
 ---

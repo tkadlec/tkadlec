@@ -19,68 +19,30 @@ DocBlock is a very common form of documenting source code in programming that ha
 
 There are a great deal of tags being developed for CSSDOC that can provide a lot of great information. For example, here is a sample header from the CSSDOC draft:
 
-
-
-	
-  1. /**
-
-	
-  2. * Homepage Style
-
-	
-  3. *
-
-	
-  4. * Standard Layout (all parts) for Big Little Homepage
-
-	
-  5. *
-
-	
-  6. * This style has been designed by Mina Margin. It reflects
-
-	
-  7. * the composition of colors through the years of the
-
-	
-  8. * customers project as well as the boldness it implies.
-
-	
-  9. *
-
-	
-  10. * @project   Big Little Homepage
-
-	
-  11. * @version   0.2.8
-
-	
-  12. * @package   xhtml-css
-
-	
-  13. * @author    Mina Margin
-
-	
-  14. * @copyright 2008 by the author
-
-	
-  15. * @cssdoc    version 1.0-pre
-
-	
-  16. * @license   GPL v3
-
-	
-  17. *
-
-	
-  18. * @colordef  #fff; white
-
-	
-  19. * @colordef  #808080; standard grey
-
-	
-  20. */
-
+<pre>
+<code class="language-css">
+/**
+ * Homepage Style
+ *
+ * Standard Layout (all parts) for Big Little Homepage
+ *
+ * This style has been designed by Mina Margin. It reflects
+ * the composition of colors through the years of the
+ * customers project as well as the boldness it implies.
+ *
+ * @project   Big Little Homepage
+ * @version   0.2.8
+ * @package   xhtml-css
+ * @author    Mina Margin
+ * @copyright 2008 by the author
+ * @cssdoc    version 1.0-pre
+ * @license   GPL v3
+ *
+ * @colordef  #fff; white
+ * @colordef  #808080; standard grey
+*/
+</code>
+</pre>
 
 Just by this simple header, we've already provided a great deal of information to both future developers and to a documentation parser. In our header we've provided the project we're working on, a version number for the project, copyright and author information, and some definitions of recurring colors used in the project.
 
