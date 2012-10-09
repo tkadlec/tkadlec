@@ -531,9 +531,11 @@ footer .copy{
 		margin: auto;
 	}
 	article section, header[role=banner] .inner{
-		width: 90%;
 		margin: auto;
 		position: relative;
+	}
+	article section{
+		width: 70%;
 	}
 	.extras, footer .copy{
 		width: 90%;
