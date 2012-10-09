@@ -1,35 +1,19 @@
-<IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json 
-  AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
-
-  <FilesMatch "\.(ttf|otf|eot|svg)$" >
-    SetOutputFilter DEFLATE
-  </FilesMatch>
-</IfModule>
-<IfModule mod_expires.c>
-	ExpiresActive On
-	ExpiresByType image/png			"access plus 1 year"
-	ExpiresByType image/gif			"access plus 1 year"
-	ExpiresByType image/jpeg		"access plus 1 year"
-	ExpiresByType image/vnd.microsoft.icon	"access plus 1 year"
-	ExpiresByType text/css			"access plus 1 year"
-	ExpiresByType application/x-javascript	"access plus 1 year"
-	ExpiresByType application/javascript	"access plus 1 year"
-	ExpiresByType text/javascript		"access plus 1 year"
-</IfModule>
-
-<IfModule mod_headers.c>
-	# Try removing etag headers (if it's coming from proxy for example)
-	Header unset ETag
-</IfModule>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript text/javascript 	application/javascript
+ExpiresActive On
+ExpiresByType text/css "access plus 3 days"
+ExpiresByType application/x-javascript "access plus 3 days"
+ExpiresByType image/gif "access plus 3 days"
+ExpiresByType image/png "access plus 3 days"
+ExpiresByType image/jpeg "access plus 3 days"
+ExpiresByType text/javascript "access plus 3 days"
+ExpiresByType application/javascript "access plus 3 days"
 
 RewriteEngine on
-RewriteBase /
-
 RewriteRule ^me$ /blog/archives [L]
 RewriteRule ^feed$ /atom.xml [L]
 RewriteRule ^rss$ /atom.xml [L]
 
 RewriteRule ^blog/rss$ /atom.xml [L]
 
+RewriteRule ^category/performance/feed?/?$ /performance.xml [L,R=301]
 RewriteRule ^category/performance?/?$ /tags/performance [L,R=301]
