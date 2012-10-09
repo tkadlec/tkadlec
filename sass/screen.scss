@@ -52,17 +52,23 @@ h2{
 	letter-spacing: #{em(-1px)};
 	line-height: 1.1em;
 }
-article h3, .recent h3{
+article h3, .slats h3{
 	font-size: 1.25em;
 	font-weight: bold;
 	margin: #{em(16px)} 0 #{em(10px)} 0;
 	letter-spacing: #{em(-1px)};
 }
-.recent h3{
-	margin-bottom: #{em(2px)};
-}
-.recent .post{
-	padding-bottom: .5em;
+
+.slats{
+	margin: auto 0;
+	padding: 0;
+
+	h3{
+		margin-bottom: #{em(2px)};
+	}
+	.group{
+		padding-bottom: .5em;
+	}
 }
 blockquote{
 	margin-left: 5%;
@@ -256,9 +262,6 @@ footer{
 	}
 
 }
-.recent p{
-	margin-top: 1.4em;
-}
 /* Custom layouts */
 
 #lightbulb{
@@ -302,6 +305,28 @@ article.georgia{
 }
 footer{
 	padding-top: 1em;
+}
+/* Pub */
+.pub li{
+	padding: .75em .25em .75em .75em;
+	border-bottom: 1px dotted rgba(0,0,0,.2);
+
+	&:hover{
+			background: lighten($font, 75);
+		}
+	a{
+		text-decoration: none;
+		color: $font;
+		font-size: .8em;
+
+
+	}
+	b{
+		display: block;
+		margin-bottom: .2em;
+		color: $accent;
+		font-size: 1.2em;
+	}
 }
 @media screen and (min-width: 19em) and (max-width: 46em) {
 	.extras .extra:first-child{
@@ -353,20 +378,24 @@ footer{
 	}
 }
 @media screen and (min-width: 46.75em) {
-footer {
-			padding-top: 0;
+	.recent h2{
+		margin-top: 0;
+	}
 
-}
-header[role=banner] .inner{
-	width: 90%;
-	margin: auto;
-	font-size: .9em;
-}
-footer .copy{
-	text-align: left;
-	width: 90%;
-	margin: auto;
-}
+	footer {
+				padding-top: 0;
+
+	}
+	header[role=banner] .inner{
+		width: 90%;
+		margin: auto;
+		font-size: .9em;
+	}
+	footer .copy{
+		text-align: left;
+		width: 90%;
+		margin: auto;
+	}
 .extra{
 		float: left;
 		clear: none;
@@ -402,9 +431,6 @@ footer .copy{
 
 		.upcoming, .recent{
 			margin-left: 300px;
-		}
-		.recent h2{
-		margin-top: 0;
 		}
 	}
 	.home .plright{
@@ -510,7 +536,7 @@ footer .copy{
 		}
 	}
 	.full {
-	.plleft{
+		.plleft{
 			position: static;
 			float: right;
 			margin-left: 1em;
@@ -527,7 +553,7 @@ footer .copy{
 		font-size: 1em;
 	}
 	.home{
-			width: 90%;
+		width: 80%;
 		margin: auto;
 	}
 	article section, header[role=banner] .inner{
@@ -535,7 +561,7 @@ footer .copy{
 		margin: auto;
 		position: relative;
 	}
-	#wrap article section, .home{
+	#wrap article section{
 		width: 70%;
 	}
 	.extras, footer .copy{
@@ -548,9 +574,9 @@ footer .copy{
 	footer .copy{
 		max-width: 97em;
 	}
-	.full {
+	#wrap .full {
 		section{
-		width: 100%;
+			width: 90%;
 		}
 		
 	}
@@ -563,5 +589,11 @@ footer .copy{
 		}
 
 
+	}
+}
+@media screen and (min-width: 70em) {
+		.pub li{
+		float: left;
+		width: 49.5%;
 	}
 }

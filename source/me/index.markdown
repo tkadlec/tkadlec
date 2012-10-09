@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 footer: false
 sharing: false
 sidebar: false
@@ -16,3 +16,8 @@ I'm the co-founder of [Breaking Development](http://bdconf.com), one of the firs
 I'm very passionate about the Web and can frequently be found [speaking](http://timkadlec.com/talks) about what I've learned at a variety of web conferences.
 
 I wrote [Implementing Responsive Design: Building sites for an anywhere, everywhere web](http://implementingresponsivedesign.com) (New Riders, 2012) and was a contributing author for the [Web Performance Daybook Volume 2](http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919). You can find me sharing my thoughts in a briefer format on Twitter at [@tkadlec](http://twitter.com/tkadlec).
+
+<aside class="elsewhere">
+##Elsewhere
+{% include custom/asides/elsewhere.html %}
+</aside>
