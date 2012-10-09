@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: url(/images/grid.png) top left #FFF;
+	background: inline-image("/grid.png", unquote("image/png")) top left #FFF;
 	color: $font;
 	font: 100%/#{em($font-base-line-height)} $stack;
 }
@@ -124,7 +124,7 @@ figure.banner{
 }
 
 header[role=banner] {
-	background: url(/images/bgdark.png) top left $font;
+	background: inline-image("/bgdark.png", unquote("image/png")) top left $font;
 	color: #fff;
 	letter-spacing: 0 -1px 1px #000;
 	width: 100%;
@@ -260,7 +260,7 @@ article.georgia{
 	text-align: center;
 	border-bottom: 0px;
 	padding-top: 230px;
-	background: url(/images/lightbulb.png) top center no-repeat;
+	background: inline-image("/lightbulb.png", unquote("image/png")) top center no-repeat;
 }
 #disqus_thread{
 	margin-top: 2em;
