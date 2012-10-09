@@ -7,8 +7,6 @@ sidebar: false
 arrange: "full"
 ---
 
-{% img plleft http://timkadlec.com/images/me.jpg Tim Kadlec %}
-
 I'm is a web developer living in northern Wisconsin with my wife and three daughters.
 
 I'm the co-founder of [Breaking Development](http://bdconf.com), one of the first conferences dedicated to web design and development for mobile devices. I also host [the Breaking Development Podcast](http://fsm.bdconf.com/podcast), a weekly podcast with a very similar focus (really, it's just an excuse for me to talk to people far smarter than I every week).
