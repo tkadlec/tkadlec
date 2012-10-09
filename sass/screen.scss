@@ -56,7 +56,6 @@ article h3, .slats h3{
 	font-size: 1.25em;
 	font-weight: bold;
 	margin: #{em(16px)} 0 #{em(10px)} 0;
-	letter-spacing: #{em(-1px)};
 }
 
 .slats{
@@ -206,8 +205,6 @@ header[role=banner] nav li{
 footer{
 	border-bottom: 0px;
 	border-top: 3px double lighten($font, 30);
-	font-size: .9em;
-	line-height: 1.3em;
 
 	a{
 		color: lighten($accent, 20);
@@ -329,25 +326,7 @@ footer{
 	}
 }
 @media screen and (min-width: 19em) and (max-width: 46em) {
-	.extras .extra:first-child{
-		border-bottom: 1px dashed lighten($font, 20);
-		padding-bottom: 3em;
-		padding-top: 0;
-	}
-	.extra{
-		clear: both;
-		padding-top: 2em;
-		h3{
-			font-size: 1em;
-			text-transform: uppercase;
-			color: $accent;
-			font-weight: normal;
-		}
-		img{
-			float: left;
-			margin-right: 2em;
-		}
-	}
+	
 
 	nav{
 		margin-top: -280px;
@@ -377,13 +356,39 @@ footer{
 		}
 	}
 }
+@media screen and (min-width: 19em) {
+	.extras .extra:first-child{
+		border-bottom: 1px dashed lighten($font, 20);
+		padding-bottom: 3em;
+		padding-top: 1.5em;
+	}
+	.extra{
+		clear: both;
+		width: 100%;
+		overflow: hidden;
+		padding-top: 1.5em;
+		text-align: center;
+		h3{
+			font-size: 1em;
+			text-transform: uppercase;
+			color: $accent;
+			font-weight: normal;
+		}
+		img{
+			display: block;
+			text-align: center;
+			margin: auto;
+		}
+	}
+}
 @media screen and (min-width: 46.75em) {
+
 	.recent h2{
 		margin-top: 0;
 	}
 
 	footer {
-				padding-top: 0;
+		padding-top: 0;
 
 	}
 	header[role=banner] .inner{
@@ -397,27 +402,14 @@ footer{
 		margin: auto;
 	}
 .extra{
-		float: left;
-		clear: none;
-		width: 50%;
-		padding: .5em 2em .5em 0;
-		margin: 1.5em 0;
-		&:first-child{
-			border-right: 1px dashed lighten($font, 20);
+		text-align: left;
 
-			img{
-				margin-right: 1em;
-			}
-		}
-		&:last-child{
-			padding-left: 2em;
-			padding-right: 0;
-		}
 		h3{
 			font-size: 1em;
 			text-transform: uppercase;
 			color: $accent;
 			font-weight: normal;
+			margin-top: 1.5em;
 		}
 		img{
 			float: left;
@@ -549,6 +541,32 @@ footer{
 }
 @media screen and (min-width: 63em) {
 
+	.extras .extra{
+		float: left;
+		clear: none;
+		width: 50%;
+		padding: .5em 2em 0 0;
+		margin: 1.5em 0 0 0;
+				&:last-child{
+			padding-left: 2em;
+			padding-right: 0;
+		}
+		&:first-child{
+			border-right: 1px dashed lighten($font, 20);
+			border-bottom: 0px;
+			padding-top: 0;
+			padding-bottom: 0;
+			img{
+				margin-right: 1em;
+			}
+		}
+		img{
+			float: left;
+			margin-right: 2em;
+			margin-bottom: 3em;
+		}
+
+	}
 	header[role=banner] .inner{
 		font-size: 1em;
 	}
@@ -569,7 +587,7 @@ footer{
 		max-width: $max-width;
 	}
 	footer{
-	margin-top: 2em;
+		margin-top: 2em;
 	}
 	footer .copy{
 		max-width: 97em;
