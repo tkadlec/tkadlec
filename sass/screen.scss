@@ -58,6 +58,12 @@ article h3, .recent h3{
 	margin: #{em(16px)} 0 #{em(10px)} 0;
 	letter-spacing: #{em(-1px)};
 }
+.recent h3{
+	margin-bottom: #{em(2px)};
+}
+.recent .post{
+	padding-bottom: .5em;
+}
 blockquote{
 	margin-left: 5%;
 	border-left: 3px solid $accent;
