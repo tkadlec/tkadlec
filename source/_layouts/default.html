@@ -15,12 +15,14 @@
   <div id="wrap">
     <section>
     	{{ content | expand_urls: root_url }}
+      
+      
     </section>
+    
+  </div><!-- /#wrap -->
       <footer role="contentinfo">
     {% include footer.html %}
   </footer>
-  </div><!-- /#wrap -->
-
   {% include after_footer.html %}
 </body>
 </html>

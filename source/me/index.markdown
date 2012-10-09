@@ -9,10 +9,10 @@ arrange: "full"
 
 {% img plleft http://timkadlec.com/images/me.jpg Tim Kadlec %}
 
-Tim Kadlec is a web developer working in northern Wisconsin. His diverse background working with small companies, large publishers, and industrial corporations has allowed him to see how the careful application of web technologies can impact businesses of all sizes.
+I'm is a web developer living in northern Wisconsin with my wife and three daughters.
 
-Tim is the co-founder of [Breaking Development](http://bdconf.com), one of the first conferences dedicated to web design and development for mobile devices. He is very passionate about the Web and can frequently be found speaking about what he’s learned at a variety of web conferences.
+I'm the co-founder of [Breaking Development](http://bdconf.com), one of the first conferences dedicated to web design and development for mobile devices. I also host [the Breaking Development Podcast](http://fsm.bdconf.com/podcast), a weekly podcast with a very similar focus (really, it's just an excuse for me to talk to people far smarter than I every week).
 
-He is the author of [Implementing Responsive Design: Building sites for an anywhere, everywhere web](http://implementingresponsivedesign.com) (New Riders, 2012) and a contributing author for the Web Performance Daybook Volume 2. He can  be found sharing his thoughts in a briefer format on Twitter at [@tkadlec](http://twitter.com/tkadlec).
+I'm very passionate about the Web and can frequently be found [speaking](http://timkadlec.com/talks) about what I've learned at a variety of web conferences.
 
-Tim lives in northern Wisconsin with his wife and their three daughters.
+I wrote [Implementing Responsive Design: Building sites for an anywhere, everywhere web](http://implementingresponsivedesign.com) (New Riders, 2012) and was a contributing author for the [Web Performance Daybook Volume 2](http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919). You can find me sharing my thoughts in a briefer format on Twitter at [@tkadlec](http://twitter.com/tkadlec).

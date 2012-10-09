@@ -5,10 +5,20 @@ footer: false
 sidebar: false
 ---
 
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
+{% assign index = true %}
+
+<div class="home">
+
+	{% img plright http://timkadlec.com/images/me.jpg Tim Kadlec %}
+
+	<div class="recent">
+		<h2>Recent posts</h2>
+		{% include asides/recent_posts.html %}
+	</div>
+	<div class="upcoming">
+		<h2>Upcoming presentations</h2>
+		{% include upcoming.html %}
+	</div>
+
+
+</div>
