@@ -1,5 +1,9 @@
 @import "base";
 
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -326,7 +330,7 @@ footer{
 		font-size: 1.2em;
 	}
 }
-@media screen and (min-width: 19em) and (max-width: 46em) {
+@media screen and (min-width: 19em) and (max-width: 46.75em) {
 	
 
 	nav{
@@ -429,9 +433,7 @@ footer{
 		float: left;
 		margin: 0 1em 2em;
 	}
-	#jump, #toggle{
-		display:none;
-	}
+
 	#wrap, .inner{
 		padding-bottom: 1em;
 	}
@@ -462,9 +464,7 @@ footer{
 			padding: 0;
 		}
 	}
-	nav{
-		padding-top: .3em;
-	}
+
 	
 	.full {
 		.plleft{
@@ -476,6 +476,9 @@ footer{
 	}
 	footer{
 		padding-left: 0;
+	}
+		#jump, #toggle{
+		display:none;
 	}
 }
 @media screen and (min-width: 63em) {
