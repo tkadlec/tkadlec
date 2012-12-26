@@ -312,9 +312,10 @@ footer{
 .pub li{
 	padding: .75em .25em .75em .75em;
 	border-bottom: 1px dotted rgba(0,0,0,.2);
-
+	@include transition-property(background);
+ 	@include transition-duration(.3s);
 	&:hover{
-			background: lighten($font, 75);
+			background: lighten($font, 80);
 		}
 	a{
 		text-decoration: none;
@@ -328,6 +329,21 @@ footer{
 		margin-bottom: .2em;
 		color: $accent;
 		font-size: 1.2em;
+	}
+}
+#jump{
+	display: none;
+}
+.workStatus{
+	margin: 1em 0;
+	background: lighten($font, 85);
+	border: 1px dotted lighten($font, 70);
+	padding: .5em;
+	strong{
+		font-weight: bold;
+	}
+	p{
+		margin-bottom: 0;
 	}
 }
 @media screen and (min-width: 19em) and (max-width: 46.75em) {
@@ -344,19 +360,17 @@ footer{
 			position: static;
 			z-index: 1001;
 
-			#jump{
+			~ #jump{
 				position: relative;
-
-				a{
-					text-indent: -9999px;
-					position: absolute;
-					z-index:0;
-					left: 0;
-					right: 0;
-					top: 0;
-					height: 5em;
-					width: 100%;
-				}
+				display: block;
+				text-indent: -9999px;
+				position: absolute;
+				z-index:2001;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				height: 4.5em;
+				width: 100%;
 			}
 		}
 	}
@@ -425,8 +439,11 @@ footer{
 	.home{
 
 
-		.upcoming, .recent{
+		.upcoming, .recent, .workStatus{
 			margin-left: 300px;
+		}
+		.workStatus{
+			margin-top: 0;
 		}
 	}
 	.home .plright{
@@ -479,7 +496,10 @@ footer{
 	}
 		#jump, #toggle{
 		display:none;
+
+
 	}
+
 }
 @media screen and (min-width: 63em) {
 

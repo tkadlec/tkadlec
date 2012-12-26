@@ -3,6 +3,8 @@ layout: default
 sharing: false
 footer: false
 sidebar: false
+comments: false
+prism: false
 ---
 
 {% assign index = true %}
@@ -10,7 +12,10 @@ sidebar: false
 <div class="home">
 
 	{% img plright http://timkadlec.com/images/me.jpg Tim Kadlec %}
-
+<div class="workStatus">
+   {% include custom/asides/work_status.html %}  
+</div>   
+    
 	<div class="recent">
 		<h2>Recent posts</h2>
 		{% include asides/recent_posts.html %}

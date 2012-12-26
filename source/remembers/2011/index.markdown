@@ -5,6 +5,8 @@ comments: false
 sharing: false
 footer: false
 sidebar: false
+comments: false
+prism: false
 ---
 
 <div id="blog-archives">

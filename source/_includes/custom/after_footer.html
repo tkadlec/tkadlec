@@ -1,7 +1,9 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+{% if page.prism != false %}
 <script type="text/javascript" src="/javascripts/prism.js"></script>
+{% endif %}
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
