@@ -1,0 +1,26 @@
+---
+layout: post
+title: "2012 Favorites"
+date: 2012-12-27 09:54
+comments: true
+categories: 
+tags:
+- "2012"
+- site
+---
+It's the end of the year which means that "Best of 2012" articles are all the craze. Far be it from I too abstain from such trends. Here, then, are the five most popular posts on this site from 2012, in order. 
+
+##[WTFWG](http://timkadlec.com/2012/05/wtfwg)
+Where-in I get unusually riled up and rant about the picture vs. srcset situation and how it was handled. The conversation has evolved, but I still have concerns about how parts of the process were handled.
+
+##[Media Query & Asset Downloading Results](http://timkadlec.com/2012/04/media-query-asset-downloading-results/)
+A look at the results from the tests I ran to see how images (both background and content-based) are downloaded when media queries are involved.
+
+##[IE10 Snap Mode and Responsive Design](http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
+IE10 is generally a huge step forward, but when in the new "snap" mode, it ignores the meta viewport element. Here's the fix and some of the reasons for why the move was made (it was a concious choice, not a bug).
+
+##[Blame the Implementation, Not the Technique](http://timkadlec.com/2012/10/blame-the-implementation-not-the-technique/)
+There is a disturbing trend in our industry to blame the technique when we should be blaming the way it was implemented. I mentioned this several times over the course of the year and finally took the time to elaborate.
+
+##[Mobile Navigation Icons](http://timkadlec.com/2012/08/mobile-navigation-icons/)
+For whatever reason, there was a ton of discussion this year about what icon to use for navigation on mobile sites. Unicode would be awesome, but support is a bit sketchy so I threw together a very quick example of how the icon could be generated using CSS.

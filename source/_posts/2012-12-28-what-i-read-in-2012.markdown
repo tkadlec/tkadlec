@@ -1,0 +1,45 @@
+---
+layout: post
+title: "What I Read in 2012"
+date: 2012-12-28 19:32
+comments: true
+categories: 
+tags:
+- books
+- reading
+---
+For the third year in a row, my book count is trending in the wrong direction. In 2009, [it was 38](http://timkadlec.com/2010/02/what-i-read-in-2009/). In 2010, [it was 33](http://timkadlec.com/2011/01/what-i-read-in-2010/). In 2011, that number [fell to 29](http://timkadlec.com/2012/01/what-i-read-in-2011/) and this past year, that number plummeted to 21.
+
+Not only do I think reading is important, but it's also something I enjoy a bunch and probably the closest thing I have to a hobby. However this year the reality is that I just didn't set aside much time for reading. Whereas I used to read at least 30 minutes each night before bed, this past year I spent that time [writing my own book](http://implementingresponsivedesign.com) and doing a large number of side projects in preparation for starting to work independantly. 
+
+There was a point while writing my book that I just didn't feel like I had the energy to read anything substantial, which is why there is a pretty heavy increase in the number of fiction books this year. I also read a very unusually small number of non-industry related non-fiction, something I plan on remedying next year. 
+
+Also of interest, at least to me, was that this was my first year with a Kindle. I had been a paper holdout for a long time, and still enjoy a good paperback or hardcover book from time to time. The Kindle's influence on my reading is noticeable though. Of the 21 books read, a whopping 17 of them were read on the Kindle.
+
+I've found the Kindle really boosts the number of impulse reads. The advantage is that I read things (like Monoculture and Wool) that I probably would have not seen otherwise. The disadvantage is that my count of "started to read but haven't finished" has never been higher.
+
+As with every year, if the book made the list below then I enjoyed it on some level—life is too short to waste time on bad books. For fiction, it's hard to beat Wool and I love me some Patrick Rothfuss (I also have to admit that I enjoyed the Hunger Games much, much more than anticipated). 
+
+For non-fiction, Design is a Job is my top choice. It's a book that I honestly wasn't very excited for, but given how solid the A Book Apart series has been, I thought I'd give it a go anyway. I'm glad I did. Smart, funny, helpful—it's just a fantastic read.
+
+1. [Designing Devices](http://www.amazon.com/gp/product/B006QY2GAQ/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B006QY2GAQ) by Dan Saffer
+2. [Flinch](http://www.amazon.com/gp/product/B0062Q7S3S/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0062Q7S3S) by Julien Smith
+3. [Freedom](http://www.amazon.com/gp/product/0451231899/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0451231899) by Daniel Suarez
+4. [Monoculture](http://www.amazon.com/gp/product/0986853801/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0986853801) by F S Michaels
+5. [The Brain and Emotional Intelligence](http://www.amazon.com/gp/product/1934441155/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1934441155) by Daniel Goleman
+6. [The Wise Man's Fear](http://www.amazon.com/gp/product/0756404738/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0756404738) by Patrick Rothfuss
+7. [The Hunger Games](http://www.amazon.com/gp/product/0439023521/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0439023521) by Suzanne Collins
+8. [Catching Fire](http://www.amazon.com/gp/product/0439023491/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0439023491) by Suzanne Collins
+9. [Mockingjay](http://www.amazon.com/gp/product/0439023513/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0439023513) by Suzanne Collins
+10. [APIs: A Strategy Guide](http://www.amazon.com/gp/product/1449308929/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449308929) by Daniel Jacobson, Greg Brail and Dan Woods
+11. [Weaving the Web](http://www.amazon.com/gp/product/006251587X/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=006251587X) by Tim Berners-Lee
+12. [Design is a Job](http://www.abookapart.com/products/design-is-a-job) by Mike Monteiro
+13. [The Wind Through the Keyhole](http://www.amazon.com/gp/product/1451658915/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1451658915) by Stephen King
+14. [The Medium is the Massage](http://www.amazon.com/gp/product/1584230703/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1584230703) by Marshall McLuhan
+15. [The Shape of Design](http://www.shapeofdesignbook.com/) by Frank Chimero
+16. [Everyware](http://www.amazon.com/gp/product/0321384016/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321384016) by Adam Greenfield
+17. [The Mobile Frontier](http://rosenfeldmedia.com/books/mobile-design/) by Rachel Hinman
+18. [The Naked Presenter](http://www.amazon.com/gp/product/0321704452/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321704452) by Garr Reynolds
+19. [SMS Uprising: Mobile Activism in Africa](http://www.amazon.com/gp/product/1906387354/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1906387354) edited by Sokari Ekine
+20. [Wool Omnibus Edition](http://www.amazon.com/gp/product/B0071XO8RA/ref=as_li_ss_tl?ie=UTF8&tag=timkadcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0071XO8RA) by Hugh Howey
+21. [Content Strategy for Mobile](http://www.abookapart.com/products/content-strategy-for-mobile) by Karen McGrane
