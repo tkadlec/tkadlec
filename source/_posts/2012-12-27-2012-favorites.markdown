@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "2012 Favorites"
-date: 2012-12-27 09:54
+date: 2012-12-27 06:54
 comments: true
 categories: 
 tags:
 - "2012"
 - site
 ---
-It's the end of the year which means that "Best of 2012" articles are all the craze. Far be it from I too abstain from such trends. Here, then, are the five most popular posts on this site from 2012, in order. 
+It's the end of the year which means that "Best of 2012" articles are all the craze. Far be it from I too abstain from such memes. Here, then, are the five most popular posts on this site from 2012. 
 
 ##[WTFWG](http://timkadlec.com/2012/05/wtfwg)
 Where-in I get unusually riled up and rant about the picture vs. srcset situation and how it was handled. The conversation has evolved, but I still have concerns about how parts of the process were handled.
