@@ -21,7 +21,7 @@ While I’m not willing to go quite as far as that, I do think the term has beco
 Originally, it worked out alright. ‘Mobile’ came to encompass both the device and the context of use in one fell swoop. It could do that, because their wasn't a lot of diversity in the kinds of devices you could call 'mobile'. In addition, those devices lacked the capability of offering a full-web experience. ‘Mobile’ use was pretty clearly defined because to be quite honest - the devices weren't capable of offering much more.
 
 {% fig The word 'mobile' is loaded full of historical assumptions. banner %}
-	{% img /images/oldphones.jpg Three old phones %}
+	{% img /images/old-phone.jpg An old phone %}
 {% endfig %}
 
 Fast-forward to today. Now, using the historical definition of a ‘mobile’ device, we have smart phones, tablets, even netbooks - all of which are substantially more capable of providing a rich, full-web experience than their ‘mobile’ ancestors. As a result, there is much more variety in ‘mobile’ - both in terms of device type and use case. The device and the context no longer go hand-in-hand, they must be decoupled.
