@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why we need responsive images"
-date: 2013-06-10 21:58
+date: 2013-06-11 10:20
 comments: true
 categories: 
 tags: 
