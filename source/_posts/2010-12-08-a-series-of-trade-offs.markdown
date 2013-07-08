@@ -9,7 +9,7 @@ tags:
 - coding
 - semantics
 - standards
-- work process
+- process
 ---
 
 Jeremy Keith recently wrote a post about some of the [false dichotomies in web development](http://adactio.com/journal/1714/). When faced with two options, we are often presented with a solution that paints one option black and one white as if there was no middle ground. I've attempted to write a post along a similar lines many times, though to be perfectly honest, none of my drafts painted the scene quite as well as Jeremy did:

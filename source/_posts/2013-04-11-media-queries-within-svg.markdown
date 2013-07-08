@@ -8,6 +8,7 @@ tags:
 - responsive
 - SVG
 - images
+excerpt: "There has been a lot of interesting chatter regarding SVG as of late. One aspect in particular that is getting quite a bit of attention is the ability to embed media queries within SVG files. But just how well supported is this feature?"
 ---
 
 There has been a lot of interesting chatter regarding SVG as of late, including thorough posts by [David Bushell](http://dbushell.com/2013/02/04/a-primer-to-front-end-svg-hacking/) and [Chris Coyier](http://css-tricks.com/using-svg/). One aspect in particular that is getting quite a [bit of attention](http://blog.cloudfour.com/media-queries-in-svg-images/) is the ability to embed media queries within SVG files. Even more amazing is the fact that this was first talked about by [Andreas Bovens of Opera all the way back in 2009](http://my.opera.com/ODIN/blog/2009/10/12/how-media-queries-allow-you-to-optimize-svg-icons-for-several-sizes)!

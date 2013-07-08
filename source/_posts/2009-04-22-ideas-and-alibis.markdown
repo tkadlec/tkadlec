@@ -8,7 +8,7 @@ wordpress_id: 36
 categories:
 - Work Process
 tags:
-- work process
+- process
 arrange: "palatino"
 body_id: "lightbulb"
 ---

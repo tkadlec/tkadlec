@@ -8,6 +8,7 @@ tags:
 - performance
 - responsive
 - images
+excerpt: "The topic of responsive images has been one of the most hotly debated topics amongst web developers for what feels like forever. It’s a messy issue for sure. The current solutions for responsive images do come with some complexity and overhead. But the cost of standing still is far too great to just do nothing."
 ---
 The topic of responsive images has been one of the most hotly debated topics amongst web developers for what feels like forever. I think Jason Grigsby was perhaps the first to [publicly point out](http://blog.cloudfour.com/css-media-query-for-mobile-is-fools-gold/) that simply setting a percentage width on images was not enough, you needed to resize these images as well.  He showed that if you served appropriately sized images on the original responsive demo site, you could shave 78% off the weight of those images (about 162kB) on small screens.
 

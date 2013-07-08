@@ -9,7 +9,7 @@ categories:
 - Work Process
 tags:
 - dissonance
-- work process
+- process
 ---
 
 People tend to associate with people most like them. We hang out with people with similar hobbies, career paths, social circles and viewpoints. There's a certain level of comfort in surrounding yourself with people like yourself.

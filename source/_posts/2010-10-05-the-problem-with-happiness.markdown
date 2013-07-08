@@ -7,7 +7,7 @@ title: The Problem With Happiness
 wordpress_id: 733
 tags:
 - happiness
-- work process
+- process
 ---
 
 In an interesting post on the Harvard Business Review, [Tony Schwartz argues that happiness is overrated](http://blogs.hbr.org/schwartz/2010/10/happiness-is-overrated.html):

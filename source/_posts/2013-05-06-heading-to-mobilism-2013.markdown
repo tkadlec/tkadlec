@@ -8,6 +8,7 @@ tags:
 - speaking
 - conferences
 - mobile
+excerpt: "A week from now I'll be on a plane heading to Amsterdam for the excellent Mobilism conference, playing the role of MC."
 ---
 A week from now I'll be on a plane heading to Amsterdam for the excellent Mobilism conference. This is year three for them, and you only need to take one look at [this year's program](http://mobilism.nl/2013/programme) to see just how incredible the event is going to be. The lineup is full of great speakers with fantastic topics to discuss! Just as impressive is the list of [attendees](http://mobilism.nl/2013/attendees)—there's sure to be some great discussions with a group like this all in one place.
 

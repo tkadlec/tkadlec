@@ -8,7 +8,7 @@ wordpress_id: 41
 categories:
 - Work Process
 tags:
-- work process
+- process
 ---
 
 One of the highlights of SXSW this year for me personally, was being able to see a panel with [Andy Budd](http://www.andybudd.com/) of [Clearleft](http://www.clearleft.com/), a person and company for whom I have the utmost respect. The panel was about usability testing and the tools you can use to better know your users, but one of the major takeaways I got had more to do with how to approach your job in general.

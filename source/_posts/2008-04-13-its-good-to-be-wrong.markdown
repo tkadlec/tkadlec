@@ -9,7 +9,7 @@ categories:
 - Work Process
 tags:
 - failure
-- work process
+- process
 ---
 
 Being wrong is a good thing. I know...I know...we've been told our entire lives that it's better to be right than wrong. I think, though, that in the design/development industry, it's good to be wrong sometimes.

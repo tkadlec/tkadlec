@@ -8,6 +8,7 @@ tags:
 - responsive
 - books
 - workflow
+excerpt: "Responsive design has many challenges, and one of the greatest for many is conquering the workflow. Stephen Hay's new book walks through the process he has settled on."
 ---
 Responsive design has many challenges. Performance. Tables. Images. Content. Testing. Each of these, and so much more, must be carefully considered. Most of the solutions are still coming together. We are, as some have been apt to say, making this up as we go.
 

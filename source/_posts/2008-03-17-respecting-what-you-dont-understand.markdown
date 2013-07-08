@@ -9,7 +9,7 @@ categories:
 - Work Process
 tags:
 - respect
-- work process
+- process
 ---
 
 While at SXSW, I had the privilege of attending a panel called Respect! During the panel, [Jason Santa Maria](http://www.jasonsantamaria.com) made a comment that really struck me. He said that it's "difficult to respect what I don't understand".

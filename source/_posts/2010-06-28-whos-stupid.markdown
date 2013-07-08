@@ -7,7 +7,7 @@ title: Who's Stupid?
 wordpress_id: 525
 tags:
 - clients
-- work process
+- process
 ---
 
 Andy Rutledge [wrote a post](http://www.andyrutledge.com/stupid-is-as-stupid-does.php) that is frighteningly on target. He argues that the "quality of your client experiences is directly proportional to the quality of your professionalism". He goes on to state that if your clients are "stupid" you may want to take a step back and consider who may truly be responsible for these failed interactions. He starts by pointing out how you can set yourself up for failure before you even start on a project:

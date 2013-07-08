@@ -7,7 +7,7 @@ title: When The User Comes First
 wordpress_id: 110
 tags:
 - usability
-- work process
+- process
 ---
 
 Far too many projects and marketing campaigns today start by answering the question "What value does this have for our company?" The question shouldn't center around the company, the question should center around the users. What we should be asking is "What value does this have for our users?"

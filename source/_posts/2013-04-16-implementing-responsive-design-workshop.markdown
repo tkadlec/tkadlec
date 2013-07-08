@@ -8,6 +8,7 @@ tags:
 - book
 - workshop
 - responsive
+excerpt: "On June 14th, I'm going to teach a one-day Implementing Responsive Design workshop at the McNamara Alumni Center in Minneapolis. Registration is open and limited to 30 people."
 ---
 
 On June 14th, I'm going to teach a one-day [Implementing Responsive Design workshop](http://implementingresponsivedesign.com/workshops.php) at the McNamara Alumni Center in Minneapolis. The workshop will run the full day and will go from the core tenants of responsive design through to more advanced topics such as performance optimization, feature detection, RESS and more. We'll cover topics from the book, as well as a loads of new stuff.

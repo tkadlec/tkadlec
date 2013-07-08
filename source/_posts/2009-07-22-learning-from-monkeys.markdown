@@ -8,7 +8,7 @@ wordpress_id: 31
 categories:
 - Work Process
 tags:
-- work process
+- process
 ---
 
 While browsing YouTube diligently working, I stumbled upon a [video showing how to open a banana like a monkey](http://www.youtube.com/watch?v=nBJV56WUDng). I like bananas, and who doesn't like monkeys, so I gave it a watch. Turns out, I've been opening bananas the wrong way my entire life.
