@@ -8,7 +8,7 @@ arrange: "full"
 comments: false
 prism: false
 ---
-I'm an independent web developer living in northern Wisconsin with my wife and three daughters.
+I'm an independent web developer, consultant and trainer living in northern Wisconsin with my wife and three daughters.
 
 I'm very passionate about the Web and can frequently be found [speaking](http://timkadlec.com/talks) about what I've learned at a variety of web conferences.
 
