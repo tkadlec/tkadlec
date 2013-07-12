@@ -218,6 +218,33 @@ header[role=banner] nav li{
 
 .vevent{
 	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #d2d2d2;
+	.date{
+		float: left;
+		margin-right: 2em;
+		color: #999;
+		margin-top: .75em;
+		min-width: 10em;
+
+		time{
+			font-size: 1em;
+		}
+	}
+	.event-details{
+		overflow: hidden;
+	}
+	h3{
+		font-weight: bold;
+		font-size: 1em;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.resources{
+		font-size: .8em;
+		margin-bottom: 0;
+		margin-top: .5em;
+	}
 }
 
 footer{

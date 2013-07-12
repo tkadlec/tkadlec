@@ -21,7 +21,7 @@ A great example comes from an email conversation I had with [Ilya Grigorik](http
 
 The example he cited was [Breaking News](http://www.breakingnews.com/popular). On a small viewport the site uses tabs for latest and most popular posts. By default, the latest posts are displayed. These are a series of tweets with no images other than the Twitter avatars. 
 
-The popular—not displayed by default—contains numerous images. Is it fair to say that this weight shouldn’t be loaded by default? That’s questionable. Due to the cost of making a connection on a mobile network, you could easily argue that if the popular tab is frequently used by visitors, those images should be there—maybe not before page load, but certainly shortly after.
+The popular tab—not displayed by default—contains numerous images. Is it fair to say that this weight shouldn’t be loaded by default? That’s questionable. Due to the cost of making a connection on a mobile network, you could easily argue that if the popular tab is frequently used by visitors, those images should be there—maybe not before page load, but certainly shortly after.
 
 It’s an excellent point—and an example of one of the many gray areas on the web. We can’t possibly prescribe the appropriate solution here without knowing a little about the behavior of the visitors to the site.
 
