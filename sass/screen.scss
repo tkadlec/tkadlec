@@ -17,6 +17,9 @@ body{
 a{
 	color: $accent;
 }
+ins{
+	text-decoration: none;
+}
 a:hover{
 	color: lighten($accent, 20);
 }
