@@ -22,7 +22,7 @@ First, any credit has to go to the awesome team at Cloud Four. [Most of the test
 On to the results!
 
 
-## Test One: Image Tag
+<h2 id="test1">Test One: Image Tag</h2>
 
 [Run the test](http://timkadlec.com/mq/test1.php)
 
@@ -126,9 +126,7 @@ If there is one method of hiding images that I can say with 100% certainty shoul
 Simple: don’t do this.
 
 
-## Test Two: Background Image Display None
-
-
+<h2 id="test2">Test Two: Background Image Display None</h2>
 
 
 [Run the test](http://timkadlec.com/mq/test2.php)
@@ -237,7 +235,7 @@ The same as with the first test: every browser tested, aside from Opera Mini and
 Once again: don’t do this. Thankfully, as some of the other tests show, there are a few easy ways to hide background images without having the image requested.
 
 
-## Test Three: Background Image, Parent Object Set to Display None
+<h2 id="test3">Test Three: Background Image, Parent Object Set to Display None</h2>
 
 
 
@@ -344,7 +342,7 @@ Kudos to Jason Grigsby for catching this one. On the surface, it’s not entirel
 This method works well. With the exception of the over-eager Fennec, every tested browser only downloads the image when needed. The issue with this method is that you do have the requirement of being able to hide the containing element. If that’s an option, then feel free to go ahead and use this approach.
 
 
-## Test Four: Background Image with Cascade Override
+<h2 id="test4">Test Four: Background Image with Cascade Override</h2>
 
 [Run the test](http://timkadlec.com/mq/test4.php)
 
@@ -457,7 +455,7 @@ While certainly better than using display:none, this method is a little spotty.
 
 I’d avoid it. While the situation is improving, Android 2.x, which dominates the Android marketshare, still downloads both images as does Fennec and the Kindle. Between the three, but particularly because of Android, I would recommend looking at other options.
 
-## Test Five: Background Image Where Desktop Image Set with Min-Width
+<h2 id="test5">Test Five: Background Image Where Desktop Image Set with Min-Width</h2>
 
 
 [Run the test](http://timkadlec.com/mq/test5.php)
@@ -565,7 +563,7 @@ More browsers play along this time. Fennec, as always, just can’t control itse
 It’s also worth nothing that if you use this method, you’ll need to consider alternate options for Internet Explorer 8 and under. Those versions of the browser don’t support media queries, so no image will be applied. Of course, this is simple enough to fix with conditional comments and an IE specific stylesheet.
 
 
-## Test Six: Background Image Display None (max-device-width)
+<h2 id="test6">Test Six: Background Image Display None (max-device-width)</h2>
 
 [Run the test](http://timkadlec.com/mq/test6.php)
 
@@ -600,7 +598,7 @@ This test was the same as test two, but it used max-device-width for the media q
 I'm not going to spend much time on this, as it ended up being a throw away test. There were no differences in behavior between this and test two. The test was added because of a tweet where someone had mentioned they were getting different results than the original tests by Cloud Four, but the discrepancy ended up being caused by something else entirely (a typo, if I remember right).
 
 
-## Test Seven: Cascade Override for High Resolution
+<h2 id="test7">Test Seven: Cascade Override for High Resolution</h2>
 
 [Run the test](http://timkadlec.com/mq/test7.php)
 
