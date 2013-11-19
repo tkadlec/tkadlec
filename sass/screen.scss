@@ -71,11 +71,26 @@ article h3, .slats h3{
 .hentry section strong{
 	font-weight: bold;
 }
+.hentry .entry-content .note{
+	font-family: "Helvetica", Arial, sans-serf;
+	font-size: .75em;
+	color: rgb(99,99,99);
+	line-height: 1.4em;
+	padding: 1.5em 0;
+	margin-bottom: 1.5em
+
+}
 .hentry .entry-content ul {
 	list-style-type: disc;
 
 	li{
-		margin-left: 2em;
+		margin-left: 2.25em;
+		margin-bottom: .5em;
+	}
+}
+.hentry .entry-content ol {
+	li{
+		margin-left: 2.25em;
 		margin-bottom: .5em;
 	}
 }
@@ -357,6 +372,17 @@ article.georgia{
 }
 footer{
 	padding-top: 1em;
+}
+.plain caption{
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	padding: .5em;
+	margin-bottom: .5em;
+	border-bottom: 1px dotted rgba(0,0,0,.2);
+}
+table{
+	border: 1px double #ccc;
 }
 /* Pub */
 .elsewhere{

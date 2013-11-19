@@ -35,4 +35,4 @@ That last line right there is why I enjoy working with web technologies. It’s 
 
 The web has the power to go anywhere—any network, any device, any browser. Why not take advantage of that?
 
-<p><ins><strong>Update:</strong> This post ended up being a little more controversial than I anticipated, so I ended up following it up tackling the topic from another angle in a follow-up, ["Being Practical"](http://timkadlec.com/2013/08/being-practical/). Aaron Gustafson also followed up with an excellent look at the ["cost" of progressive enhancement](http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/) that is well worth your time.</ins></p>
+**Update:** This post ended up being a little more controversial than I anticipated, so I ended up following it up tackling the topic from another angle in a follow-up, ["Being Practical"](http://timkadlec.com/2013/08/being-practical/). Aaron Gustafson also followed up with an excellent look at the ["cost" of progressive enhancement](http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/) that is well worth your time.
