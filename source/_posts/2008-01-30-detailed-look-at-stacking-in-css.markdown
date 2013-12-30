@@ -18,63 +18,31 @@ Most of the time, stacking order just kind of works behind the scenes and we don
 The z-index is so named because it affects an elements position along the z-axis. The z-axis is the axis that goes from front to back from the user. If we think of the x-axis and y-axis as height and width, then z-axis would be the depth. The higher the z-index of an element, the closer it becomes to the user, and the lower the z-index, the further back on the screen it appears.
 
 If we do not specify any z-index values, the default stacking order from closest to the user to furthest back is as follows:
-
-
-
 	
   1. Positioned elements, in order of appearance in source code
-
-	
   2. Inline elements
-
-	
   3. Non-positioned floating elements, in order of appearance in source code
-
-	
   4. All non-positioned, non-floating, block elements in order of source code
-
-	
   5. Root element backgrounds and borders
 
-
 Based on the default stacking order above, you can see that any element that has been positioned, whether relative or absolute, will be placed above any element that is not positioned. Both positioned and non-positioned elements are of course, above the background of our root element.
-
 
 ## Mixing Things Up A Bit
 
 
 Now let's say we want to move some of our elements around in the stacking order so different elements appear on top. We can use the z-index property on any positioned elements to adjust there stacking order. The z-index property can accept an integer, the auto value, or an inherit value. When using integers, the higher the positive number, the further up in the stacking order it will appear. You can use negative z-index values to move the element further down in the stacking order. If we do not use a z-index value on an element, it will render at the rendering layer of 0 and will not be moved. The stacking order now looks like this:
 
-
-
 	
   1. Positioned elements with z-index of greater than 0, first in order of z-index from lowest to highest, then in order of appearance in source code
-
-	
   2. Positioned elements, in order of appearance in source code
-
-	
   3. Inline elements
-
-	
   4. Non-positioned floating elements, in order of appearance in source code
-
-	
   5. All non-positioned, non-floating, block elements in order of source code
-
-	
   6. Positioned elements with z-index of less than 0, first in order of z-index from highest to lowest, then in order of appearance in source code.
-
-	
   7. Root element backgrounds and borders
 
-
-
-
 ## Stacking Context
-
-
-An interesting thing happens though when we set a z-index value to 0 or auto...we establish a new stacking context. Let's say we set #front to have a z-index of 5. Now, we have just established a new stacking context for any element descending from (contained in) #front. If #middle is contained within #front, and I set its z-index to 2, it should still appear above #front. Why? Because since we set a z-index value to #front, every descendant of #front is now being stacked in relation to #front. It may be helpful to look at this as a multiple number system (as demonstrated by Eric Meyer in [CSS: The Definitive Guide](http://www.amazon.com/gp/product/0596527330?ie=UTF8&tag=timkadcom-20&link_code=as3&camp=211189&creative=373489&creativeASIN=0596527330)):
+An interesting thing happens though when we set a z-index value to 0 or auto: we establish a new stacking context. Let's say we set #front to have a z-index of 5. Now, we have just established a new stacking context for any element descending from (contained in) #front. If #middle is contained within #front, and I set its z-index to 2, it should still appear above #front. Why? Because since we set a z-index value to #front, every descendant of #front is now being stacked in relation to #front. It may be helpful to look at this as a multiple number system (as demonstrated by Eric Meyer in [CSS: The Definitive Guide](http://www.amazon.com/gp/product/0596527330?ie=UTF8&tag=timkadcom-20&link_code=as3&camp=211189&creative=373489&creativeASIN=0596527330)):
 
 <pre>
 <code class="language-css">	

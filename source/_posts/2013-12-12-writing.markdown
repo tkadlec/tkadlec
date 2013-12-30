@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Writing"
+date: 2013-12-12 10:00
+comments: true
+categories: 
+tags:
+- writing
+body_id: "writing"
+---
+Everyone knows the dream. You go to school/work/some other public setting and everyone starts laughing at you. Horrified, you realize you’ve forgotten to put on your pants that day. Then the therapy sessions start.
+
+It’s a common dream because it plays off a very common fear: that of being exposed. Of having nothing to hide (both metaphorically, and in the dream, anatomically). 
+
+{% pullquote left %}
+When I wrote [my book](http://implementingresponsivedesign.com), I started off writing in a vacuum. The first several months, I quietly put words on a page sharing with very few people outside of my publisher. I was hungry for feedback, but my discomfort outweighed that hunger. {"I have an incredibly active inner critic (a grumpy little fellow) and he was letting me know rather loudly that sharing what I was writing and thinking was going to expose me too much to people I respected."}
+{% endpullquote left %}
+
+Surely if I did this, they would discover that I don’t know what I’m doing. That I’m making this up as I go. They’d read what I had written, eyes glued in horror as they realized I had how absolutely unqualified I was to be helping other people learn things I was still figuring out.
+
+Eventually, and painfully, I got over this. I started getting bolder about sharing what I was writing, asking questions and seeking feedback. The impact it had on what I produced was dramatic. Thoughts that were loosely formed started to cement themselves into something concrete. I started connecting the scattered dots in my head to form something far more interesting. 
+
+I’m proud of how the book turned out. There is little doubt in my mind that much of that is owed to the fact that I sought feedback as I worked.
+
+## Idea ping-pong
+In his book, [Where Good Ideas Come From](http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380), Steven Johnson talks about the importance of not thinking in isolation.
+
+> The trick to having good ideas is not to sit around in glorious isolation and try to think big thoughts. The trick is to get more parts on the table.
+
+One of the best way to &ldquo;get more parts on the table&rdquo; is to get more people involved and get those different perspectives. If those opinions differ from your own, that’s all the better. Dissonance is important and valuable.
+
+This is why I lament the decline in personal blogging.
+
+When I first started working on the web, it was this beautiful era of personal blogs. Every day there were posts discussing new techniques people were using, countering points made by someone else’s post from a day before, sharing people’s progression from &ldquo;I don’t have a clue what’s going on&rdquo; to &ldquo;I think this might solve my issue&rdquo;.  I owe so much to the constant ping-pong of ideas that was happening.
+
+After awhile, I decided to build myself one of them fancy ‘blog’ thingies so I could write stuff too. I wanted a place to experiment and write about what I was learning. Part of the reason was that I thought it might be helpful to share these things somewhere for my co-workers to read. And part of it was because it just seemed so fun.
+
+I don’t think I really understood it at the time, but the real value turned out to not be so much for the people I worked with, but for me.
+
+{% pullquote right %}
+I learned quickly that every time I write a post about some new technique or tool, I learn more about that topic. I sit down to explain something, and as I do I realize I didn’t really understand it well enough to write lucidly about it. So I dig into the topic a bit more and find the answers so that I can. {"It's one thing to use a technology. It's another to be able to explain it to someone."}
+{% endpullquote right %}
+
+When I write about my opinion on something, I find that having to articulate my thoughts into words requires me to have a bit clearer picture of why exactly my opinion is what it is. Don't like frameworks? Fine. But why? What was it that made me want to avoid them? How could I explain that to someone who was a big fan of them?
+
+Each time I publish one of these posts, I expose my ideas and opinions to feedback. I openly invite people to disagree, to critique and to improve on my ideas. And just as it did when I wrote the book, that feedback helps me to refine my thinking and learn a little more. (For another person's perspective on "having opinions" online, I highly recommend [Marie Connelly's post](http://marieconnelly.com/2013/12/my-orange-coat-of-internet-opinions/).)
+
+## Write something
+Someone recently emailed me asking for what advice I would give to someone new to web development. My answer was to get a blog and write.
+
+Write about everything. It doesn’t have to be some revolutionary technique or idea. It doesn’t matter if someone else has already talked aobut it. It doesn’t matter if you might be wrong—there are plenty of posts I look back on now and cringe. You don’t have to be a so called &ldquo;expert&rdquo;—if that sort of label even applies anymore to an industry that moves so rapidly. You don’t even have to be a good writer! (I’ve been told I abuse commas in unnatural ways.)
+
+None of that really matters. What matters is articulating your ideas—[&ldquo;sharing ideas and passions&rdquo;](http://www.zeldman.com/2013/12/11/this-is-a-website/) as Jeffrey Zeldman elegantly stated. When you do, your understanding of those ideas and passions will increase and you (as well as others who takes the time to discuss what you wrote) will benefit immensely from the discussions that follow.
+
+At the risk of sounding like the old man who reminisces about the &ldquo;good ole’ days&rdquo;, I miss the days where everyone was constantly writing about what they thought and learned. I hope we don’t let go of that.

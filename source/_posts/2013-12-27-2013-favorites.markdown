@@ -1,0 +1,26 @@
+---
+layout: post
+title: "2013 Favorites"
+date: 2013-12-27 10:47
+comments: true
+categories: 
+tags:
+- "2013"
+- site
+---
+Time for the long-running (since way back in [2012](http://timkadlec.com/2012/12/2012-favorites/)!) annual tradition of listing the top five most popular posts on this site of the past year. Here are 2013’s favorites, in order of popularity.
+
+## [Why We Need Responsive Images](http://timkadlec.com/2013/06/why-we-need-responsive-images/)
+The responsive image discussion is the Never Ending Story of web technology. Some people were, understandably, getting frustrated and questioning whether it was worth the fuss so I decided to see how much page weight could be saved by serving appropriately sized images to small screens.
+
+## [Windows Phone 8 and Device-Width](http://timkadlec.com/2013/01/windows-phone-8-and-device-width/)
+Building off of last year’s post on [snap mode and responsive design in IE10](http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/), it turned out the mystery was not yet completely solved as Windows Phone 8 has some odd behavior when it comes to what to return for device-width.
+
+## [Setting a Performance Budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
+Getting people invested in performance has to happen from the start of a project. Setting a performance budget is a great way to help with that.
+
+## [Why We Need Responsive Images: Part Deux](http://timkadlec.com/2013/11/why-we-need-responsive-images-part-deux/)
+Returning to the topic of responsive images, this time looking at the impact on memory, decoding and resizing.
+
+## [Media Queries Within SVG](http://timkadlec.com/2013/04/media-queries-within-svg/)
+There was a lot of excitement around using media queries inside SVG files, so I decided to test a little and see which browsers applied those media queries and when.

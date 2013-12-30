@@ -231,9 +231,6 @@ header[role=banner] nav li{
     text-align: center;
 }
 
-
-
-
 .vevent{
 	margin-bottom: 1em;
 	padding-bottom: 1em;
@@ -336,6 +333,62 @@ footer{
 }
 #lightbulb #wrap{
 	padding-top: 2em;
+}
+#writing {
+	@media screen and (min-width: 28.75em) {
+		#wrap{
+			background: image-url("pen-head-sm.png") top center no-repeat;
+			background-size: 100%;
+		}
+	}
+	@media screen and (min-width: 44.5em) {
+		#wrap{
+			background: image-url("pen-head.png") top center no-repeat;
+			background-size: auto;
+		}
+	}
+
+}
+.rating {
+	display: block;
+	&:before {
+		content: "Rating: ";
+		font-weight: bold;
+	}
+
+	@media screen and (min-width: 34.375em) {
+		display: inline-block;
+		visibility: hidden;
+		&:before{
+			content: "";
+		}
+	}
+}
+@media screen and (min-width: 34.375em) {
+	[data-rating="3of5"]:after{
+		content: "\2605 \2605 \2605 \2606 \2606";
+		visibility: visible;
+		margin-left: -1.25em;
+
+	}
+	[data-rating="4of5"]:after{
+		content: "\2605 \2605 \2605 \2605 \2606";
+		visibility: visible;
+		margin-left: -1.25em;
+	}
+	[data-rating="5of5"]:after{
+		content: "\2605 \2605 \2605 \2605 \2605";
+		visibility: visible;
+		margin-left: -1.25em;
+	}
+}
+#books-read{
+	.hentry ol li {
+		p:first-of-type{
+			margin-top: .5em;
+		}
+
+	}
 }
 article.palatino{
 	font-family: Palatino, Georgia, serif;
