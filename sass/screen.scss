@@ -437,6 +437,44 @@ footer{
 table{
 	border: 1px double #ccc;
 }
+/* About page */
+.about {
+	header{
+		text-align: left;
+	}
+
+	@media screen and (min-width: 63em) {
+		#wrap &{
+			header, section{
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#what-i-do{
+				float: left;
+				width: 62%;
+				margin-bottom: 1.5em;
+			}
+			#bio{
+				float: right;
+				width: 30%;
+				font-size: .8em;
+				line-height: 1.5em;
+
+				h2{
+					margin-top: 0;
+				}
+			}
+			.workStatus{
+				clear: both;
+				margin-bottom: 1.5em
+			}
+			.elsewhere{
+				clear: both;
+			}
+		}
+	}
+}
 /* Pub */
 .elsewhere{
 	h2 {
