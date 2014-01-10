@@ -48,7 +48,7 @@ Each time I publish one of these posts, I expose my ideas and opinions to feedba
 ## Write something
 Someone recently emailed me asking for what advice I would give to someone new to web development. My answer was to get a blog and write.
 
-Write about everything. It doesn’t have to be some revolutionary technique or idea. It doesn’t matter if someone else has already talked aobut it. It doesn’t matter if you might be wrong—there are plenty of posts I look back on now and cringe. You don’t have to be a so called &ldquo;expert&rdquo;—if that sort of label even applies anymore to an industry that moves so rapidly. You don’t even have to be a good writer! (I’ve been told I abuse commas in unnatural ways.)
+Write about everything. It doesn’t have to be some revolutionary technique or idea. It doesn’t matter if someone else has already talked about it. It doesn’t matter if you might be wrong—there are plenty of posts I look back on now and cringe. You don’t have to be a so called &ldquo;expert&rdquo;—if that sort of label even applies anymore to an industry that moves so rapidly. You don’t even have to be a good writer! (I’ve been told I abuse commas in unnatural ways.)
 
 None of that really matters. What matters is articulating your ideas—[&ldquo;sharing ideas and passions&rdquo;](http://www.zeldman.com/2013/12/11/this-is-a-website/) as Jeffrey Zeldman elegantly stated. When you do, your understanding of those ideas and passions will increase and you (as well as others who takes the time to discuss what you wrote) will benefit immensely from the discussions that follow.
 
