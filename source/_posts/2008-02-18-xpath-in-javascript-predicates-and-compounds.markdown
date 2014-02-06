@@ -21,18 +21,14 @@ Welcome to the second part of my look at XPath and how it can be used in Javascr
 So far, we haven't dealt with any compound location paths...each of our expressions has just gotten nodes that are direct children of the context node. However, we can continue to move up and down the document tree by combining single location paths. One of the ways we can do this (and this should look quite familiar to anyone who has moved through directories elsewhere) is by using the forward slash '/'. The forward slash continues to move us one step down in the tree, relative to the preceding step.
 
 For example, consider the following:
-`
+<pre>
+<code class="language-javascript">
+myXPath = "//div/h3/span";
 
+var results = document.evaluate(myXPath, document, null, XPathResult.ANY_TYPE, null);
+</code>
+</pre>
 
-
-	
-  1. myXPath = "//div/h3/span"
-
-	
-  2. var results = document.evaluate(myXPath, document, null, XPathResult.ANY_TYPE, null);
-
-
-`
 The expression above will first go to the root node thanks to our '//'. It will then get any div elements that are descendants of the root node. Then, we use the forward slash to move down one more level. Now we are saying to get all h3 elements that are direct descendants of one of the div elements that was returned. Finally, we once again use our forward slash to move down one more level, and tell the expression to return any span elements that are direct descendants of the h3 elements we already found.
 
 In addition, we can use the double period '..' to select an elements parent nodes. For example, if we use an expression like '//@title', we will get all title attributes in the document. Let's say that what we actually wanted, is all elements in the document that have title attributes. Using the parent selector (..), we can do just that. The expression '//@title/..' first grabs all title attributes. Then the double period tells the expression to step back up and grab the parent node for each of those title attributes.
@@ -49,35 +45,28 @@ Each expression we've seen returns a bunch of nodes matching criteria. Occasiona
 
 Predicates use the typical Boolean operators, '+', '<', '>', '<=', '>=', '!=', 'and' and 'or'. As promised, the single period becomes much more useful when combined with predicates. For example, we can grab all h3 elements that have a value of "Yaddle" by using the following expression:
 
-`
+<pre>
+<code class="language-javascript">
+//h3[.="Yaddle"]
+</code>
+</pre>
 
-
-
-	
-  * //h3[.="Yaddle"]
-
-
-`
 The dot tells the expression to check for the value of that current node. If the value equals "Yaddle", the h3 will be returned to us. Let's take a look at another example, one maybe a bit more practical. Let's say you have a calendar of events, and all you want to retrieve all the events that occurred between 2005 and 2007. Being the smart developers we are, we wrapped all the event years in a span with a class of year, like so:
-`
 
+<pre>
+<code class="language-markup">
+&lt;span class="year"&gt;2007&lt;/span&gt;
+</code>
+</pre>
 
-
-	
-  * <span class="year">2007</span>
-
-
-`
 Getting all the year spans where the value is between 2005 and 2007 is easy. We can simply do this:
-`
 
+<pre>
+<code class="language-javascript">
+//span[@class="year"][.<= 2007 and .>=2005]
+</code>
+</pre>
 
-
-	
-  * //span[@class="year"][.<= 2007 and .>=2005]
-
-
-`
 Ok...granted, at first glance that is pretty ugly, so let's break it down.
 
 
