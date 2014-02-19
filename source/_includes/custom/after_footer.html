@@ -17,6 +17,7 @@
   })();
 
 </script>
+{% comment %}
 <script type="text/javascript">
 (function(){
   var fusion = document.createElement('script');
@@ -24,3 +25,24 @@
   fusion.async = true;
   (document.head || document.getElementsByTagName('head')[0]).appendChild(fusion);
 })();</script>
+{% endcomment %}
+
+<script>
+window.onload = function(){
+  setTimeout(function(){
+    window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
+    var t = performance.timing || {};
+
+    if (!t) {
+      //fail silently
+      return;
+    }
+    var start = t.navigationStart,
+        end = t.loadEventEnd
+        loadTime = (end - start) / 1000;
+
+    var copy = document.getElementsByClassName('copy');
+    copy[0].innerHTML += "<span class='loaded'>This page loaded in <strong>" + loadTime + " seconds</strong>.</span>";
+  }, 0); 
+}
+</script>

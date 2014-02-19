@@ -9,8 +9,8 @@ $accent: rgb(211,52,5);
 /* Type */
 $font-base: 16px;
 $font-base-line-height: 22px;
-$stack: Helvetica, Arial, sans-serif;
-$stack: Palatino, Georgia, "Times New Roman", serif;
+$stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack-serif: Palatino, Georgia, "Times New Roman", serif;
 @mixin transition($property: all, $duration: 1s, $type: linear) {
     -webkit-transition: $property $duration $type;
     -moz-transition: $property $duration $type;
@@ -46,3 +46,4 @@ $max-width: $columns * ($column-width + $gutter-width);
 em{
     font-style: italic;
 }
+

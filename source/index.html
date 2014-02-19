@@ -5,25 +5,46 @@ footer: false
 sidebar: false
 comments: false
 prism: false
+body_id: home
 ---
 
 {% assign index = true %}
 
 <div class="home">
-
-	{% img plright http://timkadlec.com/images/me.jpg "Tim Kadlec" "Tim Kadlec" %}
-<div class="workStatus">
-   {% include custom/asides/work_status.html %}  
-</div>   
-    
-	<div class="recent">
-		<h2>Recent posts</h2>
-		{% include asides/recent_posts.html %}
+	<div class="lc">
+		<div class="media">
+			{% img img http://timkadlec.com/images/me.jpg "Tim Kadlec" "Tim Kadlec" %}
+			<div class="bd">
+				<p class="lede"><strong>I'm Tim Kadlec.</strong> I help organizations with problems at the intersection of performance &amp; responsive design.</p>
+	    		<ul class="clients">
+			    	<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAAXCAQAAABEimJEAAAC5klEQVR4Ad3YXYiVVRTG8QeHiBQKFHJgLAtsikiRaKzI7IOMxgglyKACpeaigsqaKbooj30oGFJzKDgTDBkh9A+EabKbPhSRRoIuysq+KPugKOii6QxT4yQ9BQeCvXjj7D3Quej93b2w2Av2etd691brYQNmmmaGPzDLEX0cYJLfaf4nppjhGKN0I8QEzo787W8fs1a07MTZphE9uCPeQXQxiQt9J1r24WyfIR7BHXECsQgXa4qWozjbOOJt3BHHEKtxsV+FEKcVbfZ2xI+4I15B3ImLfSGEuBAX2Mg83CEPIV7HxQ4IIZaxi21szVCjTg8LqPEA92canKMhnqQXcRfD1BLbglrI8lluFP9TQoj1jNPIAjXEAGM0sjzPKI9xFkIs4zl2siNbnUcRixjmqeTtVk5CiY28RuMfI4xxqRDiJZztDcRBXOgyxKbyaYS4EgefoGAvDvqFEIdwtl2Ij3ChzxGDuNBhxN04GEXBVzjxJ2cIIb7G2e5FvIuLiR24EIincXAfSpyNg++ZJ0Q3x3G2mxANXGiGpezHhYYQ4zi4HiWuwsEEEuIaXKAPMZ8JXOQo5/LTHIaz+BAH56PE7TjYjYTYgoO3WMF19EfcwDpOQQixhju4jVsjbuEKxnDwIufg4D36uJb+6nVYghALmQpRk5yKEttx8CASol5VAqXaLHUzK3Ewgtq6GgdHUPByVQ9WZRVvoYvzKixnKWIFa7jkX13MYvbg4HI24GAzamsAB/tQcDieCOhBQrwfmyUncDVGEL/gYhcwiINVqK0ncFBHiS5+wIlvERIL+BlnG2AhnoPF7MaJWbpRW3vaNvszcXAQIdGLC/RyES52pKIuvkQZDuFgHUqsrh7gYi0uMJ/NuNg9iBmc2I8yfBPnIaejxCYcPIxQ2TFuFvEMLvQBqtjnF1BbS+LXzqcoGK78hZB4HNPM0krxVUwz0yzTNDgZMZRETWWOlFWY40kGe1HwJg53aCsR+gtdgCsW6mzHBQAAAABJRU5ErkJggg==" alt=""></li>
+			    	{% comment %}<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAAZCAMAAADdXpaGAAAAMFBMVEW9u7v08/Pb2djf3t3o5+awr6/v7e3Qzs35+fizsrKsq6u4t7fAvr7IxsapqKj////tMzQiAAACVUlEQVR42sWWi46cMAwAQ95xYvv//7Y9E9Y+AgW1Um8UaQXEzmBvAMc/QSiNYIcCC4dI1XFJvT+8n15v8kYanT6Ej0gcLTWFkBlTT0UjByTweojQGgRWMrZuocKcJamByuEBhJ1OJo6roxPINRFR13XkrBZWZnXjAXQiM3s6g0c9SESUICKLR+cHkUGCP5+wmS9EWp0eKmLmu0Bn8oNIVGFz2VL4SiTOvqiINXFIv4FygCXyg8jQaGPWYo7H4I9IytuWs4xNPVYRCm7MlMqDSLY9NMVmRUUcn5gCJfrggwz8YqCIwPZnkc2uJCX00/9JpN+JmK0MKSVIIpLqlUgKk1jMSlnyz/s1IinkODGtoRImfrsTEWAXuajIAtqCzBlB3Sw9TxELXosEKwL1tcgGRNSYuZiS9HWnPoj8e0VkfS9GuiUDnSnvRf6uIlval68z5WAhNIIDmewOEWhph8pNa54rkvJk8x+Rskel1ECfUmJ4UONsnp89qhN+05r6cvuulRp8pjaJfb19rQjllw+0QguRL2LvRRzIi9hft4bGS5FGC7iIfGsNnyhtfIFl4j0JbRehjgfD34tIEPhJGHRUMw/EPTeiI1MRGvghS6pzcxEkabx4+/pbkabt1S2E64NErS19D2pkARGBzI6RTsB2I+JJYkydZ0nKkiKriFKsiRWByOx4NRnMlyJ9/zl/mQVePKL+Cy1RTayITHfyxencUHphLt11b2594IhcHA6sbPDduZ552HA3isyp2Md3euTFBFA8ROS/Y01gpMg/JsKba31SMgu/APumrIA470r3AAAAAElFTkSuQmCC" alt=""></li> {% endcomment %}
+			    	<li><img src="data:image/png;base64,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" alt=""></li>
+			    	<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAAXCAMAAAARMbArAAAAYFBMVEXO0Nabm52oqKiWl5q6u8OgoJ+np6Wpqanb3eKkpKOqqqmsrKvBw8uipK7j5OiZm6OeoKqmp62QkZb3+Pqusbv8/vzy8/Te3+P09vn///+rrLO0tbrv8PWxsbGGh4zq6+8xE4biAAADW0lEQVR4XsWW2Y4cMQhFDXhdat97/f+/TIFdMxlFeUznaCRjA77GZtSlDuGtdHp+jKT9LrKivmb8NPf2Ut+e+B9QRb3FinPxIzgUWlZfr8qdgc+AEZnneqrnqo3wVN77TQl+8/+IzQ/B1btXKwrR0n063n6r3fjw2z+iVbaqx1WpYgTS0+SBiN7HshzLbTRgCgCmAmzzHHgMAGLLenXXoJp2RZawK9okhwWlEg/OQj4OP4Z0jqzuATFZOgHnMAUiILIRMUY4oZAMkZXcFKBSPVhSfz60i0FWkiP6kr8XdQuab/sZgpHSjzvEGHqdc9Y9Vis3wTk0Wp1k6LXuTEJMpjmnSg1DZocerMNou5lnFd1bl8wgdjNq3UOVT0o6PoAvFYOW0lsImCgfJ74LblRsTQ3EBM3Edu4ex6EoRIzsZO90CJkSOsrL8c1+yoXRSztx9OMGRf15qcsWaoRWStdgUzgFTm6QoNvFS8HZorWSDJowQS/OySuRX24Q0fRiq9v8lgJGm2iYjnPjuWHH1gV3qTMmnnFtGu8Lqz+McWnka+BeiGPmxb2B5Ey/sq1e8kCZ0FLmsGUeRyUeSphIEt7j69Wyb6Bki3d/zRz97szv6s6ZIWc0xA8gu6YwtnJYSqZ7iOKIrmpNwyvzNfZwOtfiDEaUbsbF0EvC5FVbS4+m33k39erf8jpW1FPputKSAdIkVQaIiebljG/J8iXI/yAl5NfgTciR9r6nZEnLcRoDEuUJMZW1xfutVcqrBpKlcn196Hq/abLx+92rfrQg18NVRu4S7v2XGUvpfozoqB6E9+sIUgz0LqK2K1cFeK3lV4FMwlAfjFIC6ggjClkp/MLcpFN3hOTgdjDbrPVDrBm49NJF5DBiCNEhaGm12cCdjZaCNAyToxaCdQj5qyNjCJc4tmp6YsVCnvZ92hVYV2yerfvCo+oQI9w5YJ0hSq8gBuN5xXe28xw8E/eGl9SV/9a97a2zfVv2cCWvcp/U4fHC3gQ+rLON2BdzHyK6ILb8SFQG8TahuAaDjqMq1RevsL4mVlx7qGPJX9NgGCsntOYH0iexLHLVF5IiJ+NRPDH8kegu83eUfF2sCi8cc9k/+CPgR9Rl/DWzWD9QE6uftBo/zdOX7zpm2T79TbuK7i/7iYFpSiw34wAAAABJRU5ErkJggg==" alt=""></li>
+			    </ul>
+			    <p>Currently accepting inquiries for work in 2014. <a href="mailto:tim@timkadlec.com">Let's talk</a>.</p>
+			</div>
+		</div>
 	</div>
-	<div class="upcoming">
-		<h2>Upcoming presentations</h2>
-		{% include upcoming.html %}
+    <div class="alt">
+    	<div class="lc">
+    		<div class="book-promo">
+    			{% img /images/book.png 200 "Implementing Responsive Design" "Implementing Responsive Design Book Cover" %}
+		        <h3>Implementing Responsive Design</h3>
+		        <p>New devices and platforms emerge daily. Browsers iterate at a remarkable pace. In light of this volatile landscape, I wrote a book about embracing the inherent flexibility of the web.</p>
+		        <a href="http://implementingresponsivedesign.com" class="btn">Buy the Book</a>
+    		</div>
+    		<div class="upcoming">
+				<h2>Upcoming presentations</h2>
+				{% include upcoming.html %}
+			</div>
+    	</div>
+		
+    </div>
+    <div class="lc">
+		<div class="recent">
+			<h2>Featured posts <small>(<a href="/remembers">see all</a>)</small></h2>
+			{% include asides/recent_posts.html %}
+		</div>
 	</div>
-
-
 </div>
