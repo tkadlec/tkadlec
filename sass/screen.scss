@@ -580,13 +580,8 @@ footer{
 
 		}
 	}
-
-	div.recent{
-		margin-left: 0;
-		padding: 2em 0;
-		h2{
-
-			small{
+	h2{
+		small{
 				font-weight: normal;
 				text-transform: none;
 				font-family: $stack-serif;
@@ -594,9 +589,24 @@ footer{
 				a{
 					text-decoration: none;
 					letter-spacing: 0;
+
+					&:hover{
+						text-decoration: underline;
+					}
 				}
 
 			}
+	}
+	div.recent{
+		margin-left: 0;
+		padding: 2em 1em;
+
+		@media screen and (min-width: 40em) {
+			padding: 2em 0;
+		}
+		h2{
+
+			
 		}
 		ol.slats{
 
