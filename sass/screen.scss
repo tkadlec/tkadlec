@@ -269,6 +269,11 @@ header[role=banner] nav li{
 		display: block;
 		color: #aaaaa9;
 		font-weight: bold;
+
+		&:hover{
+			color: #fff;
+			text-decoration: underline;
+		}
 	}
 }
 .testResults{
@@ -294,16 +299,17 @@ header[role=banner] nav li{
 }
 
 .vevent{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 	padding-bottom: 1em;
 	border-bottom: 1px dotted #d2d2d2;
 
 	.date{
 		color: #767676;
-		margin-top: .75em;
+		margin-top: 0;
 		min-width: 10em;
 		margin-bottom: 0;
-
+font-size: .9em;
+			font-family: $stack;
 		@media screen and (min-width: 63em) {
 			float: left;
 			margin-right: 2em;
@@ -376,7 +382,7 @@ footer{
 		margin-bottom: 1em;
 	}
 	.lc{
-		max-width: 61.125em;
+		max-width: 62em;
 		padding: .75em 1.25em;
 	}
 
@@ -510,6 +516,10 @@ footer{
 			font-size: em(33px,16px);
 			margin-top: .3em;
 			margin-bottom: .3em;
+
+			a:hover{
+					text-decoration: underline;
+				}
 		}
 		.vevent{
 			border-bottom: 0;
@@ -526,7 +536,6 @@ footer{
 			float: right;
 			width: 50%;
 			padding-left: 2em;
-			border-left: 1px solid #dedede;
 
 
 		}
@@ -564,8 +573,11 @@ footer{
 			width: 49%;
 			padding-right: 1.2em;
 			padding-left: 1em;
+			padding-bottom: 1.5em;
 			margin-bottom: 0;
 			border-bottom: 0;
+						border-right: 1px solid #dedede;
+
 		}
 	}
 
@@ -623,6 +635,10 @@ footer{
 
 				a{
 					text-decoration: none;
+
+					&:hover{
+						text-decoration: underline;
+					}
 				}
 			}
 			.tags{
@@ -636,6 +652,11 @@ footer{
 					&:before{
 						content: "#";
 
+					}
+
+					&:hover{
+						color: darken(#54524f, 50);
+						border-bottom: 1px solid darken(#54524f, 50);
 					}
 				}
 			}
@@ -1135,7 +1156,7 @@ table{
 			width: 80%;
 			margin: auto;
 			overflow: hidden;
-			max-width: 56.111111111em;
+			max-width: 57em;
 		}
 	article section, header[role=banner] .inner{
 		width: 90%;
