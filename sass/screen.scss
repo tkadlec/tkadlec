@@ -52,11 +52,12 @@ a{
 	font-size: .75em;
 	font-family: $stack;
 	font-weight: bold;
-	@include transition-property(background);
-	@include transition-duration(.5s);
+	@include transition-property(padding, background);
+	@include transition-duration(.3s);
 	&:hover{
 		background: darken($accent,10);
 		color: #fff;
+		padding: 1em 1.5em;
 	}
 }
 ins{
