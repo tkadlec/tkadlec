@@ -11,9 +11,9 @@ prism: false
 body_id: "about"
 ---
 <div class="lc">
-	<p class="lede">Web use today is made up of a constellation of experiences.</p>
-	<p>Your visitors are accessing your site via a variety of different devices, input methods, browsers and networks. Creating an excellent multi-device experience for them, however they choose to access your site, is increasingly important and requires a significiant change from the ways we have traditionally approached building for the web.</p>
-	<p>It can be challenging to know where to focus and how to execute. <a href="mailto:tim@timkadlec.com">I can help</a>.</p>
+	<p class="lede">Creating an excellent multi-device experience is no simple feat, but it's increasingly essential.</p>
+	<p>Your visitors are accessing your site via a variety of different devices, input methods, browsers and networks. To be successful, companies have to look beyond the device in hand and consider the entire constellation of experiences. Doing this correctly requires a significiant change from the ways we have traditionally approached building for the web. Our tools and processes weren't created with our current challenges in mind.</p>
+	<p>This can feel a little overwhelming, but it doesn't have to. We can work together to come up with a strategy that works for your company, and then figure out the steps to take to get from those initial ideas to execution. <a href="mailto:tim@timkadlec.com">Let's talk</a>.</p>
 </div>
 <div class="alt">
 	<div class="lc">
