@@ -77,12 +77,12 @@ a:hover{
 	font-size: 1.1em;
 	line-height: 1.4em;
 }
-#home #wrap{
+#home #wrap, #about #wrap{
 	max-width: 100%;
 	padding-top: 1em;
 	padding-bottom: 0;
 }
-#home footer{
+#home footer, #about footer{
 	margin-top: 0;
 
 }
@@ -397,7 +397,7 @@ footer{
 	}
 }
 
-.home {
+.home, #about {
 		color: #504e4c;
 		overflow: auto;
 		width: 100%;
@@ -413,6 +413,25 @@ footer{
 				margin-right: 2em;
 			}
 			
+		}
+		.tri{
+			padding: 1em 0;
+			@media screen and (min-width: 40em) {
+				display: table-cell;
+				width: 34%;
+				padding: .5em 1em;
+				border-right: 1px solid #dedede;
+				margin-bottom: 1.5em;
+
+				&:first-child{
+					padding-left: 0;
+					width: 32%;
+				}
+				&:last-child{
+					border-right: 0;
+				}
+
+			}
 		}
 	.extras{
 	
@@ -680,7 +699,7 @@ footer{
 	padding: 0;
 	clear: both;
 	margin-top: 1em;
-	.home & .lc{
+	.home & .lc, #about & .lc{
 		padding-top: 0;
 		padding-bottom: 0;
 		overflow: visible;
@@ -848,27 +867,34 @@ table{
 		margin-bottom: 0;
 	}
 	li{
-		padding: .75em .25em .75em .75em;
-		border-bottom: 1px dotted rgba(0,0,0,.2);
-		@include transition-property(background);
-	 	@include transition-duration(.3s);
-		&:hover{
-				background: lighten($font, 80);
-			}
-		a{
-			text-decoration: none;
-			color: $font;
-			font-size: .8em;
 
-
-		}
-		b{
-			display: block;
-			margin-bottom: .2em;
-			color: $accent;
-			font-size: 1.2em;
-		}
+		margin-bottom: 2em;
 	}
+	h3{
+			font-size: 1.785714286em;
+			margin-top: .2em;
+			margin-bottom: .1em;
+			line-height: 1.1em;
+			font-weight: bold;
+
+			a{
+				text-decoration: none;
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+		time{
+			font-size: .6875em;
+			font-family: $stack;
+			float: none;
+			margin-right: 0;
+			text-transform: uppercase;
+		}
+		.meta{
+			font-size: .875em;
+		}
 }
 #jump{
 	display: none;
@@ -1190,17 +1216,23 @@ table{
 		
 	}
 	.elsewhere ul{
-	-moz-column-count: 2; /* Firefox */
-		-webkit-column-count: 2; /* Safari, Chrome */
-		column-count: 2;
-		-moz-column-gap: 1em; /* Firefox */
-		-webkit-column-gap: 1em; /* Safari, Chrome */
-		column-gap: 1em;
+		
 		
 		li {
 			display: inline-block;
-			width: 100%;
+			width: 49%;
+			float: left;
+
+			&:nth-child(2n){
+				float: right;
+				width: 50%;
+				padding-left: 2em;
+			}
+			&:nth-child(2n+1){
+				clear: both;
+			}
 		}
+		
 	}
 	#wrap .sidebar {
 		h1{
