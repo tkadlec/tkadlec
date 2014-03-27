@@ -75,7 +75,7 @@ a:hover{
 	padding-top: 2em;
 	clear: both;
 	font-size: 1.1em;
-	line-height: 1.4em;
+	line-height: 1.55em;
 }
 #home #wrap, #about #wrap{
 	max-width: 100%;
@@ -145,6 +145,11 @@ article h3, .slats h3{
 		margin-left: 2.25em;
 		margin-bottom: .5em;
 	}
+}
+.hentry .entry-content h2{
+	margin-top: em(36px, 28px);
+	margin-bottom: em(12px, 28px);
+	font-size: em(28px, 18px);
 }
 .slats{
 	margin: auto 0;
