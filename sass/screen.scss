@@ -15,6 +15,7 @@ body{
 	font: 100%/#{em($font-base-line-height)} $stack-serif;
 }
 @import "partials/header";
+@import "partials/testresults";
 .media{
 	margin: 1em;
 
@@ -255,27 +256,7 @@ footer {
 
 
 
-.testResults{
-	width: 80%;
-}
-.testResults td{
-		padding: .2em;
-		border-bottom: 1px solid #fff;
-}
-.testResults th{
-		font-weight: bold;
-		border-bottom: 1px solid #333;
-}
-.testResults .fail{
-		background: #CB000F;
-		color: #fff;
-		text-align: center;
-}
-.testResults .pass{
-		background: #00882D;
-		color: #fff;
-		text-align: center;
-}
+
 
 .vevent{
 	margin-bottom: 1.5em;
