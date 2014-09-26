@@ -1,27 +1,36 @@
 <ul class="vcalendar">
-	
+
 
 	<li class="vevent">
 		<p class="date">
-			<time class="dtstart" datetime="2014-04-01">1</time>-<time class="dtend" datetime="2014-04-03">3 Apr. 2014</time>
+			<time class="dtstart" datetime="2014-11-03">03</time>-<time class="dtend" datetime="2014-11-05">05 Nov. 2014</time>
 		</p>
 		<div class="event-details">
-			<h3><a class="url" href="http://rwdsummit.com/">Speed Matters</a></h3>
-			<span class="summary">RWD Summit</span> (online event)
-			<p class="resources">
-				Save 20% with code 20KADLEC
-			</p>
+			<h3><a class="url" href="http://beyondtellerrand.com/">TBA</a></h3>
+			<span class="summary">Beyond Tellerand</span> in <span class="location">Berlin, Germany</span>
 		</div>
 	</li>
 	<li class="vevent">
 		<p class="date">
-			<time class="dtstart" datetime="2014-06-06">06 June 2014</time>
+			<time class="dtstart" datetime="2014-12-09">09</time>-<time class="dtend" datetime="2014-12-12">12 Dec. 2014</time>
 		</p>
 		<div class="event-details">
-			<h3><a class="url" href="http://rustbeltrefresh.com/">Deliberate Performance</a></h3>
-			<span class="summary">Rustbelt Refresh</span> in <span class="location">Cleveland, OH</span>
+			<h3><a class="url" href="http://www.smashingconf.com/whistler-2014/">TBA</a></h3>
+			<span class="summary">Smashing Conference Whistler: 2014</span> in <span class="location">Whistler, Canada</span>
 		</div>
 	</li>
+		{% if index == null %}
+
+	<li class="vevent">
+		<p class="date">
+			<time class="dtstart" datetime="2014-12-09">12 Dec. 2014</time>
+		</p>
+		<div class="event-details">
+			<h3><a class="url" href="http://smashingconf.com/whistler-2014/workshops/tim-kadlec">Workshop: Building Performance Websites</a></h3>
+			<span class="summary">Smashing Conference Whistler: 2014</span> in <span class="location">Whistler, Canada</span>
+		</div>
+	</li>
+	{% endif %}
 </ul>
 {% comment %}
 {% if index %}

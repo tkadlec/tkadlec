@@ -7,17 +7,18 @@ footer: false
 sidebar: false
 comments: false
 prism: false
+body_id: "archives"
 ---
 
 <div id="blog-archives">
-{% for post in site.posts reverse %}
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% unless year == this_year %}
-  {% assign year = this_year %}
-  <h2>{{ year }}</h2>
-{% endunless %}
-<article>
-  {% include archive_post.html %}
-</article>
-{% endfor %}
+	<div class="blog-archives-main">
+		{% for post in site.posts reverse %}
+		<ol class="slats">
+		  {% include archive_post.html %}
+		</ol>
+		{% endfor %}
+	</div>
+	<aside class="blog-archives-aside">
+		{% include custom/asides/elsewhere.html %}
+	</aside>
 </div>

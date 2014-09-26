@@ -1,11 +1,13 @@
-{% capture tag %}{{ post.tags | size }}{% endcapture %}
-<h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>
+<li>{% capture tag %}{{ post.tags | size }}{% endcapture %}
 <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+<h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>
+
 
 
 {% capture tag %}{% if post %}{{ post.tags | tag_links | size }}{% else %}{{ page.tags | tag_links | size }}{% endif %}{% endcapture %}
 {% unless tag == '0' %}
-# <span class="tags">
+
+<span class="tags">
   {% if post %}
     {{ post.tags | tag_links }}
   {% else %}
@@ -13,3 +15,4 @@
   {% endif %}
 </span>
 {% endunless %}
+</li>
