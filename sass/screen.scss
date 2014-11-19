@@ -14,6 +14,11 @@ body{
 	color: $font;
 	font: 100%/#{em($font-base-line-height)} $stack-serif;
 }
+code{
+	color: black;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
 @import "partials/header";
 @import "partials/testresults";
 .media{
@@ -101,7 +106,7 @@ h1{
 		text-decoration: none;
 	}
 }
-p, .hentry ol, .hentry ul{
+p, .h-entry ol, .h-entry ul{
 	margin-bottom: 1em;
 }
 article{
@@ -122,13 +127,13 @@ article h3, .slats h3{
 	font-weight: bold;
 	margin: #{em(16px)} 0 #{em(10px)} 0;
 }
-.hentry ol{
+.h-entry ol{
 	list-style-type: decimal;
 }
-.hentry section strong{
+.h-entry section strong{
 	font-weight: bold;
 }
-.hentry .entry-content .note{
+.h-entry .e-content .note{
 	font-family: $stack;
 	font-size: .75em;
 	color: rgb(99,99,99);
@@ -137,7 +142,7 @@ article h3, .slats h3{
 	margin-bottom: 1.5em
 
 }
-.hentry .entry-content ul {
+.h-entry .e-content ul {
 	list-style-type: disc;
 
 	li{
@@ -145,13 +150,13 @@ article h3, .slats h3{
 		margin-bottom: .5em;
 	}
 }
-.hentry .entry-content ol {
+.h-entry .e-content ol {
 	li{
 		margin-left: 2.25em;
 		margin-bottom: .5em;
 	}
 }
-.hentry .entry-content h2{
+.h-entry .e-content h2{
 	margin-top: em(36px, 28px);
 	margin-bottom: em(12px, 28px);
 	font-size: em(28px, 18px);
@@ -215,6 +220,30 @@ figure.banner{
 		color: lighten($font, 50);
 		padding: .25em;
 		font-style: italic;
+	}
+}
+figure.lg-right{
+	max-width: 100%;
+	margin-bottom: 1em;
+
+	figcaption{
+		color: lighten($font, 50);
+		padding: .25em;
+		font-style: italic;
+	}
+
+	@media (min-width: 43.75em) {
+		float: right;
+		width: 30%;
+		margin-left: 1.5em;
+
+		img{
+			width: 100%;
+		}
+	}
+	@media (min-width: 62.9375em) {
+		width: 40%;
+		margin-right: -7em;
 	}
 }
 #toggle{
@@ -795,7 +824,7 @@ footer{
 	}
 }
 #books-read{
-	.hentry ol li {
+	.h-entry ol li {
 		p:first-of-type{
 			margin-top: .5em;
 		}

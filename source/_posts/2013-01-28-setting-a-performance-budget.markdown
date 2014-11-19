@@ -6,6 +6,7 @@ comments: true
 categories: 
 tags: 
 - performance
+- performance budget
 ---
 Jason Grigsby [once quipped](http://www.slideshare.net/grigs/native-is-easy-web-is-essential/51) that "We've remade the Internet in our image….obese." He was right, of course. Average page weight and number of connections has been increasing at a rather alarming rate.
 

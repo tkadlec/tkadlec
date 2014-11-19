@@ -1,4 +1,4 @@
-<article class="hentry {{ page.arrange }}" role="article">
+<article class="h-entry {{ page.arrange }}" role="article">
 {% unless page.no_header %}
   <header>
     {% include post/date.html %}{{ time }}
@@ -17,7 +17,7 @@
 {% endunless %}
 <section>
   {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
+  <div class="e-content">{{ content | excerpt }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
     <footer>
@@ -25,7 +25,7 @@
     </footer>
   {% endif %}
 {% else %}
-<div class="entry-content">{{ content }}</div>
+<div class="e-content">{{ content }}</div>
 {% endif %}
     {% unless page.meta == false %}
       <div class="meta">

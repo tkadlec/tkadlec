@@ -6,6 +6,7 @@ comments: true
 categories: 
 tags: 
 - performance
+- performance budget
 ---
 How fast is fast enough?
 

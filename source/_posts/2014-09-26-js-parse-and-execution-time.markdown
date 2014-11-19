@@ -92,6 +92,13 @@ The list of tested devices isn’t exhaustive by any means—I just took some of
 			<td class="num" data-title="Median Total">153ms</td>
 		</tr>
 		<tr>
+			<td data-title="Device">Nexus 4</td>
+			<td data-title="Browser">Chrome 36</td>
+			<td class="num" data-title="Median Parse">13ms</td>
+			<td class="num" data-title="Median Execution">122ms</td>
+			<td class="num" data-title="Median Total">135ms</td>
+		</tr>
+		<tr>
 			<td data-title="Device">Galaxy S3</td>
 			<td data-title="Browser">Android 4.1.1 Browser</td>
 			<td class="num" data-title="Median Parse">3ms</td>
@@ -139,6 +146,13 @@ The list of tested devices isn’t exhaustive by any means—I just took some of
 			<td class="num" data-title="Median Parse">20ms</td>
 			<td class="num" data-title="Median Execution">41ms</td>
 			<td class="num" data-title="Median Total">61ms</td>
+		</tr>
+		<tr>
+			<td data-title="Device">Asus X202E</td>
+			<td data-title="Browser">IE10</td>
+			<td class="num" data-title="Median Parse">31ms</td>
+			<td class="num" data-title="Median Execution">14ms</td>
+			<td class="num" data-title="Median Total">45ms</td>
 		</tr>
 		<tr>
 			<td data-title="Device">iPad Mini</td>

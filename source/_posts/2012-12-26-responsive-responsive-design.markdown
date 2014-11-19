@@ -8,6 +8,7 @@ tags:
 - responsive
 - performance
 - elsewhere
+- performance budget
 ---
 Back in October, I talked about the problem we have of [blaming the technique instead of the implementation](http://timkadlec.com/2012/10/blame-the-implementation-not-the-technique/). I mentioned several examples, but the one that really prompted the post was the myth of responsive design equaling bad performance.
 

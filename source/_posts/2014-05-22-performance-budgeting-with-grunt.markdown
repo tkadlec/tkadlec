@@ -7,6 +7,7 @@ categories:
 tags:
 - performance
 - grunt
+- performance budget
 ---
 It seems like the idea of [performance budgeting](http://timkadlec.com/2013/01/setting-a-performance-budget/) has been gaining quite a bit of traction over the past year. This is awesome! The best way to improve web performance is to prioritize it from the get-go, and that's exactly what a performance budget helps you do. 
 
