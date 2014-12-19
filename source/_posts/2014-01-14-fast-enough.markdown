@@ -41,7 +41,7 @@ A step up is to measure the [Speed Index](https://sites.google.com/a/webpagetest
 
 For your own site you can get more granular. At what point is the form functional for the user? When can the tab interface be used? You can track whatever you would like with a little bit of [User Timing](https://gist.github.com/pmeenan/5902672#file-user-timing-rum-js).
 
-Even better, measure task completion. For key tasks on your site (even those that require moving between several pages), how long does it take you users to complete them? As [UIE pointed out back in 2001](http://www.uie.com/articles/download_time/), task completion has a huge impact on perceived performance. Want your site to be fast enough for your users? Make sure they can get things done easily and efficiently.
+Even better, measure task completion. For key tasks on your site (even those that require moving between several pages), how long does it take your users to complete them? As [UIE pointed out back in 2001](http://www.uie.com/articles/download_time/), task completion has a huge impact on perceived performance. Want your site to be fast enough for your users? Make sure they can get things done easily and efficiently.
 
 ## Don’t stop with launch
 Finally, making sure your site is fast enough means you have to keep measuring long after your initial launch. Continue to track those performance metrics over time. Watch how those measurements change as you make adjustments to your site. Look at key business metrics (conversions, bounce rate, etc) and see how changes in performance  impacts them.
