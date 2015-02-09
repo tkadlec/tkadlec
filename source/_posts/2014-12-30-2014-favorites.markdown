@@ -1,0 +1,30 @@
+---
+layout: post
+title: "2014 Favorites"
+date: 2014-12-30 15:09
+comments: true
+categories: 
+tags:
+- "2014"
+- site
+---
+That time of year again! Here are the five most popular posts of 2014, in order.
+
+## [Fast Enough](http://timkadlec.com/2014/01/fast-enough/)
+How fast is fast enough? Page weights and load times vary so much from site to site and industry to industry. While it’s easy to spot the obviously bad examples, it can be much more difficult to find the line between is “fast enough” and what is slow.
+
+## ["RWD Is Bad for Performance" Is Good for Performance](http://timkadlec.com/2014/07/rwd-is-bad-for-performance-is-good-for-performance/)
+Myths are powerful things. Put the right spin on a myth and you can use it to build up; to create something new and better. I've found the "responsive design is bad for performance" myth to be really good for performance.
+
+## [JS Parse and Execution Time](http://timkadlec.com/2014/09/js-parse-and-execution-time/)
+Too often we focus merely on size and request count when discussing the use of JavaScript from a performance perspective. Using a tool built by [Daniel Espeset](https://twitter.com/danielespeset), I tried to put some numbers to the parse and execution times of scripts as well.
+
+## [Performance Budget Metrics](http://timkadlec.com/2014/11/performance-budget-metrics/)
+Which metric(s) should you use for a performance budget? I tried to sort the basic performance metrics into four distinct categories and identify how to use each in a budget.
+
+## [Why RWD Looks Like RWD](http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/)
+Earlier in the year, there was a lot of discussion about why responsive design "looks" like responsive design. I threw my hat into the ring with a few theories.
+
+## Other years
+- [2013 Favorites](http://timkadlec.com/2013/12/2013-favorites/)
+- [2012 Favorites](http://timkadlec.com/2012/12/2012-favorites/)
