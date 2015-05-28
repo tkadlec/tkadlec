@@ -11,30 +11,35 @@ prism: false
 body_id: "about"
 ---
 <div class="lc">
-	<p class="lede">Creating an excellent multi-device experience is no simple feat, but it's increasingly essential.</p>
-	<p>Your visitors are accessing your site via a variety of different devices, input methods, browsers and networks. To be successful, companies have to look beyond the device in hand and consider the entire constellation of experiences. Doing this correctly requires a significiant change from the ways we have traditionally approached building for the web. Our tools and processes weren't created with our current challenges in mind.</p>
-	<p>This can feel a little overwhelming, but it doesn't have to. We can work together to come up with a strategy that works for your company, and then figure out the steps to take to get from those initial ideas to execution. <a href="mailto:tim@timkadlec.com">Let's talk</a>.</p>
+	<p class="lede">“Speed is the most important feature.”—Fred Wilson, Principal of Union Square Ventures</p>
+	<p>There may be no single improvement you can make to your site that will have a greater impact on your business than improving its performance.</p>
+	<p>Poor performance directly impacts the way people interact with your company online—to the tune of over $3 billion lost in commerce sales in the US each year due to slow loading pages. In fact, performance has been directly tied to just about every key indicator imaginable—everything from revenue, overall traffic and bounce rate to overall brand perception and user satisfaction. With an ever-increasing global audience, the impact will only become more pronounced in the next several years.</p>
+
+	<p>I work with companies to improve the effectiveness of their sites by ensuring that they perform quickly—regardless of the device or network in use. More importantly, I help companies develop a culture of performance within their organizations enabling them to maintain the performance of their site for the long-haul.</p>
+
+	<p><a href="mailto:tim@timkadlec.com">Let's talk.</a></p>
 </div>
 <div class="alt">
 	<div class="lc">
 		<section class="tri">
-			<h2>Training</h2>
-			<p>Arm your team with the knowledge and skills they'll need to create fast, robust, future-friendly experiences.</p>
+			<h2>Workshop/Training</h2>
+			<p>A workshop is a great way to kickstart your performance efforts. I offer a variety of workshops specifically tailored to the needs of your team to make sure you're armed with the knowledge you need to create fast, robust and future-friendly sites.</p>
 		</section>
 		<section class="tri">
-			<h2>Consulting</h2>
-			<p>Develop a strategy for taking advantage of the web's increasingly diverse ecosystem of devices, avoiding costly mistakes along the way.</p>
+			<h2>Planning</h2>
+			<p>A clear roadmap is an important first step in improving performance. Establishing a performance budget and performing an audit of the performance of your site will help you to develop an impactful and efficient plan of attack. You'll be armed with a clear target and a map of how to get there.</p>
 		</section>
 		<section class="tri">
-			<h2>Building</h2>
-			<p>Work with me to create sites and applications that work well across a wide range of devices and networks.</p>
+			<h2>Consulting and Development</h2>
+			<p>Time to roll-up our sleeves. I can work with you from the early planning stages through the actual development of your site, providing help along the way to make sure you're left with a high-quality and impactful site.</p>
 		</section>
 	</div>
 </div>
 <div class="lc">
 	<h2 id="bio">About Me</h2>
-	<p>I'm an independent web developer, consultant and trainer living in northern Wisconsin with my wife and our four children. I’m very passionate about the Web and can frequently be found <a href="http://timkadlec.com/talks">speaking</a> about what I’ve learned at a variety of web conferences.</p>
-	<p>I wrote <a href="http://implementingresponsivedesign.com">Implementing Responsive Design: Building sites for an anywhere, everywhere web</a> (New Riders, 2012) and was a contributing author for <a href="https://shop.smashingmagazine.com/smashing-book-4-ebooks.html">Smashing Book #4: New Perspectives on Web Design</a> (Smashing Magazine, 2013) and the <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919">Web Performance Daybook Volume 2</a> (O'Reilly, 2012). You can find me sharing my thoughts in a briefer format on Twitter at <a href="http://twitter.com/tkadlec">@tkadlec</a>.</p>
+	<p>I'm an independent web developer, consultant and trainer living in northern Wisconsin with my wife and our four children. I wrote <a href="http://implementingresponsivedesign.com">Implementing Responsive Design: Building sites for an anywhere, everywhere web</a> (New Riders, 2012) and was a contributing author for <a href="https://shop.smashingmagazine.com/smashing-book-4-ebooks.html">Smashing Book #4: New Perspectives on Web Design</a> (Smashing Magazine, 2013) and the <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919">Web Performance Daybook Volume 2</a> (O'Reilly, 2012). Along with Katie Kovalcin, I also co-host <a href="http://pathtoperf.com/">The Path to Performance Podcast</a>.</p>
+
+	<p>You can find me sharing my thoughts in a briefer format on Twitter at <a href="http://twitter.com/tkadlec">@tkadlec</a>.</p>
 </div>
 
 

@@ -11,40 +11,40 @@ body_id: home
 {% assign index = true %}
 
 <div class="home">
-	<div class="lc">
-		<div class="media">
-			{% img img /images/me-2.jpg "Tim Kadlec" "Tim Kadlec" %}
-			<div class="bd">
-				<p class="lede"><strong>I'm Tim Kadlec.</strong> I help organizations with problems at the intersection of performance &amp; responsive design.</p>
-	    		<ul class="clients">
-			    	<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAAXCAMAAADZXVr9AAAAGFBMVEWoqKioqKioqKioqKioqKioqKgAAACoqKi+JJ0wAAAAB3RSTlMjcEaEpO4ACxdjwwAAATJJREFUeNq9ltFuhDAMBNeOPf7/P64q2kuOYkTuocPLRXDeBY2iCPDKv1QJj6zcoDIEUdf30gWMuiJR7ROQ1ZACogkb9QGobsOy6Ri1T+KfhA2y9gnsNkx1iVMfYERfRKBxiRi2zRA2Olz8IwKPKwYWlwyBYjSg+fNgzndB7Mro2AMZk4M5Z4ZtyJjYAxmDgzlHgtzWitGHjTngQLOjevP7MMUD850Dn0WEd2FtWiof7IziwNawuZAvALiZ/17uMR98xfobAuXJj/W7al3cM6ZVs+yJWxkRsSQvIH9H81/e91tlPIUJtXt+Vodslm1ff5zNT9owUz2QUZyJ1vwAqRnYh+VS9syt+agxH6sOo/XjznwD2e4mkagPU7XmO2jU5VGoPSMFWP0s7Mr8/GaV8XVY4wtwwzkb1SGSawAAAABJRU5ErkJggg==" alt=""></li>
-			    	{% comment %}<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAAZCAMAAADdXpaGAAAAMFBMVEW9u7v08/Pb2djf3t3o5+awr6/v7e3Qzs35+fizsrKsq6u4t7fAvr7IxsapqKj////tMzQiAAACVUlEQVR42sWWi46cMAwAQ95xYvv//7Y9E9Y+AgW1Um8UaQXEzmBvAMc/QSiNYIcCC4dI1XFJvT+8n15v8kYanT6Ej0gcLTWFkBlTT0UjByTweojQGgRWMrZuocKcJamByuEBhJ1OJo6roxPINRFR13XkrBZWZnXjAXQiM3s6g0c9SESUICKLR+cHkUGCP5+wmS9EWp0eKmLmu0Bn8oNIVGFz2VL4SiTOvqiINXFIv4FygCXyg8jQaGPWYo7H4I9IytuWs4xNPVYRCm7MlMqDSLY9NMVmRUUcn5gCJfrggwz8YqCIwPZnkc2uJCX00/9JpN+JmK0MKSVIIpLqlUgKk1jMSlnyz/s1IinkODGtoRImfrsTEWAXuajIAtqCzBlB3Sw9TxELXosEKwL1tcgGRNSYuZiS9HWnPoj8e0VkfS9GuiUDnSnvRf6uIlval68z5WAhNIIDmewOEWhph8pNa54rkvJk8x+Rskel1ECfUmJ4UONsnp89qhN+05r6cvuulRp8pjaJfb19rQjllw+0QguRL2LvRRzIi9hft4bGS5FGC7iIfGsNnyhtfIFl4j0JbRehjgfD34tIEPhJGHRUMw/EPTeiI1MRGvghS6pzcxEkabx4+/pbkabt1S2E64NErS19D2pkARGBzI6RTsB2I+JJYkydZ0nKkiKriFKsiRWByOx4NRnMlyJ9/zl/mQVePKL+Cy1RTayITHfyxencUHphLt11b2594IhcHA6sbPDduZ552HA3isyp2Md3euTFBFA8ROS/Y01gpMg/JsKba31SMgu/APumrIA470r3AAAAAElFTkSuQmCC" alt=""></li> {% endcomment %}
-			    	<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAA0CAAAAADnUZoiAAAEyklEQVR4AZ3XP5bluAoG8LtohQoUKlXOBlgACyAmICQjdawV6OkPdt26b6amur/AVfZx/5qDkNr9Gh+xWmtriKx+9fFH+bQ4ITMRErRWatmsmPe/sKCwm6+YiSx1ulBrKRMFYrX+S+uqTV0iqma2UVNhIcaptjrd1gBJ7eo/WJrATd7yofpSF0uEuFpQ62LZvH9alGlTP0SDDZWY6BQ7XaAvCypf8uu8FyvLZay35QXMVf4ioXa7LUno039ry5/GOSwsfKlhaQCIxCy2O6dTVf0jq7c9Cg5pJ+dSG4rrau5Xrf9ptWlZBjfZVlnJM1NEc0yl1lPrUkUk5lj/wSJ8Da90LUqshZXyvmKHtNSdeetTEsIJs7mJ7Sl+VEd6DYJrP9BjpSbcFpZqFBp/AblzKxsuDdhpmm8tMODXQPRY2rot6Bcc9Arr1MYdZ3nPA4R1U1u0QAz0NYDCknrerPtnSnS1bWVkhNaUtrShUo51tyCnZs1fo/GxjMv97rpWdq1hCa8WxB0QtJTgOreRadX+ZlHOUVba1nUXusYkU/zhBHp1BtX1OKQ8n1oZr1HZRFXEKUWPBfL+RUuOV/O865jyxnIFdhcmgsBySuh1W+6iLo5pP+c+tpoqhbW7Qm6wKomGkZt1OpU2JhSZVq/qUCpZWGtpjlHxboXsl61TKymKS2zieCzo7hfBeHm7cN5U3pOZo/fboLMW9Qy9MWg3gnowcHE4FrqIL0vAWx+DsGPUHylKB929TzAgZSC7gWb63cLxYuhAYzTam4wJEdoMoHaInb6LRUpPyVGXtWPRsoDHi/CS2iqYiCmL+RVRJYBWawwktg3lGJMipsfKeVpqx3JT4lWV8T5u2j7D1NXcu5uuYqGRYNvovjQxUa3HYpPp2njBUt3uaX12RQVxI9injfnMNS6laAC5ydRyyjNlW9XHq4pLxClFr/ciZOp4CiFXAVjFqk61j26yrN2CVETFrPTvFh6rtRhww3srGB+1tQpTxV2KXZebMm23jmmxfbdy9REDzXg3JDZrQkw7zdWhnuPGTG9Lviw4FjHkXZeeB4XNQ8feotSBKVgCMuc2rQauj/VxSF/t4KKOtyWnQDg/S2qOGcPqGa9Dxbzstq9qqMdJW/WxyK5oaglqMsjqDNMaV6KDqUYZCGUNexOr+dkuMZam3tI7ZaKm4ojLGpbY3w7phKPLejVVPg/AxJ/O7bEqK0HtGPC2Bmf1c0hHK4Tit7C6+905izGMXgWlBnKsgdUsttApPw4pPELBtbDRORE9cFQVVrOwBjQ3cdrzuBOzSrGiOfDm+rXemV0eq/bbGgUuNQZorZZnR7IbHGRd4jCNNYrmRUzreKye8BJ126cC4QqZizlOeZW5Nn2mZ41i7B5Lwtq5UryoZv71AaLO2EpeqfD+D2k0L+Ic1onGZHzG3FapxOIWTyg2j/2bNahoYJ8xs/dvReV9jhfYdljt3YrJ+E30/77tnOC2Iq355b/9rPz2liN9WKOA8Ns31W/YsIA/rd5yLeX+AhaWd/anGg30wwrQlQhgfwjUhog887OqVv3T+lQvl6nWmanCYR91d/YZ+x7WL9LPN1IrU61T3QMnZoe9rIzfW+/FGsf/p55ilXNYf53uJoRY6zTX/f8AyNgVWc0So94AAAAASUVORK5CYII=" alt=""></li>
-			    	<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAAXCAMAAAARMbArAAAAMFBMVEXq6++goqzBw8u6u8PO0NasrbX8/vz09vilpaSSk5fd3+OxsbL///+qqqqdnZ6oqKhYqgxXAAACoklEQVR42sVW267jMAh0bCfGOOD//9tlwG561IeVVtqeeYgpGIZbqqTbkWqR8TVI4Ra0eLQ8v43Bm53H/Dpk1mDnRyNfwQww2Nurcv0SZvCPZuz5RT4qG6qD/yMmBX29U1tdp45cmNc2Nv5vqESLs6W6yUtrrL33dF/XfZ1d/wbSf4TMhZpCJM22fp3ETrCzekYGlZAssQlR4I+L3R6RuL4ByuXwwPeZXCOCkIt/LHYt6PYgUi/9HipCR8k5l2MuKR8kuFkNWY9S1DPTw35Wa2GGoUwSJHTm+kIxR9Hp8tFLOXb1kkaUzlExsnCBpvRsGUGUXiE18zKuBjmrHRWFwuhW6GHpAtfrDmxH6uwibrdz0Y/NbkqEiyzuYpSkHs9uKqQgo5VIHKXPnU7j6ueFyEtXzzPhxET7bPdl0Y5d0WYHVJIppY8L7M3ngzaEZ4Zylw65xm7mPgkd8i3tNSwyl0PqvTNsswuFtfUTt5PqD3bRmfNU3I6oaJUn20U1GKEMrjZxIp/H6MPz0oU8RbSDV+mRNdp3JExnL2zyI1aSVMKNUPp57dLLegdlkq4gpmQ+UBM6hDzUb3G3WKG74q+LK6a+20d6MBeQP7XvBLT61OtT+ujaozo28lciKgQDck5hJI1WKVzXWBZUJu2BiZgbXl1HTnW+oFauoU0M+LwBPktpLp0IomuLxPwp3r+1ajp2k5EikKU4CJHzayOFCOQOTm087LkBFQsPeeEKJZZjQFwvjMSbCgXrEs7oWnsDHyR0uKouv43R0s1zg04HijKH8wcOV7o4TXxhG8ktOnHrw/G5Nt8gfNuI8usnKUAS8saH8j0GLaNQnB+uUesT40H1r4tWH40YtvjgUW7500Mmzk/XT79N3sBu4PJr33XAxb/zTfsHuXSAzimZRC0AAAAASUVORK5CYII=" alt=""></li>
-			    </ul>
-			    <p>Currently accepting inquiries for work for the start of 2015. <a href="mailto:tim@timkadlec.com">Let's talk</a>.</p>
-			</div>
-		</div>
-	</div>
+  <div class="lc">
+    <div class="media">
+      {% img img /images/me-2.jpg "Tim Kadlec" "Tim Kadlec" %}
+      <div class="bd">
+        <p class="lede"><strong>I'm Tim Kadlec.</strong> I help organizations with problems at the intersection of performance &amp; responsive design.</p>
+          <ul class="clients">
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAAXCAMAAADZXVr9AAAAGFBMVEWoqKioqKioqKioqKioqKioqKgAAACoqKi+JJ0wAAAAB3RSTlMjcEaEpO4ACxdjwwAAATJJREFUeNq9ltFuhDAMBNeOPf7/P64q2kuOYkTuocPLRXDeBY2iCPDKv1QJj6zcoDIEUdf30gWMuiJR7ROQ1ZACogkb9QGobsOy6Ri1T+KfhA2y9gnsNkx1iVMfYERfRKBxiRi2zRA2Olz8IwKPKwYWlwyBYjSg+fNgzndB7Mro2AMZk4M5Z4ZtyJjYAxmDgzlHgtzWitGHjTngQLOjevP7MMUD850Dn0WEd2FtWiof7IziwNawuZAvALiZ/17uMR98xfobAuXJj/W7al3cM6ZVs+yJWxkRsSQvIH9H81/e91tlPIUJtXt+Vodslm1ff5zNT9owUz2QUZyJ1vwAqRnYh+VS9syt+agxH6sOo/XjznwD2e4mkagPU7XmO2jU5VGoPSMFWP0s7Mr8/GaV8XVY4wtwwzkb1SGSawAAAABJRU5ErkJggg==" alt=""></li>
+            {% comment %}<li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAAZCAMAAADdXpaGAAAAMFBMVEW9u7v08/Pb2djf3t3o5+awr6/v7e3Qzs35+fizsrKsq6u4t7fAvr7IxsapqKj////tMzQiAAACVUlEQVR42sWWi46cMAwAQ95xYvv//7Y9E9Y+AgW1Um8UaQXEzmBvAMc/QSiNYIcCC4dI1XFJvT+8n15v8kYanT6Ej0gcLTWFkBlTT0UjByTweojQGgRWMrZuocKcJamByuEBhJ1OJo6roxPINRFR13XkrBZWZnXjAXQiM3s6g0c9SESUICKLR+cHkUGCP5+wmS9EWp0eKmLmu0Bn8oNIVGFz2VL4SiTOvqiINXFIv4FygCXyg8jQaGPWYo7H4I9IytuWs4xNPVYRCm7MlMqDSLY9NMVmRUUcn5gCJfrggwz8YqCIwPZnkc2uJCX00/9JpN+JmK0MKSVIIpLqlUgKk1jMSlnyz/s1IinkODGtoRImfrsTEWAXuajIAtqCzBlB3Sw9TxELXosEKwL1tcgGRNSYuZiS9HWnPoj8e0VkfS9GuiUDnSnvRf6uIlval68z5WAhNIIDmewOEWhph8pNa54rkvJk8x+Rskel1ECfUmJ4UONsnp89qhN+05r6cvuulRp8pjaJfb19rQjllw+0QguRL2LvRRzIi9hft4bGS5FGC7iIfGsNnyhtfIFl4j0JbRehjgfD34tIEPhJGHRUMw/EPTeiI1MRGvghS6pzcxEkabx4+/pbkabt1S2E64NErS19D2pkARGBzI6RTsB2I+JJYkydZ0nKkiKriFKsiRWByOx4NRnMlyJ9/zl/mQVePKL+Cy1RTayITHfyxencUHphLt11b2594IhcHA6sbPDduZ552HA3isyp2Md3euTFBFA8ROS/Y01gpMg/JsKba31SMgu/APumrIA470r3AAAAAElFTkSuQmCC" alt=""></li> {% endcomment %}
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAA0CAAAAADnUZoiAAAEyklEQVR4AZ3XP5bluAoG8LtohQoUKlXOBlgACyAmICQjdawV6OkPdt26b6amur/AVfZx/5qDkNr9Gh+xWmtriKx+9fFH+bQ4ITMRErRWatmsmPe/sKCwm6+YiSx1ulBrKRMFYrX+S+uqTV0iqma2UVNhIcaptjrd1gBJ7eo/WJrATd7yofpSF0uEuFpQ62LZvH9alGlTP0SDDZWY6BQ7XaAvCypf8uu8FyvLZay35QXMVf4ioXa7LUno039ry5/GOSwsfKlhaQCIxCy2O6dTVf0jq7c9Cg5pJ+dSG4rrau5Xrf9ptWlZBjfZVlnJM1NEc0yl1lPrUkUk5lj/wSJ8Da90LUqshZXyvmKHtNSdeetTEsIJs7mJ7Sl+VEd6DYJrP9BjpSbcFpZqFBp/AblzKxsuDdhpmm8tMODXQPRY2rot6Bcc9Arr1MYdZ3nPA4R1U1u0QAz0NYDCknrerPtnSnS1bWVkhNaUtrShUo51tyCnZs1fo/GxjMv97rpWdq1hCa8WxB0QtJTgOreRadX+ZlHOUVba1nUXusYkU/zhBHp1BtX1OKQ8n1oZr1HZRFXEKUWPBfL+RUuOV/O865jyxnIFdhcmgsBySuh1W+6iLo5pP+c+tpoqhbW7Qm6wKomGkZt1OpU2JhSZVq/qUCpZWGtpjlHxboXsl61TKymKS2zieCzo7hfBeHm7cN5U3pOZo/fboLMW9Qy9MWg3gnowcHE4FrqIL0vAWx+DsGPUHylKB929TzAgZSC7gWb63cLxYuhAYzTam4wJEdoMoHaInb6LRUpPyVGXtWPRsoDHi/CS2iqYiCmL+RVRJYBWawwktg3lGJMipsfKeVpqx3JT4lWV8T5u2j7D1NXcu5uuYqGRYNvovjQxUa3HYpPp2njBUt3uaX12RQVxI9injfnMNS6laAC5ydRyyjNlW9XHq4pLxClFr/ciZOp4CiFXAVjFqk61j26yrN2CVETFrPTvFh6rtRhww3srGB+1tQpTxV2KXZebMm23jmmxfbdy9REDzXg3JDZrQkw7zdWhnuPGTG9Lviw4FjHkXZeeB4XNQ8feotSBKVgCMuc2rQauj/VxSF/t4KKOtyWnQDg/S2qOGcPqGa9Dxbzstq9qqMdJW/WxyK5oaglqMsjqDNMaV6KDqUYZCGUNexOr+dkuMZam3tI7ZaKm4ojLGpbY3w7phKPLejVVPg/AxJ/O7bEqK0HtGPC2Bmf1c0hHK4Tit7C6+905izGMXgWlBnKsgdUsttApPw4pPELBtbDRORE9cFQVVrOwBjQ3cdrzuBOzSrGiOfDm+rXemV0eq/bbGgUuNQZorZZnR7IbHGRd4jCNNYrmRUzreKye8BJ126cC4QqZizlOeZW5Nn2mZ41i7B5Lwtq5UryoZv71AaLO2EpeqfD+D2k0L+Ic1onGZHzG3FapxOIWTyg2j/2bNahoYJ8xs/dvReV9jhfYdljt3YrJ+E30/77tnOC2Iq355b/9rPz2liN9WKOA8Ns31W/YsIA/rd5yLeX+AhaWd/anGg30wwrQlQhgfwjUhog887OqVv3T+lQvl6nWmanCYR91d/YZ+x7WL9LPN1IrU61T3QMnZoe9rIzfW+/FGsf/p55ilXNYf53uJoRY6zTX/f8AyNgVWc0So94AAAAASUVORK5CYII=" alt=""></li>
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAAXCAMAAAARMbArAAAAMFBMVEXq6++goqzBw8u6u8PO0NasrbX8/vz09vilpaSSk5fd3+OxsbL///+qqqqdnZ6oqKhYqgxXAAACoklEQVR42sVW267jMAh0bCfGOOD//9tlwG561IeVVtqeeYgpGIZbqqTbkWqR8TVI4Ra0eLQ8v43Bm53H/Dpk1mDnRyNfwQww2Nurcv0SZvCPZuz5RT4qG6qD/yMmBX29U1tdp45cmNc2Nv5vqESLs6W6yUtrrL33dF/XfZ1d/wbSf4TMhZpCJM22fp3ETrCzekYGlZAssQlR4I+L3R6RuL4ByuXwwPeZXCOCkIt/LHYt6PYgUi/9HipCR8k5l2MuKR8kuFkNWY9S1DPTw35Wa2GGoUwSJHTm+kIxR9Hp8tFLOXb1kkaUzlExsnCBpvRsGUGUXiE18zKuBjmrHRWFwuhW6GHpAtfrDmxH6uwibrdz0Y/NbkqEiyzuYpSkHs9uKqQgo5VIHKXPnU7j6ueFyEtXzzPhxET7bPdl0Y5d0WYHVJIppY8L7M3ngzaEZ4Zylw65xm7mPgkd8i3tNSwyl0PqvTNsswuFtfUTt5PqD3bRmfNU3I6oaJUn20U1GKEMrjZxIp/H6MPz0oU8RbSDV+mRNdp3JExnL2zyI1aSVMKNUPp57dLLegdlkq4gpmQ+UBM6hDzUb3G3WKG74q+LK6a+20d6MBeQP7XvBLT61OtT+ujaozo28lciKgQDck5hJI1WKVzXWBZUJu2BiZgbXl1HTnW+oFauoU0M+LwBPktpLp0IomuLxPwp3r+1ajp2k5EikKU4CJHzayOFCOQOTm087LkBFQsPeeEKJZZjQFwvjMSbCgXrEs7oWnsDHyR0uKouv43R0s1zg04HijKH8wcOV7o4TXxhG8ktOnHrw/G5Nt8gfNuI8usnKUAS8saH8j0GLaNQnB+uUesT40H1r4tWH40YtvjgUW7500Mmzk/XT79N3sBu4PJr33XAxb/zTfsHuXSAzimZRC0AAAAASUVORK5CYII=" alt=""></li>
+          </ul>
+          <p>Currently accepting inquiries for work for the start of 2015. <a href="mailto:tim@timkadlec.com">Let's talk</a>.</p>
+      </div>
+    </div>
+  </div>
     <div class="alt">
-    	<div class="lc">
-    		<div class="book-promo">
-    			{% img /images/book-3.png 200 "Implementing Responsive Design" "Implementing Responsive Design Book Cover" %}
-		        <h3>Implementing Responsive Design</h3>
-		        <p>New devices and platforms emerge daily. Browsers iterate at a remarkable pace. In light of this volatile landscape, I wrote a book about embracing the inherent flexibility of the web.</p>
-		        <a href="http://implementingresponsivedesign.com" class="btn">Buy the Book</a>
-    		</div>
-    		<div class="upcoming">
-				<h2>Upcoming presentations <small>(<a href="/talks">see all</a>)</small></h2>
-				{% include upcoming.html %}
-			</div>
-    	</div>
-		
+      <div class="lc">
+        <div class="book-promo">
+          {% img /images/book-3.png 200 "Implementing Responsive Design" "Implementing Responsive Design Book Cover" %}
+            <h3>Implementing Responsive Design</h3>
+            <p>New devices and platforms emerge daily. Browsers iterate at a remarkable pace. In light of this volatile landscape, I wrote a book about embracing the inherent flexibility of the web.</p>
+            <a href="http://implementingresponsivedesign.com" class="btn">Buy the Book</a>
+        </div>
+        <div class="upcoming">
+        <h2>Upcoming presentations <small>(<a href="/talks">see all</a>)</small></h2>
+        {% include upcoming.html %}
+      </div>
+      </div>
+    
     </div>
     <div class="lc">
-		<div class="recent">
-			<h2>Featured posts <small>(<a href="/remembers">see all</a>)</small></h2>
-			{% include asides/featured_posts.html %}
-		</div>
-	</div>
+    <div class="recent">
+      <h2>Featured posts <small>(<a href="/remembers">see all</a>)</small></h2>
+      {% include asides/featured_posts.html %}
+    </div>
+  </div>
 </div>

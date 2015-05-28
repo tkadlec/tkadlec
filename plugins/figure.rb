@@ -39,7 +39,7 @@
        source += $1
        source += @caption if @caption
        source += "</figure>"
-       source = safe_wrap(source)
+       source = source
        source
      end
    end

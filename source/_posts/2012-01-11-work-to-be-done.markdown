@@ -61,7 +61,7 @@ Jason Grigsby put it nicely in [two](https://twitter.com/#!/grigs/status/1572004
 
 > When I have guests and don’t have time to clean, I shove things in a closet. No biggee. Everyone does it. But the house isn’t really clean.
 
-The key is following through and cleaning the closet as well. Let’s hope others are better at it than I am at home. :-)
+> The key is following through and cleaning the closet as well. Let’s hope others are better at it than I am at home. :-)
 
 
 Of course he's right. In fact, I have a few messy closets myself. (Both literally and metaphorically.)

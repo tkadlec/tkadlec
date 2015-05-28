@@ -9,6 +9,7 @@ author: Tim Kadlec
 simple_search:
 description: A Wisconsin based web developer writing about the web.
 
+
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
@@ -35,12 +36,20 @@ code_dir: downloads/code
 category_dir:
 tag_dir: tags
 markdown: rdiscount
-pygments: false # default python pygments have been replaced by pygments.rb
+encoding: utf-8
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+highlighter: pygments # default python pygments have been replaced by pygments.rb
 
 paginate: 1          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 4       # Posts in the sidebar Recent Posts section
+
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
 publish_future_dated_posts: false
@@ -72,6 +81,7 @@ twitter_show_replies: false
 twitter_follow_button: false
 twitter_show_follower_count: false
 twitter_tweet_button: false
+
 
 # Google +1
 google_plus_one: false
