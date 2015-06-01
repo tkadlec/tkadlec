@@ -1,24 +1,6 @@
 <ul class="vcalendar">
 
-	<li class="vevent">
-		<p class="date">
-			<time class="dtstart" datetime="2015-05-27">27</time>-<time class="dtend" datetime="2015-05-29">29 May 2015</time>
-		</p>
-		<div class="event-details">
-			<h3><a class="url" href="http://velocityconf.com/devops-web-performance-2015?intcmp=il-velocity-confreg-home-vlca15_franchise_page">Reaching Everyone, Fast</a></h3>
-			<span class="summary">Velocity 2015: Santa Clara</span> in <span class="location">Santa Clara, CA</span>
-		</div>
-	</li>
-		<li class="vevent">
-		<p class="date">
-			<time class="dtstart" datetime="2015-05-27">27</time>-<time class="dtend" datetime="2015-05-29">29 May 2015</time>
-		</p>
-		<div class="event-details">
-			<h3><a class="url" href="http://velocityconf.com/devops-web-performance-2015?intcmp=il-velocity-confreg-home-vlca15_franchise_page">Mobile Image Processing</a></h3>
-			<span class="summary">Velocity 2015: Santa Clara</span> in <span class="location">Santa Clara, CA</span>
-		</div>
-	</li>
-			{% if index == null %}
+	
 	<li class="vevent">
 		<p class="date">
 			<time class="dtstart" datetime="2015-06-15">15</time>-<time class="dtend" datetime="2015-06-18">18 Jun. 2015</time>
@@ -36,7 +18,8 @@
 			<h3><a class="url" href="http://2015.fromthefront.it/">TBA</a></h3>
 			<span class="summary">From the Front</span> in <span class="location">Bologna, IT</span>
 		</div>
-	</li>
+	</li>			{% if index == null %}
+
 	{% endif %}
 </ul>
 {% comment %}
