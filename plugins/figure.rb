@@ -23,10 +23,10 @@
        @title = nil
        @caption = nil
        if markup =~ CaptionUrl
-         @caption = "\n\t\t<figcaption>#{$1}<a href='#{$2}'>#{$3}</a></figcaption>\n\t"
+         @caption = "<figcaption>#{$1}<a href='#{$2}'>#{$3}</a></figcaption>"
        elsif markup =~ Caption
        	 @figClass = $2
-         @caption = "\n\t\t<figcaption>#{$1}</figcaption>\n\t"
+         @caption = "<figcaption>#{$1}</figcaption>"
        end
        super
      end
@@ -34,7 +34,7 @@
      def render(context)
        output = super
        fig = super
-       source = "\t<figure class='#{@figClass}''>\n\t\t"
+       source = "<figure class='#{@figClass}''>"
        markdown = RDiscount.new(fig.lstrip).to_html[/<p>(.+)<\/p>/i]
        source += $1
        source += @caption if @caption
