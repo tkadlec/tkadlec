@@ -1,0 +1,22 @@
+.testResults{
+	width: 80%;
+	
+	td{
+		padding: .2em;
+		border-bottom: 1px solid #fff;
+	}
+	th{
+		font-weight: bold;
+		border-bottom: 1px solid #333;
+	}
+	.fail, .pass{
+		color: #fff;
+		text-align: center;
+	}
+	.fail {
+			background: #CB000F;
+	}
+	.pass{
+		background: #00882D;
+	}
+}

@@ -1,5 +1,49 @@
-@import "base/utilities";
-@import "base/solarized";
-@import "base/theme";
-@import "base/typography";
-@import "base/layout";
+@import "compass/reset";
+@import "compass/css3";
+
+
+/* Colors */
+$font : rgb(31,31,31);
+$accent: rgb(211,52,5);
+
+/* Type */
+$font-base: 16px;
+$font-base-line-height: 22px;
+$stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack-serif: Palatino, Georgia, "Times New Roman", serif;
+@mixin transition($property: all, $duration: 1s, $type: linear) {
+    -webkit-transition: $property $duration $type;
+    -moz-transition: $property $duration $type;
+    -ms-transition: $property $duration $type;
+    -o-transition: $property $duration $type;
+    transition: $property $duration $type;
+}
+@mixin col($n, $padding: 0em, $border: 0em, $container-width: $max-width) {
+    float: left;
+    margin-right: percentage($gutter-width / $container-width);
+    width: percentage(($n * ($column-width + $gutter-width) - $gutter-width - ($padding * 2) - ($border * 2)) / $container-width);
+    border-width: $border;
+    padding: em($padding, $font-base) percentage($padding/$container-width);
+}
+@function em($target, $context: $font-base) {
+    @if $target == 0 { @return 0 }
+    @return $target / $context + 0em;
+}
+
+/* Grid */
+$columns: 12;
+$column-width: em(80px);
+$gutter-width: em(15px);
+$max-width: $columns * ($column-width + $gutter-width);
+
+@function perc($width, $container-width: $max-width) {
+    @return percentage($width / $conainer-width);
+}
+
+@function lh($amount: 1, $context: $font-base) {
+    @return em($font-base-line-height * $amount, $context);
+}  
+em{
+    font-style: italic;
+}
+
