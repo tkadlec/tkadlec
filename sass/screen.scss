@@ -160,6 +160,7 @@ article h3, .slats h3{
 	margin-top: em(36px, 28px);
 	margin-bottom: em(12px, 28px);
 	font-size: em(28px, 18px);
+	letter-spacing: #{em(-1px, 28px)};
 }
 .slats{
 	margin: auto 0;
@@ -211,15 +212,20 @@ figure{
 figure img{
 	margin: auto;
 	display: block;
+	max-width: 100%;
 }
 figure.banner{
 	max-width: 100%;
 	margin-bottom: 1em;
 
+	img{
+		max-width: 100%;
+	}
 	figcaption{
 		color: lighten($font, 50);
 		padding: .25em;
 		font-style: italic;
+		margin-top: .3em;
 	}
 }
 figure.lg-right{
@@ -858,6 +864,16 @@ article.georgia{
 	display: block;
 
 }
+img.flr,picture.flr{
+	display: block;
+	margin: .5em auto;
+	border: 1px solid #eee;
+	@media screen and (min-width: 26.25em)  {
+		float: right;
+		margin: .5em 0 .5em 1em;
+	}
+	
+}
 footer{
 	padding-top: 1em;
 
@@ -1311,4 +1327,12 @@ td.num {
 			display: none;
 		}
 	}
+}
+.diagram {
+	width: 100%;
+	max-width: 100%;
+	@media (min-width: 43.75em) {
+		margin: 1.5em 0;
+	}
+	
 }

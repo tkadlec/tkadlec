@@ -189,6 +189,11 @@ AddType	text/vtt				vtt
 FileETag None
 
 RewriteEngine on
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
 RewriteRule ^me$ /blog/archives [L]
 RewriteRule ^feed$ /atom.xml [L]
 RewriteRule ^rss$ /atom.xml [L]
