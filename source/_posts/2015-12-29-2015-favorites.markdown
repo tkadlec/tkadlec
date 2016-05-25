@@ -1,0 +1,31 @@
+---
+layout: post
+title: "2015 Favorites"
+date: 2015-12-29 12:37:54 -0600
+comments: true
+categories: 
+tags:
+- "2015"
+- site
+---
+The five most read posts of 2015, in order.
+
+## [Apple's Web](https://timkadlec.com/2015/02/apples-web/)
+I'm good for a heat of the moment rant about either standards or Apple (often both) every couple years. This year, it was about Apple's influence over the standardization process after some fallout around the [Pointer Events specification](http://www.w3.org/TR/pointerevents/).
+
+## [Client-side MVC's Major Bug](https://timkadlec.com/2015/02/client-side-templatings-major-bug/)
+If your client-side MVC framework does not support server-side rendering, that is a bug. It cripples performance, limits reach and reduces stability.
+
+## [Choosing Performance](https://timkadlec.com/2015/05/choosing-performance/)
+In light of Facebook's [Instant Articles](https://instantarticles.fb.com/) feature and FlipKart's [announcement about leaving the web](http://www.livemint.com/Industry/J9VeQxowSOlHU8ZMUParUL/Flipkart-moves-towards-becoming-apponly-platform.html) (something they've since [reversed their stance on](http://stories.flipkart.com/introducing-flipkart-lite/_)), I wrote a post about why the issue with poor performing sites has nothing to do with technical limitations. Performance is a decision. We actively choose whether to devote our time and energy to improving it, or to ignore it and leave it up to chance.  
+
+## [Taking Let's Encrypt for a Spin](https://timkadlec.com/2015/12/taking-lets-encrypt-for-a-spin/)
+A lot of folks have been very vocally pushing for “HTTPS Everywhere”, and for good reason. Unfortunately, moving to HTTPS can be kind of painful. [Let's Encrypt](https://letsencrypt.org/) hit public beta and I walked through using their tool to simplify the process.
+
+## [AMP and Incentives](https://timkadlec.com/2015/10/amp-and-incentives/)
+Google announced the [AMP Project](https://www.ampproject.org/) and while I appreciated the focus on performance, I feel their approach (use this specific framework as a way to build a faster version of your existing page and get some enhanced distribution options as result) puts the incentive in the wrong place. I'm still not overly fond of the approach and hope we can find a more standardized solution.
+
+## Other years
+- [2014 Favorites](https://timkadlec.com/2014/12/2014-favorites/)
+- [2013 Favorites](https://timkadlec.com/2013/12/2013-favorites/)
+- [2012 Favorites](https://timkadlec.com/2012/12/2012-favorites/)

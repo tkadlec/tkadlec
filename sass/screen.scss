@@ -664,6 +664,10 @@ footer{
 			border-bottom: 0;
 						border-right: 1px solid #dedede;
 
+			&:nth-child(odd) {
+				border-right: 0;
+			}
+
 		}
 	}
 	h2{
@@ -777,6 +781,13 @@ footer{
 				clear:both;
 			}
 
+	}
+	#about & .lc {
+		padding-top: 1em;
+
+		.book-promo{
+			padding-top: 1em;
+		}
 	}
 }
 /* Custom layouts */

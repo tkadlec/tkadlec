@@ -14,3 +14,5 @@ source/stylesheets/screen.css
 vendor
 node_modules
 Gemfile.lock
+purge.json
+
