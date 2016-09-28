@@ -40,7 +40,7 @@ body_id: "about"
 <div class="lc">
 		 {% endcomment %} 
 	<h2 id="bio">About Me</h2>
-	<p>I'm an independent web developer, consultant and trainer living in northern Wisconsin with my wife and our four children. I wrote <a href="http://implementingresponsivedesign.com">Implementing Responsive Design: Building sites for an anywhere, everywhere web</a> (New Riders, 2012) and was a contributing author for <a href="https://shop.smashingmagazine.com/smashing-book-4-ebooks.html">Smashing Book #4: New Perspectives on Web Design</a> (Smashing Magazine, 2013) and the <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919">Web Performance Daybook Volume 2</a> (O'Reilly, 2012). Along with Katie Kovalcin, I also co-host <a href="http://pathtoperf.com/">The Path to Performance Podcast</a>.</p>
+	<p>I'm the head of developer relations at <a href="https://snyk.io">Snyk</a>a>—a company focused on making open source code more secure. I wrote <a href="http://implementingresponsivedesign.com">Implementing Responsive Design: Building sites for an anywhere, everywhere web</a> (New Riders, 2012) and was a contributing author for <a href="https://shop.smashingmagazine.com/smashing-book-4-ebooks.html">Smashing Book #4: New Perspectives on Web Design</a> (Smashing Magazine, 2013) and the <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919">Web Performance Daybook Volume 2</a> (O'Reilly, 2012). Along with Katie Kovalcin, I also co-host <a href="http://pathtoperf.com/">The Path to Performance Podcast</a>.</p>
 
 	<p>You can find me sharing my thoughts in a briefer format on Twitter at <a href="http://twitter.com/tkadlec">@tkadlec</a>.</p>
 </div>
