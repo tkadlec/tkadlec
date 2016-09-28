@@ -202,3 +202,5 @@ RewriteRule ^blog/rss$ /atom.xml [L]
 
 RewriteRule ^category/performance/feed?/?$ /performance.xml [L,R=301]
 RewriteRule ^category/performance?/?$ /tags/performance [L,R=301]
+
+Header set Content-Security-Policy-Report-Only: "default-src 'self' https; report-uri /csp-reporter.php"
