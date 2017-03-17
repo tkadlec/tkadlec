@@ -9,7 +9,12 @@
         <p class="additional"><a href="{{ root_url }}{{ post.url }}#disqus">Join the discussion &raquo;</a></p>
       </div>
     {% else %}
+    {% if page.external-url %}
+      <h1 class="entry-title"><a href="{{page.external-url}}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+    {% else %}
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% endif %}
+      
     {% endif %}
 
 
@@ -44,10 +49,12 @@
 <section>
 
 </section>
+{% unless page.external-url %}
 {% if site.disqus_short_name and page.comments == true %}
   <section id="disqus">
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
 {% endif %}
+{% endunless %}
 </article>
 

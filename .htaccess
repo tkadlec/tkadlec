@@ -202,5 +202,8 @@ RewriteRule ^blog/rss$ /atom.xml [L]
 
 RewriteRule ^category/performance/feed?/?$ /performance.xml [L,R=301]
 RewriteRule ^category/performance?/?$ /tags/performance [L,R=301]
+RewriteRule ^2013/11/avoiding-the-300ms-click-delay-accessibly?/?$ /2013/11/Avoiding-the-300ms-click-delay-accessibly [L,R=301]
 
-Header set Content-Security-Policy-Report-Only: "default-src 'self' https; report-uri /csp-reporter.php"
+RewriteRule ^2015/01/client-side-templatings-major-bug?/?$ /2015/02/client-side-templatings-major-bug [L,R=301]
+
+Header set Content-Security-Policy-Report-Only: "default-src 'self' https:; script-src 'self' timkadleccom.disqus.com ssl.google-analytics.com https:; report-uri https://2559bd95b2d1c1b0b9e5059f2bc422a8.report-uri.io/r/default/csp/reportOnly"

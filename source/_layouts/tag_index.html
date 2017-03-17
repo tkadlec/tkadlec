@@ -6,8 +6,15 @@ sidebar: false
 
 <div id="blog-archives">
 		{% for post in site.tags[page.tag] %}
+		{% if post.external-url %}
+		<ol class="slats link-list">
+		{% include link_post.html %}
+		{% else %}
 		<ol class="slats">
-		  {% include archive_post.html %}
+		{% include archive_post.html %}
+		{% endif %}
+		  
+
 		</ol>
 		{% endfor %}
 </div>

@@ -1,15 +1,11 @@
 <li>{% capture tag %}{{ post.tags | size }}{% endcapture %}
 <time class="dt-published" datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
-<h3>
-{% if post.external-url %}
- <a href="{{ post.external-url }}">{{post.title}} &rarr;</a>
-{%else %}
-
-	<a href="{{ root_url }}{{ post.url }}">{{post.title}}</a>
-{% endif %}
-</h3>
+<h3><a href="{{ post.external-url }}">{{post.title}}</a></h3>
+<small class="permalink"><a href="{{ root_url }}{{ post.url }}">Permalink</a></small>
 
 
+<div class="e-content">{% capture content %}{{ post.content }}{% endcapture %}
+{{ content | markdownify }}</div>
 
 {% capture tag %}{% if post %}{{ post.tags | tag_links | size }}{% else %}{{ page.tags | tag_links | size }}{% endif %}{% endcapture %}
 {% unless tag == '0' %}

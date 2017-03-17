@@ -6,7 +6,7 @@ define('EMAIL', 'tim@timkadlec.com');
 define('SUBJECT', 'CSP violation');
 
 // Send `204 No Content` status code.
-http_response_code(204);
+// http_response_code(204);
 
 // Get the raw POST data.
 $data = file_get_contents('php://input');
@@ -21,5 +21,5 @@ if ($data = json_decode($data)) {
 	// Mail the CSP violation report.
 	mail(EMAIL, SUBJECT, $data, 'Content-Type: text/plain;charset=utf-8');
 }
-
+echo 'success';
 ?>

@@ -12,11 +12,14 @@ body_id: "archives"
 
 <div id="blog-archives">
 	<div class="blog-archives-main">
+	<ol class="slats">
 		{% for post in site.posts reverse %}
-		<ol class="slats">
+		{% unless post.external-url %}
 		  {% include archive_post.html %}
-		</ol>
+		{% endunless %}
+		
 		{% endfor %}
+		</ol>
 	</div>
 	<aside class="blog-archives-aside">
 		{% include custom/asides/elsewhere.html %}

@@ -1347,3 +1347,57 @@ td.num {
 	}
 	
 }
+#blog-archives .link-list {
+	h3{
+		font-size: 1em;
+		margin-bottom: 1em;
+	}
+}
+.permalink{
+	text-transform: uppercase;
+	font-size: .6875em;
+	display: block;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top:-1.5em;
+	margin-bottom:1.5em;
+}
+.cipher {
+	font-size: 300%;
+    font-family: monospace;
+    text-align: center;
+    margin: 1em;
+}
+pre.railFence{
+	font-family: monospace;
+    font-size: 300%;
+    line-height: 1.2em;
+    margin: 1em auto .5em;
+    max-width: 6.5em;
+}
+table.vigenere{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.vigenere caption{
+	text-align: center;
+    font-size: 120%;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+.vigenere th{
+	text-align: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+.vigenere th[scope=col] {
+	border-bottom: 2px solid #333;
+}
+.vigenere th[scope=row] {
+	border-right: 2px solid #333;
+}
+
+.vigenere td{
+    border: 1px solid #ccc;
+    text-align: center;
+}
