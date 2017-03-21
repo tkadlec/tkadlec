@@ -655,6 +655,7 @@ footer{
 			margin-bottom: 2.5em;
 		}
 		@media screen and (min-width: 40em) {
+
 			float: left;
 			width: 49%;
 			padding-right: 1.2em;
@@ -662,12 +663,42 @@ footer{
 			padding-bottom: 1.5em;
 			margin-bottom: 0;
 			border-bottom: 0;
-						border-right: 1px solid #dedede;
+			border-right: 1px solid #dedede;
 
-			&:nth-child(odd) {
-				border-right: 0;
+			&:nth-of-type(3n) {
+				clear: left;
 			}
 
+		}
+	}
+	.books {
+		@media screen and (min-width: 40em) {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+
+			.book-promo {
+				display: flex; 
+				flex-basis: calc(50%);  
+				justify-content: center;
+				flex-direction: column;
+				margin: 1em 0;
+				text-align: center;
+				border-bottom: 0;
+				border-right: 1px solid #dedede;
+				padding-left: 1em;
+				padding-right: 1.2em;
+				align-self: flex-start;
+
+
+
+				&:nth-of-type(even) {
+					border-right: 0;
+				}
+				img{
+					margin: -2em auto 0;
+				}
+			}
 		}
 	}
 	h2{

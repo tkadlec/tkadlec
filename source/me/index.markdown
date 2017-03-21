@@ -47,19 +47,32 @@ body_id: "about"
 <div class="alt">
       <div class="lc contain">
       		<h2 id="books">Books</h2>
-
-        <div class="book-promo">
-          {% img /images/ird-cover-straight.png 200 "Implementing Responsive Design" "Implementing Responsive Design Book Cover" %}
-            <h3>Implementing Responsive Design</h3>
-            <p>New devices and platforms emerge daily. Browsers iterate at a remarkable pace. In light of this volatile landscape, I wrote a book about embracing the inherent flexibility of the web.</p>
-            <a href="http://implementingresponsivedesign.com" class="btn">Buy the Book</a>
-        </div>
-        <div class="book-promo">
-          {% img /images/wpdb-cover.png 200 "Web Performance Daybook Volume 2" "Web Performance Daybook Book Cover" %}
-            <h3>Web Performance Daybook Volume 2</h3>
-            <p>Performance is critical to the success of any website, and help with using today’s new tools is key. In this book, 32 leading web performance experts offer practical tips, techniques, and advice for optimizing your site’s user experience.</p>
-            <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919" class="btn">Buy the Book</a>
-        </div>
+            <div class="books">
+            <div class="book-promo">
+              {% img /images/hpi-cover.png 200 "High Performance Images" "High Performance Images Book Cover" %}
+                <h3>High Performance Images</h3>
+                <p>Learn how to deliver high performance images on the internet without adversely affecting site performance. You’ll learn the nuts and bolts of color theory, image formats, browser and application behavior, and many other topics</p>
+                <a href="http://shop.oreilly.com/product/0636920039730.do" class="btn">Buy the Book</a>
+            </div>
+            <div class="book-promo">
+              {% img /images/ird-cover-straight.png 200 "Implementing Responsive Design" "Implementing Responsive Design Book Cover" %}
+                <h3>Implementing Responsive Design</h3>
+                <p>New devices and platforms emerge daily. Browsers iterate at a remarkable pace. In light of this volatile landscape, I wrote a book about embracing the inherent flexibility of the web.</p>
+                <a href="http://implementingresponsivedesign.com" class="btn">Buy the Book</a>
+            </div>
+            <div class="book-promo">
+              {% img /images/smashing-book.png 200 "Smashing Book #4: New Perspectives on Web Design" "Smashing Book #4: New Perspectives on Web Design Book Cover" %}
+                <h3>Smashing Book #4</h3>
+                <p>Written by well-respected designers and developers, the 4th Smashing Book contains lots of actionable takeaways that will help you in your daily routine. Think of it as a reliable playbook for issues that keep following you in every project.</p>
+                <a href="https://shop.smashingmagazine.com/products/smashing-book-4-ebooks" class="btn">Buy the Book</a>
+            </div>
+            <div class="book-promo">
+              {% img /images/wpdb-cover.png 200 "Web Performance Daybook Volume 2" "Web Performance Daybook Book Cover" %}
+                <h3>Web Performance Daybook Volume 2</h3>
+                <p>Performance is critical to the success of any website, and help with using today’s new tools is key. In this book, 32 leading web performance experts offer practical tips, techniques, and advice for optimizing your site’s user experience.</p>
+                <a href="http://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919" class="btn">Buy the Book</a>
+            </div>
+            </div>
       </div>
     
     </div>
