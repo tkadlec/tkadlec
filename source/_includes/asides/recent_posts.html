@@ -1,5 +1,11 @@
 <ol class="slats">
-  {% for post in site.posts limit: site.recent_posts %}
+{% assign RECENT_POSTS_THRESHOLD = 4 %}
+{% assign recent_post_count = 0 %}
+  {% for post in site.posts %}
+  {% if recent_post_count == RECENT_POSTS_THRESHOLD %}
+    {% break %}
+  {% endif %}
+  {% unless post.external-url %}
        <li class="group">
         <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>"}}</time>
        <h3>
@@ -18,6 +24,8 @@
   </span>
   {% endunless %}
   </li>
+  {% assign recent_post_count = recent_post_count | plus: 1 %}
+   {% endunless %}
       {% endfor %}
 </ol>
 
